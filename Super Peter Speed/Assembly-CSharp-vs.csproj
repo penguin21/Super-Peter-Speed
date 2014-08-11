@@ -185,7 +185,11 @@
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\HealthPickup.cs" />
      <Compile Include="Assets\Scripts\LayBombs.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\GTButton.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\GTInputManager.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\MainMenuChangePanel.cs" />
      <Compile Include="Assets\Scripts\MainMenu\QuitToMenu.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\RestartButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\ResumeButton.cs" />
      <Compile Include="Assets\Scripts\MainMenuScripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\MainMenuScripts\QuitButton.cs" />
