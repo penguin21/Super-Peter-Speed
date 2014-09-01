@@ -1,0 +1,180 @@
+fileFormatVersion: 2
+guid: 2bdb0d35f7a812649a4cc31c78cec139
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: octupus
+    21300002: Tentacule1
+    21300004: Head
+    21300006: octupus_2
+    21300008: octupus_3
+    21300010: octupus_4
+    21300012: octupus_5
+    21300014: octupus_6
+    21300016: octupus_7
+    21300018: octupus_8
+    21300020: octupus_9
+    21300022: octupus_10
+    21300024: octupus_11
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tentacule1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 1
+        height: 25
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Head
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 8
+        width: 235
+        height: 248
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_2
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 256
+        width: 4
+        height: 23
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 257
+        width: 4
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 258
+        width: 5
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_5
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 259
+        width: 5
+        height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_6
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 260
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_7
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 261
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_8
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 262
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_9
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 263
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_10
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 264
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: octupus_11
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 265
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

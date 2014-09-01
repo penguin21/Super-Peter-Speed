@@ -54,15 +54,30 @@
      <Compile Include="Assets\2DWater\Scripts\JS\SpringScript.js" />
      <Compile Include="Assets\2DWater\Scripts\JS\Water.js" />
      <Compile Include="Assets\2DWater\Scripts\JS\WaveSimulator.js" />
+     <Compile Include="Assets\BridgeDestroy.js" />
      <Compile Include="Assets\ButtleDestroyForCollision.js" />
+     <Compile Include="Assets\CameraMenuMove.js" />
+     <Compile Include="Assets\ExitChapter.js" />
+     <Compile Include="Assets\FullScreen.js" />
+     <Compile Include="Assets\GUIScreenSize.js" />
      <Compile Include="Assets\GunShot.js" />
+     <Compile Include="Assets\LevelMSG.js" />
+     <Compile Include="Assets\LevelManager.js" />
+     <Compile Include="Assets\PlayerDetectionFlip.js" />
+     <Compile Include="Assets\PlayerMapMovement.js" />
+     <Compile Include="Assets\Scripts\AI\BallControl.js" />
+     <Compile Include="Assets\Scripts\AI\BombEnemyThrow.js" />
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
      <Compile Include="Assets\Scripts\AI\Enemy.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStomp.js" />
      <Compile Include="Assets\Scripts\AI\FallPlatform.js" />
+     <Compile Include="Assets\Scripts\AI\ShotAI.js" />
+     <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />
+     <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\Pause\PauseCore.js" />
      <Compile Include="Assets\Scripts\Pause\PauseKey.js" />
      <Compile Include="Assets\Scripts\Player\AudioPlay.js" />
+     <Compile Include="Assets\Scripts\Player\Bouncy.js" />
      <Compile Include="Assets\Scripts\Player\ButtleBrick.js" />
      <Compile Include="Assets\Scripts\Player\ButtleBrickWithObj.js" />
      <Compile Include="Assets\Scripts\Player\Door.js" />
@@ -72,9 +87,18 @@
      <Compile Include="Assets\Scripts\Player\Hearts.js" />
      <Compile Include="Assets\Scripts\Player\MainCode.js" />
      <Compile Include="Assets\Scripts\Player\PlayerAI.js" />
+     <Compile Include="Assets\Scripts\Player\PlayerSoundCollision.js" />
      <Compile Include="Assets\Scripts\Player\Shot.js" />
+     <Compile Include="Assets\Scripts\Player\SystemScript.js" />
+     <Compile Include="Assets\Scripts\PlayerSing.js" />
      <Compile Include="Assets\Scripts\Timer.js" />
+     <Compile Include="Assets\SpringAnimation.js" />
+     <Compile Include="Assets\TalkNPC.js" />
+     <Compile Include="Assets\UnlockChapter.js" />
+     <Compile Include="Assets\WorldLevelSelectorGUI.js" />
+     <Compile Include="Assets\WorldsSelector.js" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
@@ -83,29 +107,47 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\LiquidPhysics\Shaders\Metaballs_Multiple.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\GAF Animation Player\ReadMe - 1.0.1.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
      <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\GAF Animation Player\Resources\Coin\Coin.txt" />
+     <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
+     <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
+     <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\README.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{DB61AEEB-5C23-CDAC-83B2-4C3F1F602883}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

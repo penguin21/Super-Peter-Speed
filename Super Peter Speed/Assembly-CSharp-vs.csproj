@@ -49,6 +49,38 @@
      <Compile Include="Assets\2DWater\Scripts\C#\SpringScript.cs" />
      <Compile Include="Assets\2DWater\Scripts\C#\Water.cs" />
      <Compile Include="Assets\2DWater\Scripts\C#\WaveSimulator.cs" />
+     <Compile Include="Assets\CNJoystick\Scripts\CN2DController.cs" />
+     <Compile Include="Assets\CNJoystick\Scripts\CNCameraFollow.cs" />
+     <Compile Include="Assets\CNJoystick\Scripts\CNCameraRelativeSetup.cs" />
+     <Compile Include="Assets\CNJoystick\Scripts\CNJoystick.cs" />
+     <Compile Include="Assets\CNJoystick\Scripts\SkeletonAnimator.cs" />
+     <Compile Include="Assets\GAF Animation Player\Docs\Detailed\GAFTutorialUnityScript.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFAnimationConfigFrame.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFAnimationMask.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFAnimationObject.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFAnimationSequence.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFAtlas.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFColorTransformationMatrix.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFConverter.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFElement.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFNamedParts.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFState.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Base\GAFTextureAtlas.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Common\GAFConstants.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Common\GAFJSON.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Demo\DemoAPI\DemoAPI.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Demo\DemoFeatures\DemoFeatures.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFAnimationPlayer.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFAnimationPlayerBase.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFConverter_Unity.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFMaskHolder.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFRenderTexture.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFShaderHolder.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\UnityEditor\GAFAnimation.cs" />
+     <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\UnityEditor\GAFConverter_UnityEditor.cs" />
+     <Compile Include="Assets\GUIAspectRatioScale.cs" />
+     <Compile Include="Assets\LiquidPhysics\Scripts\DynamicParticle.cs" />
+     <Compile Include="Assets\LiquidPhysics\Scripts\ParticleGenerator.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
@@ -167,6 +199,9 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\Demo Scene\Scripts\OrthographicSetup.cs" />
+     <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\Demo Scene\Scripts\ScreenPlacement.cs" />
+     <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\ScreenPlacementExtension.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Platformer2DUserControl.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\PlatformerCharacter2D.cs" />
@@ -180,11 +215,13 @@
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Destroyer.cs" />
      <Compile Include="Assets\Scripts\Enemy.cs" />
+     <Compile Include="Assets\Scripts\Etc\WaterLine.cs" />
      <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\HealthPickup.cs" />
      <Compile Include="Assets\Scripts\LayBombs.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\FullScreenButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\GTButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\GTInputManager.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenuChangePanel.cs" />
@@ -207,7 +244,9 @@
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Tiling.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />
+     <Compile Include="Assets\_Scripts\VideoTexture_Lite.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+     <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
@@ -216,29 +255,47 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\LiquidPhysics\Shaders\Metaballs_Multiple.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+     <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\GAF Animation Player\ReadMe - 1.0.1.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
      <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\GAF Animation Player\Resources\Coin\Coin.txt" />
+     <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
+     <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
+     <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+     <None Include="Assets\README.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+ <Reference Include="Assembly-UnityScript-firstpass">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{DB61AEEB-5C23-CDAC-83B2-4C3F1F602883}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
