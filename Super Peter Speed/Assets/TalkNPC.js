@@ -1,16 +1,22 @@
 ﻿var TalkText : GUIText;
 var talkLines : String[];
 var MessageObjectLabel : GameObject;
-var textScrollSpeed : int = 3; 
+var textScrollSpeed : int = 3;
+var Arm : GameObject;
 
 private var Talking : boolean = false;
 private var textIsScrolling : boolean;
 private var CurrentLine : int;
 
+function Start(){
+	Arm = GameObject.FindWithTag ("Arm");
+}
+
 function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
 		if(Input.GetButtonDown("Interact")){
 			MessageObjectLabel.SetActive(true);
+			Arm.SetActive(false);
 			Talking = true;
 			CurrentLine = 0;
 			//TalkText.text = talkLines[CurrentLine];
@@ -41,6 +47,7 @@ function Update(){
 			Talking = false;
 			MessageObjectLabel.SetActive(false);
 			gameObject.GetComponent(BoxCollider2D).enabled = true;
+			Arm.SetActive(true);
 			}
 		}
 	}
