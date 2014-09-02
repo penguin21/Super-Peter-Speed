@@ -4,10 +4,11 @@ var MessageObjectLabel : GameObject;
 var textScrollSpeed : int = 3;
 var Arm : GameObject;
 var Player : GameObject;
+var EventBox : GameObject;
 var AnimPlayer : Animator;
 
 private var PlayerScript : Platformer2DUserControl;
-var Talking : boolean = false;
+private var EventMSG : boolean = false;
 private var textIsScrolling : boolean;
 private var CurrentLine : int;
 
@@ -19,6 +20,8 @@ function Awake()
    
 
 function Start(){
+	var anim = Player.GetComponent(Animator);
+	
 	Arm = GameObject.FindWithTag ("Arm");
 	Player = GameObject.FindWithTag ("Player");
 	AnimPlayer = Player.GetComponent("Animator");
@@ -26,23 +29,20 @@ function Start(){
 
 function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
-		if(Input.GetButtonDown("Interact")){
 			MessageObjectLabel.SetActive(true);
 			Arm.SetActive(false);
-			Talking = true;
+			EventMSG = true;
 			CurrentLine = 0;
 			//TalkText.text = talkLines[CurrentLine];
 			startScrolling();
-			gameObject.GetComponent(BoxCollider2D).enabled = false;
+			EventBox.GetComponent(BoxCollider2D).enabled = false;
 			Player.GetComponent(Platformer2DUserControl).enabled = false;
 			AnimPlayer.SetFloat("Speed", 0.0);
-		}
 	}
 }
 
 function Update(){
-	if(Talking){
-		Player.GetComponent(Platformer2DUserControl).enabled = false;
+	if(EventMSG == true){
 		if(Input.GetButtonDown("Interact")){
 		if(textIsScrolling){
 			TalkText.text = talkLines[CurrentLine];
@@ -59,11 +59,10 @@ function Update(){
 		{
 			CurrentLine = 0;
 			TalkText.text = "";
-			Talking = false;
-			MessageObjectLabel.SetActive(false);
-			gameObject.GetComponent(BoxCollider2D).enabled = true;
-			Arm.SetActive(true);
+			EventMSG = false;
 			Player.GetComponent(Platformer2DUserControl).enabled = true;
+			MessageObjectLabel.SetActive(false);
+			Arm.SetActive(true);
 			}
 		}
 	}

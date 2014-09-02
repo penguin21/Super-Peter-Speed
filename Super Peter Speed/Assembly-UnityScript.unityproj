@@ -57,6 +57,7 @@
      <Compile Include="Assets\BridgeDestroy.js" />
      <Compile Include="Assets\ButtleDestroyForCollision.js" />
      <Compile Include="Assets\CameraMenuMove.js" />
+     <Compile Include="Assets\EventMSG.js" />
      <Compile Include="Assets\ExitChapter.js" />
      <Compile Include="Assets\FullScreen.js" />
      <Compile Include="Assets\GUIScreenSize.js" />

@@ -1,10 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TalkNPC.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EventMSG.js">
     <Files>
-      <File FileName="Assets\TalkNPC.js" Line="12" Column="39" />
-      <File FileName="Assets\TalkNPC.js" Line="69" Column="2" />
-      <File FileName="Assets\Sample Assets\2D\Scripts\Platformer2DUserControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\TalkNPC.js" Line="60" Column="20" />
+      <File FileName="Assets\EventMSG.js" Line="8" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
