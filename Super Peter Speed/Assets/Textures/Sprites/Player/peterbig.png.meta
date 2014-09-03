@@ -188,8 +188,8 @@ TextureImporter:
         y: 55
         width: 28
         height: 11
-      alignment: 0
-      pivot: {x: .5, y: .5}
+      alignment: 9
+      pivot: {x: .175543651, y: .489410758}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: peter_eyes_bind_0
       rect:

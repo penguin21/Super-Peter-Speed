@@ -17,6 +17,8 @@ private var z : float;
 var Player : GameObject;
 var FacingDIs : boolean;
 var PlayerName : String = "Peter";
+var ButtleSize : float = 1.818816;
+var ButtleIsSize : boolean = true;
  
  
 function Start () {
@@ -104,6 +106,9 @@ clone.AddForce(Vector2.right * speed);
     if(facingL == true && CanFire == true) { //Shot Left
 clone = Instantiate(bullet, Spawn.transform.position, Spawn.transform.rotation);
 clone.AddForce(Vector2.right * -speed);
+        if(ButtleIsSize == true){
+        clone.transform.localScale.x = -ButtleSize;
+        }
         audio.Play();
         Destroy(clone, 1.0);
         CanFire = false;
