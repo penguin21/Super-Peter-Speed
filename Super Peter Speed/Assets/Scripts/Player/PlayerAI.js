@@ -56,9 +56,6 @@ function OnCollisionEnter2D(other : Collision2D){
 		Destroy(other.gameObject);
 		audio.clip = PoisionSound;
 		audio.Play();
-		if(MainCode.Heart <= 0){
-			Application.LoadLevel(Application.loadedLevel);
-			}
 		}
 		
 		if(other.gameObject.tag == "Key"){
@@ -72,10 +69,9 @@ function OnCollisionEnter2D(other : Collision2D){
 		anim.Play("Hit");
 		audio.PlayOneShot(HurtPlayerSound);
 		MainCode.Heart -= 1;
-
+		}
 		
 		if(MainCode.Heart <= 0){
 			Application.LoadLevel(Application.loadedLevel);
 			}
-		}
 }
