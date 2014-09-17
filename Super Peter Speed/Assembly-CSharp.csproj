@@ -204,6 +204,8 @@
      <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\ScreenPlacementExtension.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" />
      <Compile Include="Assets\Sample Assets\2D\Scripts\Restarter.cs" />
+     <Compile Include="Assets\Scripts\AI\AiZ.cs" />
+     <Compile Include="Assets\Scripts\AI\ChaseAI2.cs" />
      <Compile Include="Assets\Scripts\AI\EnemyTwo.cs" />
      <Compile Include="Assets\Scripts\ArmRotation.cs" />
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />

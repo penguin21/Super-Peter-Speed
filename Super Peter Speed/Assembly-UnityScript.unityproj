@@ -66,6 +66,7 @@
      <Compile Include="Assets\LevelManager.js" />
      <Compile Include="Assets\PlayerDetectionFlip.js" />
      <Compile Include="Assets\PlayerMapMovement.js" />
+     <Compile Include="Assets\Scripts\AI\AIChase.js" />
      <Compile Include="Assets\Scripts\AI\BallControl.js" />
      <Compile Include="Assets\Scripts\AI\BombEnemyThrow.js" />
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
@@ -74,6 +75,7 @@
      <Compile Include="Assets\Scripts\AI\FallPlatform.js" />
      <Compile Include="Assets\Scripts\AI\ShotAI.js" />
      <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />
+     <Compile Include="Assets\Scripts\AI\ZombieAI.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\Pause\PauseCore.js" />
      <Compile Include="Assets\Scripts\Pause\PauseKey.js" />
