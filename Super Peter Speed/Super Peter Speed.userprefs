@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\AiZ.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\AIChase.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="11" Column="14" />
-      <File FileName="Assets\Scripts\AI\ChaseAI2.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\AiZ.cs" Line="22" Column="19" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="36" Column="11" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="40" Column="59" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
