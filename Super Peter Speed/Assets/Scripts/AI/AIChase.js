@@ -29,22 +29,18 @@ function Update(){
 
 function ChasePlayer(){
 	if(transform.position.x <= PlayerTarget.position.x){
-		R = false;
-		anim.SetBool("Walk",false);
-		anim.SetBool("Stand",true);
 		yield WaitForSeconds (SecoundsForChange);
 		anim.SetBool("Stand",false);
 		anim.SetBool("Walk",true);
+		R = false;
 		L = true;
 	}
 	
 	if(transform.position.x >= PlayerTarget.position.x){
-		L = false;
-		anim.SetBool("Walk",false);
-		anim.SetBool("Stand",true);
 		yield WaitForSeconds (SecoundsForChange);
 		anim.SetBool("Stand",false);
 		anim.SetBool("Walk",true);
+		L = false;
 		R = true;
 	}
 }
