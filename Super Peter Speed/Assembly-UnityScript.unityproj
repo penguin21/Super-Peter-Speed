@@ -67,11 +67,15 @@
      <Compile Include="Assets\PlayerDetectionFlip.js" />
      <Compile Include="Assets\PlayerMapMovement.js" />
      <Compile Include="Assets\Scripts\AI\AIChase.js" />
+     <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemy.js" />
+     <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" />
      <Compile Include="Assets\Scripts\AI\BallControl.js" />
      <Compile Include="Assets\Scripts\AI\BombEnemyThrow.js" />
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
      <Compile Include="Assets\Scripts\AI\Enemy.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStomp.js" />
+     <Compile Include="Assets\Scripts\AI\EnemyStompAIChase.js" />
+     <Compile Include="Assets\Scripts\AI\EnemyStompAIChaseZombie.js" />
      <Compile Include="Assets\Scripts\AI\FallPlatform.js" />
      <Compile Include="Assets\Scripts\AI\ShotAI.js" />
      <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />

@@ -1,12 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\Waitpoint.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\EnemyStompAIChase.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="46" Column="2" />
+      <File FileName="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" Line="10" Column="56" />
+      <File FileName="Assets\Scripts\AI\EnemyStompAIChase.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\MainCode.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Etc\Waitpoint.js" Line="46" Column="2" />
+      <File FileName="Assets\Scripts\AI\AIChaseGunIsDeathEnemy.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
