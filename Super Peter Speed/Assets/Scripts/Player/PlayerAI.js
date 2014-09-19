@@ -8,14 +8,27 @@ var GUIKey : GameObject;
 var PoisionSound : AudioClip;
 var HealthPotionSound : AudioClip;
 var HurtPlayerSound : AudioClip;
+private var healthBarScript: HealthBar;
 
 function Start () {
+	healthBarScript = GetComponent("HealthBar");
 	MainCode.Key = 0;
 	MainCode.Score = 0;
-	MainCode.Heart = MainCode.MaxHeart;
+	healthBarScript.healthWidth = 231;
 }
 
 function Update () {
+	if(healthBarScript.healthWidth < 0){
+		healthBarScript.healthWidth = 0;
+	}
+	
+	if(healthBarScript.healthWidth > 231){
+		healthBarScript.healthWidth = 231;
+	}
+	
+	if(healthBarScript.healthWidth == 0){
+	Application.LoadLevel(Application.loadedLevel);
+	}
 }
 
 function OnTriggerEnter2D(other : Collider2D){
@@ -43,7 +56,7 @@ function OnCollisionEnter2D(other : Collision2D){
 	}
 		
 		if(other.gameObject.tag == "Health Potion"){
-		MainCode.Heart +=1;
+		healthBarScript.healthWidth += 12;
 		audio.clip = HealthPotionSound;
 		audio.Play();
 		if(MainCode.Heart >= MainCode.MaxHeart){
@@ -52,7 +65,7 @@ function OnCollisionEnter2D(other : Collision2D){
 		}
 		
 		if(other.gameObject.tag == "Poision Potion"){
-		MainCode.Heart -=1;
+		healthBarScript.healthWidth -= 12;
 		Destroy(other.gameObject);
 		audio.clip = PoisionSound;
 		audio.Play();
@@ -66,9 +79,9 @@ function OnCollisionEnter2D(other : Collision2D){
 		}
 		
 		if(other.gameObject.tag == "Enemy"){
+		healthBarScript.healthWidth -= 20;
 		anim.Play("Hit");
 		audio.PlayOneShot(HurtPlayerSound);
-		MainCode.Heart -= 1;
 		}
 		
 		if(MainCode.Heart <= 0){
