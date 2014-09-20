@@ -9,9 +9,20 @@ var PoisionSound : AudioClip;
 var HealthPotionSound : AudioClip;
 var HurtPlayerSound : AudioClip;
 
+private var PlayerScript : Platformer2DUserControl;
+private var PlayerScriptAnims : PlatformerCharacter2D;
+private var Arm : GameObject;
 private var healthBarScript: HealthBar;
 
+function Awake()  
+{  
+    //Get the Script C#  
+   	PlayerScript = this.GetComponent("Platformer2DUserControl");
+   	PlayerScriptAnims = this.GetComponent("PlatformerCharacter2D");
+}  
+
 function Start () {
+	Arm = GameObject.FindWithTag ("Arm");
 	healthBarScript = GetComponent("HealthBar");
 	MainCode.Key = 0;
 	MainCode.Score = 0;
@@ -92,7 +103,10 @@ function OnCollisionEnter2D(other : Collision2D){
 
 function IsDeath(){
 	anim.Play("DeathBy");
-	PlayerObj.tag = null;
+	PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
+	PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
+	Arm.SetActive(false);
+	PlayerObj.tag = "Untagged";
 	yield WaitForSeconds(2.5);
 	Application.LoadLevel(Application.loadedLevel);
 }
