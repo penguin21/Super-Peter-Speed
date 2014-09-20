@@ -8,6 +8,7 @@ var GUIKey : GameObject;
 var PoisionSound : AudioClip;
 var HealthPotionSound : AudioClip;
 var HurtPlayerSound : AudioClip;
+
 private var healthBarScript: HealthBar;
 
 function Start () {
@@ -18,16 +19,16 @@ function Start () {
 }
 
 function Update () {
-	if(healthBarScript.healthWidth < 0){
-		healthBarScript.healthWidth = 0;
+	if(healthBarScript.healthWidth < -22){
+		healthBarScript.healthWidth = -22;
 	}
 	
 	if(healthBarScript.healthWidth > 231){
 		healthBarScript.healthWidth = 231;
 	}
 	
-	if(healthBarScript.healthWidth == 0){
-	Application.LoadLevel(Application.loadedLevel);
+	if(healthBarScript.healthWidth == -22){
+		IsDeath();
 	}
 }
 
@@ -87,4 +88,11 @@ function OnCollisionEnter2D(other : Collision2D){
 		if(MainCode.Heart <= 0){
 			Application.LoadLevel(Application.loadedLevel);
 			}
+}
+
+function IsDeath(){
+	anim.Play("DeathBy");
+	PlayerObj.tag = null;
+	yield WaitForSeconds(2.5);
+	Application.LoadLevel(Application.loadedLevel);
 }

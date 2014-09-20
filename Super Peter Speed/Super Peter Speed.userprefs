@@ -1,10 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
+      <File FileName="Assets\Scripts\Player\HealthBar.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\MainCode.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\HealthBar.js" Line="25" Column="2" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="25" Column="34" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="37" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
