@@ -140,14 +140,14 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
- <Reference Include="UnityEditor.Graphs">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
  <Reference Include="JMOAssets">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
  <Reference Include="StrumpyShaderEditor">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/StrumpyShaderEditor/Editor/StrumpyShaderEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Graphs">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
