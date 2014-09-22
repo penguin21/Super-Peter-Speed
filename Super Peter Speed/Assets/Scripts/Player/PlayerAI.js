@@ -4,11 +4,20 @@ var BrickParticles : GameObject;
 var anim : Animator;
 var PlayerObj : GameObject;
 var KeySoundEffect : AudioClip;
-var GUIKey : GameObject;
+var KeyTexture : Texture2D;
 var PoisionSound : AudioClip;
 var HealthPotionSound : AudioClip;
 var HurtPlayerSound : AudioClip;
+var textTime : String;
+var FontGUI : Font;
+var key = false;
 
+//Key
+var KW : int = 60;
+var KH : int = 60;
+var TK : float = 10;
+
+private var startTime : float;
 private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
 private var Arm : GameObject;
@@ -22,6 +31,7 @@ function Awake()
 }  
 
 function Start () {
+	startTime = Time.time;
 	Arm = GameObject.FindWithTag ("Arm");
 	healthBarScript = GetComponent("HealthBar");
 	MainCode.Key = 0;
@@ -85,7 +95,6 @@ function OnCollisionEnter2D(other : Collision2D){
 		
 		if(other.gameObject.tag == "Key"){
 		MainCode.Key += 1;
-		GUIKey.SetActive(true);
 		audio.PlayOneShot(KeySoundEffect);
 		Destroy(other.gameObject);
 		}
@@ -109,4 +118,36 @@ function IsDeath(){
 	PlayerObj.tag = "Untagged";
 	yield WaitForSeconds(2.5);
 	Application.LoadLevel(Application.loadedLevel);
+}
+
+function OnGUI () {
+var guiTime = Time.time - startTime; 
+//The gui-Time is the difference between the actual time and the start time.
+var minutes : int = guiTime / 60; //Divide the guiTime by sixty to get the minutes.
+var seconds : int = guiTime % 60;//Use the euclidean division for the seconds.
+var fraction : int = (guiTime * 100) % 100;
+ 
+ GUI.skin.font = FontGUI;
+ 
+ textTime = String.Format ("{0:00}:{1:00}:{2:00}", minutes, seconds, fraction); 
+ 
+ GUI.Label (Rect (10, 8, 200, 30), "Time: " + textTime);
+ GUI.Label (Rect (10, 70, 200, 30), "Score: " + MainCode.Score);
+ 
+ if(MainCode.Key == 1){
+ 	key = true;
+ }
+  
+  if(MainCode.Key == 0){
+ 	key = false;
+ }
+ 
+ if(key){
+ 		if(!KeyTexture){
+			Debug.LogError("What!!!!! Error.Please assing Texture.");
+			return;
+		}
+		GUI.DrawTexture(Rect(10,KH,KW,60), KeyTexture, ScaleMode.ScaleToFit, true, TK);
+ }
+ 
 }

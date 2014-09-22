@@ -2,11 +2,12 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
-      <File FileName="Assets\Shader\TestShader.shader" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="107" Column="46" />
-      <File FileName="Assets\Scripts\Player\HealthBar.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Timer.js" Line="17" Column="40" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="150" Column="80" />
+      <File FileName="Assets\Scripts\Player\HealthBar.js" Line="19" Column="87" />
       <File FileName="Assets\Scripts\Player\MainCode.js" Line="1" Column="1" />
       <File FileName="Assets\TalkNPC.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\DrawScore.js" Line="4" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
