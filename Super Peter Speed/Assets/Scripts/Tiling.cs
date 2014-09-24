@@ -13,7 +13,7 @@ public class Tiling : MonoBehaviour {
 
 	public bool reverseScale = false;	// used if the object is not tilable
 
-	private float spriteWidth = 0f;		// the width of our element
+	public float spriteWidth = 0f;		// the width of our element
 	private Camera cam;
 	private Transform myTransform;
 

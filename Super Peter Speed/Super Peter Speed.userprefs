@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\CrounchDetection.js">
     <Files>
-      <File FileName="Assets\Scripts\Timer.js" Line="17" Column="40" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="150" Column="80" />
-      <File FileName="Assets\Scripts\Player\HealthBar.js" Line="19" Column="87" />
-      <File FileName="Assets\Scripts\Player\MainCode.js" Line="1" Column="1" />
-      <File FileName="Assets\TalkNPC.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\DrawScore.js" Line="4" Column="9" />
+      <File FileName="Assets\Scripts\Player\CrounchDetection.js" Line="23" Column="51" />
+      <File FileName="Assets\Standard Assets\Platformer2DUserControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

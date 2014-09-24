@@ -208,6 +208,7 @@
      <Compile Include="Assets\Scripts\AI\AiZ.cs" />
      <Compile Include="Assets\Scripts\AI\ChaseAI2.cs" />
      <Compile Include="Assets\Scripts\AI\EnemyTwo.cs" />
+     <Compile Include="Assets\Scripts\AI\Explosion.cs" />
      <Compile Include="Assets\Scripts\ArmRotation.cs" />
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
      <Compile Include="Assets\Scripts\BackgroundPropSpawner.cs" />
