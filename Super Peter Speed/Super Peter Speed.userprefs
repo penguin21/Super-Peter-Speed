@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\CrounchDetection.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\CrounchDetection.js" Line="23" Column="51" />
+      <File FileName="Assets\Scripts\Player\CrounchDetection.js" Line="27" Column="2" />
+      <File FileName="Assets\Scripts\Player\CrounchDetection.js" Line="14" Column="29" />
       <File FileName="Assets\Standard Assets\Platformer2DUserControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>

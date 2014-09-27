@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="95" height="100" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="Grass" tilewidth="32" tileheight="32">
+  <tileoffset x="32" y="32"/>
+  <image source="../../Textures/Sprites/Tiles/grass01Tiled.png" width="380" height="154"/>
+ </tileset>
+ <layer name="G" width="95" height="100">
+  <data encoding="base64" compression="zlib">
+   eJzt0bENgDAMBMAHKmDpjMZoUUSD6EkicSd95cb2JwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9LAOzNbhvpmdA3MkV9thyd3F0x96meH3e1LeM/hSBS2mBTs=
+  </data>
+ </layer>
+</map>
