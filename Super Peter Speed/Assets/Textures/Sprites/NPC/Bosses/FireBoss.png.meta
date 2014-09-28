@@ -3,9 +3,18 @@ guid: 29e86ceab3b82124aa3621d4af3acf43
 TextureImporter:
   fileIDToRecycleName:
     21300000: FireBoss
-    21300002: FireBoss_Crater
+    21300002: FireBoss_CraterBody
     21300004: FireBoss_EyeBase
     21300006: FireBoss_Eye1
+    21300008: FireBoss_Eye2
+    21300010: FireBoss_Eye3
+    21300012: FireBoss_FootCrater
+    21300014: FireBoss_Eye4
+    21300016: FireBoss_LegCrater
+    21300018: FireBoss_FootFire
+    21300020: FireBoss_LegFire
+    21300022: FireBoss_FireBody
+    21300024: FireBoss_Flange
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -47,7 +56,7 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: FireBoss_Crater
+    - name: FireBoss_CraterBody
       rect:
         serializedVersion: 2
         x: 0
@@ -74,6 +83,96 @@ TextureImporter:
         y: 61
         width: 15
         height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_Eye2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 61
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_Eye3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 34
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_FootCrater
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 52
+        width: 6
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_Eye4
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 0
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_LegCrater
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 46
+        width: 3
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_FootFire
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 42
+        width: 6
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_LegFire
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 36
+        width: 3
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_FireBody
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 19
+        width: 47
+        height: 37
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FireBoss_Flange
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 33
+        width: 21
+        height: 6
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
