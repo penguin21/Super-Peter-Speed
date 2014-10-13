@@ -19,6 +19,7 @@ var FacingDIs : boolean;
 var PlayerName : String = "Peter";
 var ButtleSize : float = 1.818816;
 var ButtleIsSize : boolean = true;
+var RootSpeed : float = 1.5;
  
  
 function Start () {
@@ -34,8 +35,8 @@ function Update () {
     var flat : Quaternion;
     
     if(Input.GetAxis("Move") < 0) {
-        ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
-        ArmObj.transform.rotation = Quaternion.Slerp(transform.rotation, flat, Time.deltaTime * 0.5);
+        newRot = ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
+        ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, newRot, Time.time * RootSpeed);
         facingR = false;
         facingL = true;
         facingU = false;
@@ -44,8 +45,8 @@ function Update () {
     
     
     if(Input.GetAxis("Move") > 0) {
-       ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,RigthRotation));
-       ArmObj.transform.rotation = Quaternion.Slerp(transform.rotation, flat, Time.deltaTime * 0.5);
+       newRot2 = ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,RigthRotation));
+       ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, newRot2, Time.time * RootSpeed);
          facingL = false;
         facingR = true;
         facingU = false;
@@ -54,8 +55,8 @@ function Update () {
     
     
         if(Input.GetAxis("Up and Crouch") > 0) {
-        ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,UpRotation));
-        ArmObj.transform.rotation = Quaternion.Slerp(transform.rotation, flat, Time.deltaTime * 0.5);
+        newRot3 =ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,UpRotation));
+        ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, newRot3, Time.time * RootSpeed);
         facingU = true;
         facingD = false;
         facingR = false;
@@ -64,14 +65,14 @@ function Update () {
        else
        {
        	 ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
-        ArmObj.transform.rotation = Quaternion.Slerp(transform.rotation, flat, Time.deltaTime * 0.5);
+        ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, flat, Time.time * RootSpeed);
         facingU = false;
        }
     	
     	if(FacingDIs == true){
     	if(Input.GetAxis("Up and Crouch") < 0) {
-        ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,UpRotation));
-        ArmObj.transform.rotation = Quaternion.Slerp(transform.rotation, flat, Time.deltaTime * 0.5);
+        newRot4 =ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,UpRotation));
+        ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, newRot4, Time.time * RootSpeed);
         facingU = false;
         facingD = true;
         facingR = false;
@@ -79,8 +80,8 @@ function Update () {
        }
        else
        {
-       	 ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
-        ArmObj.transform.rotation = Quaternion.Slerp(transform.rotation, flat, Time.deltaTime * 0.5);
+       	ClassicRot = ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
+        ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, ClassicRot, Time.time * 0.5);
         facingU = false;
        }
 }

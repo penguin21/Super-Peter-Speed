@@ -11,11 +11,17 @@ var MessageIs : boolean = false;
 var Talking : boolean = false;
 
 //Message Size
-var KH : int = 111;
-var KW : int = 682;
-var TK : float = 3.54;
-var Hs : int = -7;
-var HL : int = 781;
+var KH : int = 237;
+var KW : int = 1466;
+var TK : float = 3.78;
+var Hs : int = -514;
+var HL : int = 908;
+
+//Text Size
+var TH : int = 529;
+var TW : int = 784;
+var TL : int = 1966;
+var Ts : int = 65;
 
 private var PlayerScript : Platformer2DUserControl;
 private var textIsScrolling : boolean;
@@ -106,6 +112,6 @@ function OnGUI(){
 			return;
 		}
 		GUI.DrawTexture(Rect(Hs,KH,KW,HL), MessageGUI, ScaleMode.ScaleToFit, true, TK);
-		GUI.Label (Rect (30, 450, 600, 2000), Texting);
+		GUI.Label (Rect (Ts, TH, TW, TL), Texting);
  }
 }
