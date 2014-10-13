@@ -1,15 +1,27 @@
 ﻿var TalkText : GUIText;
+var TalkTextA : GameObject;
 var talkLines : String[];
 var MessageObjectLabel : GameObject;
 var textScrollSpeed : int = 3;
 var Arm : GameObject;
 var Player : GameObject;
 var AnimPlayer : Animator;
+var MessageGUI : Texture2D;
+var MessageIs : boolean = false;
+var Talking : boolean = false;
+
+//Message Size
+var KH : int = 111;
+var KW : int = 682;
+var TK : float = 3.54;
+var Hs : int = -7;
+var HL : int = 781;
 
 private var PlayerScript : Platformer2DUserControl;
-var Talking : boolean = false;
 private var textIsScrolling : boolean;
 private var CurrentLine : int;
+private var Texting : String = "";
+
 
 function Awake()  
 {  
@@ -22,12 +34,14 @@ function Start(){
 	Arm = GameObject.FindWithTag ("Arm");
 	Player = GameObject.FindWithTag ("Player");
 	AnimPlayer = Player.GetComponent("Animator");
+	TalkTextA.SetActive(false);
 }
 
 function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
 		if(Input.GetButtonDown("Interact")){
-			MessageObjectLabel.SetActive(true);
+			MessageIs = true;
+			TalkTextA.SetActive(true);
 			Arm.SetActive(false);
 			Talking = true;
 			CurrentLine = 0;
@@ -45,22 +59,23 @@ function Update(){
 		Player.GetComponent(Platformer2DUserControl).enabled = false;
 		if(Input.GetButtonDown("Interact")){
 		if(textIsScrolling){
-			TalkText.text = talkLines[CurrentLine];
+			Texting = talkLines[CurrentLine];
 			textIsScrolling = false;
 		}
 		else{
 		//Next Text
 		if(CurrentLine < talkLines.Length - 1){
 		CurrentLine++;
-		TalkText.text = talkLines[CurrentLine];
+		Texting = talkLines[CurrentLine];
 		startScrolling();
 		}
 		else
 		{
 			CurrentLine = 0;
-			TalkText.text = "";
+			Texting = "";
 			Talking = false;
-			MessageObjectLabel.SetActive(false);
+			MessageIs = false;
+			TalkTextA.SetActive(false);
 			gameObject.GetComponent(BoxCollider2D).enabled = true;
 			Arm.SetActive(true);
 			Player.GetComponent(Platformer2DUserControl).enabled = true;
@@ -78,8 +93,19 @@ function startScrolling(){
 	for(var i : int = 0; i < talkLines[CurrentLine].Length; i++){
 		if(textIsScrolling && CurrentLine == startLine){
 		displayText += talkLines[CurrentLine][i];
-		TalkText.text = displayText;
+		Texting = displayText;
 		yield WaitForSeconds (1/ textScrollSpeed);
 		}
 	}
+}
+
+function OnGUI(){
+	if(MessageIs){
+ 		if(!MessageGUI){
+			Debug.LogError("What!!!!! Error.Please assing Texture.");
+			return;
+		}
+		GUI.DrawTexture(Rect(Hs,KH,KW,HL), MessageGUI, ScaleMode.ScaleToFit, true, TK);
+		GUI.Label (Rect (30, 450, 600, 2000), Texting);
+ }
 }

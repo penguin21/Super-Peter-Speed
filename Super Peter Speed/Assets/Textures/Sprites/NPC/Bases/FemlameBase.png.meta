@@ -82,9 +82,9 @@ TextureImporter:
     - name: Femlame_Body3
       rect:
         serializedVersion: 2
-        x: 37
+        x: 45
         y: 14
-        width: 10
+        width: 13
         height: 16
       alignment: 0
       pivot: {x: .5, y: .5}

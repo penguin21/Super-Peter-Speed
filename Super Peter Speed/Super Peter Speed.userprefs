@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\PeterIsLifeShot\Assets\Shader\ToonShadowed.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\TalkNPC.js">
     <Files>
-      <File FileName="..\..\PeterIsLifeShot\Assets\Shader\ToonShadowed.shader" Line="5" Column="40" />
+      <File FileName="Assets\TalkNPC.js" Line="14" Column="19" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
