@@ -11,17 +11,17 @@ var MessageIs : boolean = false;
 var Talking : boolean = false;
 
 //Message Size
-var KH : int = 237;
-var KW : int = 1466;
-var TK : float = 3.78;
-var Hs : int = -514;
-var HL : int = 908;
+var KH : int = -26;
+var KW : int = 1465;
+var TK : float = 9.44;
+var Hs : int = -841;
+var HL : int = 1104;
 
 //Text Size
-var TH : int = 529;
-var TW : int = 784;
-var TL : int = 1966;
-var Ts : int = 65;
+var TH : int = 475;
+var TW : int = 529;
+var TL : int = 102;
+var Ts : int = 7;
 
 private var PlayerScript : Platformer2DUserControl;
 private var textIsScrolling : boolean;

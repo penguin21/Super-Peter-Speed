@@ -2,7 +2,14 @@ fileFormatVersion: 2
 guid: c9c9ee555efed9f419c196adee142a52
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - TalkText: {instanceID: 0}
+  - MessageObjectLabel: {instanceID: 0}
+  - Arm: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - EventBox: {instanceID: 0}
+  - AnimPlayer: {instanceID: 0}
+  - MessageGUI: {fileID: 2800000, guid: ab0179a0d5d255b4daadba617f072649, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

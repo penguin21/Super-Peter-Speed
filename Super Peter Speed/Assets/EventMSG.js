@@ -4,31 +4,29 @@ var MessageObjectLabel : GameObject;
 var textScrollSpeed : int = 3;
 var Arm : GameObject;
 var Player : GameObject;
-var EventBox : GameObject;
 var AnimPlayer : Animator;
 var MessageGUI : Texture2D;
 var MessageIs : boolean = false;
 var Talking : boolean = false;
 
 //Message Size
-var KH : int = 237;
-var KW : int = 1466;
-var TK : float = 3.78;
-var Hs : int = -514;
-var HL : int = 908;
+var KH : int = -26;
+var KW : int = 1465;
+var TK : float = 9.44;
+var Hs : int = -841;
+var HL : int = 1104;
 
 //Text Size
-var TH : int = 529;
-var TW : int = 784;
-var TL : int = 1966;
-var Ts : int = 65;
-
+var TH : int = 475;
+var TW : int = 529;
+var TL : int = 102;
+var Ts : int = 7;
 
 private var PlayerScript : Platformer2DUserControl;
-private var EventMSG : boolean = false;
 private var textIsScrolling : boolean;
 private var CurrentLine : int;
 private var Texting : String = "";
+
 
 function Awake()  
 {  
@@ -38,8 +36,6 @@ function Awake()
    
 
 function Start(){
-	var anim = Player.GetComponent(Animator);
-	
 	Arm = GameObject.FindWithTag ("Arm");
 	Player = GameObject.FindWithTag ("Player");
 	AnimPlayer = Player.GetComponent("Animator");
@@ -47,20 +43,21 @@ function Start(){
 
 function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
-			MessageObjectLabel.SetActive(true);
+			MessageIs = true;
 			Arm.SetActive(false);
-			EventMSG = true;
+			Talking = true;
 			CurrentLine = 0;
 			//TalkText.text = talkLines[CurrentLine];
 			startScrolling();
-			EventBox.GetComponent(BoxCollider2D).enabled = false;
+			gameObject.GetComponent(BoxCollider2D).enabled = false;
 			Player.GetComponent(Platformer2DUserControl).enabled = false;
 			AnimPlayer.SetFloat("Speed", 0.0);
 	}
 }
 
 function Update(){
-	if(EventMSG == true){
+	if(Talking){
+		Player.GetComponent(Platformer2DUserControl).enabled = false;
 		if(Input.GetButtonDown("Interact")){
 		if(textIsScrolling){
 			Texting = talkLines[CurrentLine];
@@ -77,10 +74,11 @@ function Update(){
 		{
 			CurrentLine = 0;
 			Texting = "";
-			EventMSG = false;
-			Player.GetComponent(Platformer2DUserControl).enabled = true;
-			MessageObjectLabel.SetActive(false);
+			Talking = false;
+			MessageIs = false;
+			gameObject.GetComponent(BoxCollider2D).enabled = true;
 			Arm.SetActive(true);
+			Player.GetComponent(Platformer2DUserControl).enabled = true;
 			}
 		}
 	}
