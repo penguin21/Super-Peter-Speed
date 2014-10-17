@@ -10,6 +10,10 @@ var anim : Animator;
 
 private var distanceToTarget : float = 0.0;
 
+function Start(){
+	PlayerTarget = GameObject.FindWithTag ("Player").transform;
+}
+
 function Update(){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 	if(distanceToTarget <= searhRange){

@@ -101,6 +101,7 @@
      <Compile Include="Assets\Scripts\Player\PlayerSoundCollision.js" />
      <Compile Include="Assets\Scripts\Player\Shot.js" />
      <Compile Include="Assets\Scripts\Player\SystemScript.js" />
+     <Compile Include="Assets\Scripts\PlayerSettings.js" />
      <Compile Include="Assets\Scripts\PlayerSing.js" />
      <Compile Include="Assets\Scripts\Timer.js" />
      <Compile Include="Assets\SpringAnimation.js" />
