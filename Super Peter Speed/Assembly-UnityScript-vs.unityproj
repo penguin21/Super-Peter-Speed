@@ -100,6 +100,7 @@
      <Compile Include="Assets\Scripts\Player\PlayerAI.js" />
      <Compile Include="Assets\Scripts\Player\PlayerSoundCollision.js" />
      <Compile Include="Assets\Scripts\Player\Shot.js" />
+     <Compile Include="Assets\Scripts\Player\ShotFairy.js" />
      <Compile Include="Assets\Scripts\Player\SystemScript.js" />
      <Compile Include="Assets\Scripts\PlayerSettings.js" />
      <Compile Include="Assets\Scripts\PlayerSing.js" />

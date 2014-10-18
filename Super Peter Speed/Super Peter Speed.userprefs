@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EventMSG.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\ShotFairy.js">
     <Files>
-      <File FileName="Assets\TalkNPC.js" Line="89" Column="1" />
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="36" Column="3" />
-      <File FileName="Assets\EventMSG.js" Line="80" Column="58" />
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="8" Column="21" />
-      <File FileName="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\Shot.js" Line="74" Column="18" />
+      <File FileName="Assets\Scripts\Player\ShotFairy.js" Line="72" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
