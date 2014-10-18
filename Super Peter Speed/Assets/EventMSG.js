@@ -36,6 +36,7 @@ function Awake()
    
 
 function Start(){
+	yield WaitForSeconds (0.01);
 	Arm = GameObject.FindWithTag ("Arm");
 	Player = GameObject.FindWithTag ("Player");
 	AnimPlayer = Player.GetComponent("Animator");
@@ -76,7 +77,7 @@ function Update(){
 			Texting = "";
 			Talking = false;
 			MessageIs = false;
-			gameObject.GetComponent(BoxCollider2D).enabled = true;
+			gameObject.GetComponent(BoxCollider2D).enabled = false;
 			Arm.SetActive(true);
 			Player.GetComponent(Platformer2DUserControl).enabled = true;
 			}

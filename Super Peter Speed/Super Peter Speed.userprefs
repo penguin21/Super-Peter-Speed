@@ -1,12 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SmoothCamera2D.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\EventMSG.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\CrounchDetection.js" Line="29" Column="53" />
-      <File FileName="Assets\Scripts\SmoothCamera2D.cs" Line="19" Column="7" />
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="14" Column="87" />
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="14" Column="2" />
-      <File FileName="Assets\TalkNPC.js" Line="41" Column="2" />
+      <File FileName="Assets\TalkNPC.js" Line="89" Column="1" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="36" Column="3" />
+      <File FileName="Assets\EventMSG.js" Line="80" Column="58" />
+      <File FileName="Assets\Scripts\PlayerSettings.js" Line="8" Column="21" />
+      <File FileName="Assets\Sample Assets\2D\Scripts\Camera2DFollow.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

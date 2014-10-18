@@ -8,13 +8,17 @@ var searhRange : float = 15;
 var SecoundsForChange : float = 0.5;
 var anim : Animator;
 
+private var FollowingIsReady : boolean = false;
 private var distanceToTarget : float = 0.0;
 
 function Start(){
+	yield WaitForSeconds (0.01);
 	PlayerTarget = GameObject.FindWithTag ("Player").transform;
+	IsFollowing = true;
 }
 
 function Update(){
+	if(IsFollowing == true){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 	if(distanceToTarget <= searhRange){
 		ChasePlayer();
@@ -29,6 +33,7 @@ function Update(){
 		transform.localScale.x = -size;
 		transform.Translate(Vector3(-speed,0,0) * Time.deltaTime);
 		}
+	}
 }
 
 function ChasePlayer(){

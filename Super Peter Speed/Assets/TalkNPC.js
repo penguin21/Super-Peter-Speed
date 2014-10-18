@@ -37,6 +37,8 @@ function Awake()
    
 
 function Start(){
+	Debug.Log("Search");
+	yield WaitForSeconds (0.01);
 	Arm = GameObject.FindWithTag ("Arm");
 	Player = GameObject.FindWithTag ("Player");
 	AnimPlayer = Player.GetComponent("Animator");

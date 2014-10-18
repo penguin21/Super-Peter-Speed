@@ -52,6 +52,7 @@
      <Compile Include="Assets\Plugins\Pixelplacement\iTween\iTween.cs" />
      <Compile Include="Assets\Standard Assets\Platformer2DUserControl.cs" />
      <Compile Include="Assets\Standard Assets\PlatformerCharacter2D.cs" />
+     <Compile Include="Assets\Standard Assets\SmoothCamera2D.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
