@@ -19,6 +19,10 @@ TextureImporter:
     21300028: FairyBeautifulPlayer_Crounch2
     21300030: FairyBeautifulPlayer_DeathFace
     21300032: FairyBeautifulPlayer_Death
+    21300034: FairyBeautifulPlayer_FD
+    21300036: FairyBeautifulPlayer_Trino2
+    21300038: FairyBeautifulPlayer_Trino1
+    21300040: FairyBeautifulPlayer_FaceFury
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -227,6 +231,46 @@ TextureImporter:
         y: 95
         width: 17
         height: 17
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FairyBeautifulPlayer_FD
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 138
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FairyBeautifulPlayer_Trino2
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 115
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FairyBeautifulPlayer_Trino1
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 115
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: FairyBeautifulPlayer_FaceFury
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 138
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
