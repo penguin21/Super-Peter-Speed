@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\ShotFairy.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FlamingoAI.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\Shot.js" Line="74" Column="18" />
+      <File FileName="Assets\Scripts\AI\FlamingoAI.js" Line="95" Column="28" />
+      <File FileName="Assets\Scripts\Player\Shot.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\ShotFairy.js" Line="72" Column="9" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="28" Column="1" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
