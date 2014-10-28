@@ -27,28 +27,30 @@ function Start () {
 }
 
 function Update () {
-if(IsWalking == true){
 	timer += 1;
 if ( timer >= howlong ) {
 timer = 0;
 
 if ( IsWay == true ) 
 {
+IsWalking = false;
 Standing = true;
 WaitForSeconds(2);
 Standing = false;
+IsWalking = true;
 IsWay = false;
 return;
 }
 
 if ( IsWay == false ) 
 {
+IsWalking = false;
 Standing = true;
 WaitForSeconds(2);
 Standing = false;
+IsWalking = true;
 IsWay = true;
 return;
-}
 }
 
 

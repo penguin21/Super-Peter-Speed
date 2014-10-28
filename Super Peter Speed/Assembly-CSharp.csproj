@@ -223,6 +223,7 @@
      <Compile Include="Assets\Scripts\Gun.cs" />
      <Compile Include="Assets\Scripts\HealthPickup.cs" />
      <Compile Include="Assets\Scripts\LayBombs.cs" />
+     <Compile Include="Assets\Scripts\Level2e\EditorGrid.cs" />
      <Compile Include="Assets\Scripts\MainMenu\FullScreenButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\GTButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\GTInputManager.cs" />
@@ -246,6 +247,10 @@
      <Compile Include="Assets\Scripts\Tiling.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />
      <Compile Include="Assets\_Scripts\VideoTexture_Lite.cs" />
+     <Compile Include="Assets\script\CameraTouchInput.cs" />
+     <Compile Include="Assets\script\ClickHandler.cs" />
+     <Compile Include="Assets\script\TileMap.cs" />
+     <Compile Include="Assets\script\TileMapPalette.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
