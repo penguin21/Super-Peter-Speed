@@ -9,6 +9,7 @@ function Start () {
 function Update () {
 	if(FloatIs == true){
 		Obje.AddForce(transform.up * SpeedObject);
+		
 	}
 }
 

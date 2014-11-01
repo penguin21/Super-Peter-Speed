@@ -11,6 +11,9 @@ var HurtPlayerSound : AudioClip;
 var textTime : String;
 var FontGUI : Font;
 var key = false;
+var IsSwiming : boolean = false;
+var ForSwiming : boolean = true;
+
 
 //Key
 var KW : int = 60;
@@ -20,7 +23,7 @@ var TK : float = 10;
 private var startTime : float;
 private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
-private var Arm : GameObject;
+var Arm : GameObject;
 private var healthBarScript: HealthBar;
 
 function Awake()  
@@ -51,6 +54,24 @@ function Update () {
 	if(healthBarScript.healthWidth == -22){
 		IsDeath();
 	}
+	if(ForSwiming == true){
+		if(IsSwiming == true){
+			Arm.SetActive(false);
+			PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
+			PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
+			gameObject.GetComponent(Swimg).IsSwimg = true;
+		}
+	
+		if(IsSwiming == false){
+			Arm.SetActive(true);
+			PlayerObj.GetComponent(Platformer2DUserControl).enabled = true;
+			PlayerObj.GetComponent(PlatformerCharacter2D).enabled = true;
+			PlayerObj.GetComponent(Swimg).IsSwimg = false;
+			PlayerObj.rigidbody2D.gravityScale = 3;
+			PlayerObj.rigidbody2D.drag = 0.42;
+		}
+	}
+	
 }
 
 function OnTriggerEnter2D(other : Collider2D){
@@ -67,6 +88,19 @@ function OnTriggerEnter2D(other : Collider2D){
 		MainCode.Score = 0;
 		MainCode.Heart = MainCode.MaxHeart;
 		Application.LoadLevel(Application.loadedLevel); //Restart Level
+	}
+}
+
+function OnTriggerStay2D(other : Collider2D){
+	if(other.gameObject.tag == "Water"){
+		IsSwiming = true;
+	}
+}
+
+
+function OnTriggerExit2D(other : Collider2D){
+	if(other.gameObject.tag == "Water"){
+		IsSwiming = false;
 	}
 }
 

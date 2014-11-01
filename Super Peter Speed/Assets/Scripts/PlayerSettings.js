@@ -22,12 +22,14 @@ function Update () {
 	if(PlayersNumber == 0 && CanRespawn == true){
 		CanRespawn = false;
 		Instantiate (Player0, spawnPoint.transform.position, spawnPoint.transform.rotation);
+		WaitForSeconds(1);
 		CameraObj.GetComponent(SmoothCamera2D).enabled = true;
 	}
 	
 	if(PlayersNumber == 3 && CanRespawn == true){
 		CanRespawn = false;
 		Instantiate (Player3, spawnPoint.transform.position, spawnPoint.transform.rotation);
+		WaitForSeconds(1);
 		CameraObj.GetComponent(SmoothCamera2D).enabled = true;	
 		}
 }
