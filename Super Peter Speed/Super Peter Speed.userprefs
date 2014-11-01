@@ -2,8 +2,8 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\NPCFriendLook.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="40" Column="1" />
-      <File FileName="Assets\Scripts\AI\NPCFriendLook.js" Line="15" Column="11" />
+      <File FileName="Assets\Scripts\AI\NPCFriendLook.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
