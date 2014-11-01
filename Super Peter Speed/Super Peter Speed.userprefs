@@ -1,13 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Level2e\EditorGrid.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\NPCFriendLook.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\FlamingoAI.js" Line="40" Column="18" />
-      <File FileName="Assets\Scripts\Player\Shot.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\ShotFairy.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Level2e\EditorGrid.cs" Line="21" Column="31" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="40" Column="1" />
+      <File FileName="Assets\Scripts\AI\NPCFriendLook.js" Line="15" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
