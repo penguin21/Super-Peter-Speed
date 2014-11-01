@@ -19,48 +19,44 @@ function Update () {
 		anim.SetFloat("Speed", 0.0);
 		Player.rigidbody2D.gravityScale = Gravity;
 		
-		if(Input.GetAxisRaw("Move") < 0){
+		if(Input.GetAxis("Move") < 0){
 			anim.Play("SwimgMove");
 			transform.localScale.x = -size;
-			transform.Translate(Vector3(-Speed,0,0) * Time.deltaTime);
+			Player.rigidbody2D.velocity = new Vector2 (-Speed,0);
 		}
 		else
 		{
 			anim.Play("SwimgStand");
-			transform.Translate(Vector3(0,0,0) * Time.deltaTime);
 			Player.rigidbody2D.gravityScale = Gravity;
 		}
 		
-		if(Input.GetAxisRaw("Move") > 0){
+		if(Input.GetAxis("Move") > 0){
 			anim.Play("SwimgMove");
 			transform.localScale.x = size;
-			transform.Translate(Vector3(Speed,0,0) * Time.deltaTime);
+			Player.rigidbody2D.velocity = new Vector2 (Speed,0);
 		}
 		else
 		{
-			transform.Translate(Vector3(0,0,0) * Time.deltaTime);
 			Player.rigidbody2D.gravityScale = Gravity;
 		}
 		
-		if(Input.GetAxisRaw("Up and Crouch") < 0){
+		if(Input.GetAxis("Up and Crouch") < 0){
 			anim.Play("SwimgMove");
-			transform.Translate(Vector3(0,-SpeedUp,0) * Time.deltaTime);
+			Player.rigidbody2D.velocity = new Vector2 (0,-SpeedUp);
 		}
 		else
 		{
 			anim.Play("SwimgStand");
-			transform.Translate(Vector3(0,0,0) * Time.deltaTime);
 			Player.rigidbody2D.gravityScale = Gravity;
 		}
 		
-		if(Input.GetAxisRaw("Up and Crouch") > 0){
+		if(Input.GetAxis("Up and Crouch") > 0){
 			anim.Play("SwimgMove");
-			transform.Translate(Vector3(0,SpeedUp,0) * Time.deltaTime);
+			Player.rigidbody2D.velocity = new Vector2 (0,SpeedUp);
 		}
 		else
 		{
 			anim.Play("SwimgStand");
-			transform.Translate(Vector3(0,0,0) * Time.deltaTime);
 			Player.rigidbody2D.gravityScale = Gravity;
 		}
 		
