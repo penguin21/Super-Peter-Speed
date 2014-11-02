@@ -56,22 +56,17 @@ function Update () {
 	}
 	if(ForSwiming == true){
 		if(IsSwiming == true){
-			Arm.SetActive(false);
-			PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
 			PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
 			gameObject.GetComponent(Swimg).IsSwimg = true;
 		}
 	
 		if(IsSwiming == false){
-			Arm.SetActive(true);
-			PlayerObj.GetComponent(Platformer2DUserControl).enabled = true;
 			PlayerObj.GetComponent(PlatformerCharacter2D).enabled = true;
 			PlayerObj.GetComponent(Swimg).IsSwimg = false;
 			PlayerObj.rigidbody2D.gravityScale = 3;
 			PlayerObj.rigidbody2D.drag = 0.42;
 		}
 	}
-	
 }
 
 function OnTriggerEnter2D(other : Collider2D){
@@ -148,6 +143,7 @@ function IsDeath(){
 	anim.Play("DeathBy");
 	PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
 	PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
+	PlayerObj.GetComponent(Swimg).enabled = false;
 	Arm.SetActive(false);
 	PlayerObj.tag = "Untagged";
 	yield WaitForSeconds(2.5);
