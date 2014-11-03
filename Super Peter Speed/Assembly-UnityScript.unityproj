@@ -83,6 +83,7 @@
      <Compile Include="Assets\Scripts\AI\ShotAI.js" />
      <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />
      <Compile Include="Assets\Scripts\AI\ZombieAI.js" />
+     <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\Pause.js" />
@@ -108,6 +109,7 @@
      <Compile Include="Assets\Scripts\Player\SystemScript.js" />
      <Compile Include="Assets\Scripts\PlayerSettings.js" />
      <Compile Include="Assets\Scripts\PlayerSing.js" />
+     <Compile Include="Assets\Scripts\TilingBG.js" />
      <Compile Include="Assets\Scripts\Timer.js" />
      <Compile Include="Assets\SpringAnimation.js" />
      <Compile Include="Assets\TalkNPC.js" />
