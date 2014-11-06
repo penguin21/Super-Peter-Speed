@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Fading.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DoorTransform.js">
     <Files>
-      <File FileName="Assets\Scripts\DoorTransform.js" Line="14" Column="60" />
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="24" Column="2" />
-      <File FileName="Assets\Standard Assets\SmoothCamera2D.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Fading.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\DoorTransform.js" Line="16" Column="30" />
+      <File FileName="..\..\PeterIsLifeShot\Assets\Plugins\OpenEd\Drawers\OEHierarchyDrawer.js" Line="1" Column="1" />
+      <File FileName="..\..\PeterIsLifeShot\Assets\Editor\OpenEd\OEWorkspaceInspector.js" Line="1" Column="1" />
+      <File FileName="..\..\PeterIsLifeShot\Assets\Plugins\OpenGUI\Scripts\OGButton.js" Line="1" Column="1" />
+      <File FileName="..\..\PeterIsLifeShot\Assets\Scripts\SimplePause.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
