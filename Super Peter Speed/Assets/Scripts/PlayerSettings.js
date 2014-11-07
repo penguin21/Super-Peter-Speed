@@ -4,6 +4,11 @@ var Player3 : GameObject;
 var spawnPoint : Transform;
 var CanRespawn : boolean = true;
 var CameraObj : GameObject;
+var IsPlayerIsWarp : boolean = false;
+var PlayerOnWarpObj : GameObject;
+var SpawnWarp : Transform;
+
+private var SpawnW : boolean = false;
 
 private var csScript : SmoothCamera2D;  
    
@@ -16,9 +21,14 @@ function Awake()
 
 function Start () {
 	CameraObj = GameObject.FindWithTag ("MainCamera");
+	if(IsPlayerIsWarp == true){
+		PlayerOnWarpObj = GameObject.FindWithTag ("Player");
+		Warping();
+	}
 }
 
 function Update () {
+	if(IsPlayerIsWarp == false){
 	if(PlayersNumber == 0 && CanRespawn == true){
 		CanRespawn = false;
 		Instantiate (Player0, spawnPoint.transform.position, spawnPoint.transform.rotation);
@@ -32,4 +42,10 @@ function Update () {
 		WaitForSeconds(1);
 		CameraObj.GetComponent(SmoothCamera2D).enabled = true;	
 		}
+	}
+}
+
+function Warping(){
+	PlayerOnWarpObj.transform.position = SpawnWarp.transform.position;
+	CameraObj.GetComponent(SmoothCamera2D).enabled = true;
 }

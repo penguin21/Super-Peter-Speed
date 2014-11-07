@@ -84,6 +84,7 @@
      <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />
      <Compile Include="Assets\Scripts\AI\ZombieAI.js" />
      <Compile Include="Assets\Scripts\DoorTransform.js" />
+     <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\Pause.js" />
@@ -94,6 +95,7 @@
      <Compile Include="Assets\Scripts\Player\ButtleBrick.js" />
      <Compile Include="Assets\Scripts\Player\ButtleBrickWithObj.js" />
      <Compile Include="Assets\Scripts\Player\CrounchDetection.js" />
+     <Compile Include="Assets\Scripts\Player\DontDestroyScene.js" />
      <Compile Include="Assets\Scripts\Player\Door.js" />
      <Compile Include="Assets\Scripts\Player\DoorNoKey.js" />
      <Compile Include="Assets\Scripts\Player\DrawScore.js" />
