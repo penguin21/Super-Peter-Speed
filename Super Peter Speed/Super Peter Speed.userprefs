@@ -1,10 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\GetItemGun.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="82" Column="29" />
-      <File FileName="Assets\Scripts\DoorTransform.js" Line="15" Column="10" />
-      <File FileName="Assets\TalkNPC.js" Line="43" Column="2" />
+      <File FileName="Assets\Scripts\Player\GetItemGun.js" Line="23" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

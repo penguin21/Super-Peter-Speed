@@ -99,6 +99,7 @@
      <Compile Include="Assets\Scripts\Player\Door.js" />
      <Compile Include="Assets\Scripts\Player\DoorNoKey.js" />
      <Compile Include="Assets\Scripts\Player\DrawScore.js" />
+     <Compile Include="Assets\Scripts\Player\GetItemGun.js" />
      <Compile Include="Assets\Scripts\Player\GunIsDeathEnemy.js" />
      <Compile Include="Assets\Scripts\Player\HealthBar.js" />
      <Compile Include="Assets\Scripts\Player\Hearts.js" />
