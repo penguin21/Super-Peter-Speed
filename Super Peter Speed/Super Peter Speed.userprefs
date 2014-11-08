@@ -1,14 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerSettings.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\DontDestroyScene.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="82" Column="29" />
       <File FileName="Assets\Scripts\DoorTransform.js" Line="15" Column="10" />
-      <File FileName="..\..\PeterIsLifeShot\Assets\Plugins\OpenGUI\Scripts\OGButton.js" Line="1" Column="1" />
-      <File FileName="..\..\PeterIsLifeShot\Assets\Scripts\SimplePause.js" Line="1" Column="1" />
-      <File FileName="Assets\TalkNPC.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\DoorTransformLevel.js" Line="15" Column="31" />
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="26" Column="13" />
+      <File FileName="Assets\TalkNPC.js" Line="43" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
