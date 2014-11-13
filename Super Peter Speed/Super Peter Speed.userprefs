@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\GetItemGun.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ToEnd.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\GetItemGun.js" Line="23" Column="37" />
+      <File FileName="Assets\Plugins\Pixelplacement\iTween\Sample\MoveSample.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ToEnd.js" Line="12" Column="6" />
+      <File FileName="Assets\Scripts\CameraBounds.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Etc\Waiypoint.js" Line="24" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
