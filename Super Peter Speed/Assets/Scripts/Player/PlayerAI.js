@@ -15,6 +15,7 @@ var IsSwiming : boolean = false;
 var ForSwiming : boolean = true;
 var Respawn : Transform;
 var IsArm : boolean = true;
+var IsDeathing : boolean = false;
 
 
 //Key
@@ -27,7 +28,7 @@ private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
 var Arm : GameObject;
 private var healthBarScript: HealthBar;
-private var IsDeath : boolean = false;
+var IsDeath1 : boolean = false;
 
 function Awake()  
 {  
@@ -59,10 +60,10 @@ function Update () {
 	}
 	
 	if(healthBarScript.healthWidth == -22){
-		IsDeath = true;
+		IsDeath();
 	}
 	
-	if(IsDeath == true){
+	if(IsDeath1 == true){
 		anim.SetBool("Death", true);
 		PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
 		PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
@@ -74,19 +75,23 @@ function Update () {
 		WaitForSeconds(2.5);
 		healthBarScript.healthWidth = 231;
 		gameObject.transform.position = Respawn.transform.position;
-		IsDeath = false;
+		IsDeath1 = false;
+		IsDeating = true;
 	}
-	
-	if(IsDeath == false){
-		anim.SetBool("Death", false);
-		anim.SetFloat("Speed", 0.0);
-		PlayerObj.GetComponent(Platformer2DUserControl).enabled = true;
-		PlayerObj.GetComponent(PlatformerCharacter2D).enabled = true;
-		PlayerObj.GetComponent(Swimg).enabled = true;
-		if(IsArm == true){
-		Arm.SetActive(true);
+	if(IsDeathing == true){
+		if(IsDeath1 == false){
+			anim.SetBool("Death", false);
+			anim.SetFloat("Speed", 0.0);
+			PlayerObj.GetComponent(PlatformerCharacter2D).enabled = true;
+			PlayerObj.GetComponent(Swimg).enabled = true;
+			if(IsArm == true){
+			Arm.SetActive(true);
+			}
+			PlayerObj.tag = "Player";
+			WaitForSeconds(0.01);
+			IsDeating = false;
+			PlayerObj.GetComponent(Platformer2DUserControl).enabled = true;
 		}
-		PlayerObj.tag = "Player";
 	}
 	
 	if(ForSwiming == true){
@@ -115,9 +120,8 @@ function OnTriggerEnter2D(other : Collider2D){
 	if(other.gameObject.tag == "Fall Death"){
 		anim.SetBool("Death",true);
 		yield WaitForSeconds (0.3);
-		MainCode.Score = 0;
-		MainCode.Heart = MainCode.MaxHeart;
-		gameObject.transform.position = Respawn.transform.position; //Restart Level
+		anim.SetBool("Death",false);
+		IsDeath();
 	}
 }
 
@@ -205,4 +209,28 @@ var fraction : int = (guiTime * 100) % 100;
 		GUI.DrawTexture(Rect(10,KH,KW,60), KeyTexture, ScaleMode.ScaleToFit, true, TK);
  }
  
+}
+
+function IsDeath(){
+		anim.SetBool("DeathBy",true);
+		PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
+		PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
+		PlayerObj.GetComponent(Swimg).enabled = false;
+		if(IsArm == true){
+		Arm.SetActive(false);
+		}
+		PlayerObj.tag = "Untagged";
+		yield WaitForSeconds(2.5);
+		healthBarScript.healthWidth = 231;
+		gameObject.transform.position = Respawn.transform.position;
+		anim.SetBool("DeathBy",false);
+		anim.SetFloat("Speed", 0.0);
+		PlayerObj.GetComponent(PlatformerCharacter2D).enabled = true;
+		PlayerObj.GetComponent(Platformer2DUserControl).enabled = true;
+		PlayerObj.GetComponent(Swimg).enabled = true;
+		if(IsArm == true){
+		Arm.SetActive(true);
+		}
+		PlayerObj.tag = "Player";
+		MainCode.Score = 0;
 }

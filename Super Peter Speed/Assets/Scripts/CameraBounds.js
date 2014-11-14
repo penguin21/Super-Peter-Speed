@@ -6,6 +6,7 @@
      var minY : float;
       var maxY : float;
      
+     
      function Start() {
          var vertExtent = Camera.main.camera.orthographicSize;    
          var horzExtent = Camera.main.ortiographicSize * Screen.width / Screen.height;
