@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: 2ba53dac1fe8b584da058f795f4468dc
+guid: 989607e257c0b434b9e8d5e1603aac23
 TextureImporter:
   fileIDToRecycleName:
-    21300000: SpaceHelment
-    21300002: SpaceHelment_0
-    21300004: SpaceHelment_1
-    21300006: SpaceHelment_2
-    21300008: SpaceHelment_3
-    21300010: SpaceHM_4
-    21300012: SpaceHelment_stro
+    21300000: BossDoorBattle_DeathBoss
+    21300002: BossDoorBattle_BossActivated
+    21300004: BossDoorBattle_AfterBoss
+    21300006: BossDoorBattle
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -50,73 +47,43 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: SpaceHelment
+    - name: BossDoorBattle_DeathBoss
       rect:
         serializedVersion: 2
         x: 0
-        y: 1
-        width: 15
-        height: 13
+        y: 18
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpaceHelment_0
+    - name: BossDoorBattle_BossActivated
       rect:
         serializedVersion: 2
-        x: 18
-        y: 1
-        width: 15
-        height: 13
+        x: 0
+        y: 11
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpaceHelment_1
+    - name: BossDoorBattle_AfterBoss
       rect:
         serializedVersion: 2
-        x: 35
-        y: 1
-        width: 15
-        height: 13
+        x: 0
+        y: 4
+        width: 7
+        height: 6
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpaceHelment_2
+    - name: BossDoorBattle
       rect:
         serializedVersion: 2
-        x: 51
-        y: 1
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpaceHelment_3
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 1
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpaceHM_4
-      rect:
-        serializedVersion: 2
-        x: 83
-        y: 1
-        width: 15
-        height: 13
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: SpaceHelment_stro
-      rect:
-        serializedVersion: 2
-        x: 100
-        y: 1
-        width: 15
-        height: 13
+        x: 7
+        y: 0
+        width: 13
+        height: 24
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}

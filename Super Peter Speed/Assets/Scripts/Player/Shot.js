@@ -20,20 +20,21 @@ var PlayerName : String = "Peter";
 var ButtleSize : float = 1.818816;
 var ButtleIsSize : boolean = true;
 var RootSpeed : float = 1.5;
- 
+var IsPause : boolean = false;
+
+private var Pause : GameObject;
  
 function Start () {
     facingR  = true;
     CanFire = true;
  	facingUp = false;
- 
- 
+ 	Pause = GameObject.FindWithTag ("Pause");
 }
  
 function Update () {
     
     var flat : Quaternion;
-    
+    if(IsPause == false){
     if(Input.GetAxis("Move") < 0) {
         newRot = ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
         ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, newRot, Time.time * RootSpeed);
@@ -87,9 +88,18 @@ function Update () {
 }
     if(Input.GetButtonDown("Attack")){
         Fire();
-    }   
+    	}
+    }
+    if(Pause.GetComponent(SimplePause).pauseGame == true){
+    	IsPause = true;
+    }
+    else
+    {
+    IsPause = false;
+    }
 }   
 function Fire() {
+    if(IsPause == false){
     if(facingR == true && CanFire == true) { //Shot Rigth
 var myPos = Camera.main.WorldToScreenPoint(transform.position);
 var dir = myPos - Input.mousePosition;
@@ -140,6 +150,7 @@ clone.AddForce(Vector2.up * -speed);
         CanFire = true;
         yield WaitForSeconds (ButtleDesipearIn);
         Destroy (GameObject.FindWithTag("Buttle"));
+    	}
     }
 }
  

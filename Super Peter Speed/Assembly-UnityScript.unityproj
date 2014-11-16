@@ -71,6 +71,7 @@
      <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" />
      <Compile Include="Assets\Scripts\AI\BallControl.js" />
      <Compile Include="Assets\Scripts\AI\BombEnemyThrow.js" />
+     <Compile Include="Assets\Scripts\AI\BossEvent.js" />
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
      <Compile Include="Assets\Scripts\AI\Enemy.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStomp.js" />
@@ -113,6 +114,7 @@
      <Compile Include="Assets\Scripts\Player\SystemScript.js" />
      <Compile Include="Assets\Scripts\PlayerSettings.js" />
      <Compile Include="Assets\Scripts\PlayerSing.js" />
+     <Compile Include="Assets\Scripts\SimplePause.js" />
      <Compile Include="Assets\Scripts\TilingBG.js" />
      <Compile Include="Assets\Scripts\Timer.js" />
      <Compile Include="Assets\Scripts\ToEnd.js" />
