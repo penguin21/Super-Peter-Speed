@@ -72,6 +72,7 @@
      <Compile Include="Assets\Scripts\AI\BallControl.js" />
      <Compile Include="Assets\Scripts\AI\BombEnemyThrow.js" />
      <Compile Include="Assets\Scripts\AI\BossEvent.js" />
+     <Compile Include="Assets\Scripts\AI\Bosses\BossAI.js" />
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
      <Compile Include="Assets\Scripts\AI\Enemy.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStomp.js" />

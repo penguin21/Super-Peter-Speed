@@ -13,7 +13,10 @@ var B1F : GameObject;
 var B2F : GameObject;
 var Player : GameObject;
 var Arm : GameObject;
+var RespawnPoint : Transform;
+var Boss : GameObject;
 var BFNew : Sprite;
+var Restu : GameObject;
 
 var CameraPlayer : GameObject;
 private var startTime : float;
@@ -22,6 +25,7 @@ private var prepare : boolean = false;
 private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
 private var CameraP : SmoothCamera2D;
+private var doneOnce = false;
 
 function Awake()  
 {  
@@ -41,13 +45,19 @@ function Start() {
 function Update(){
 	if(prepare == true){
 		EventIsReady();
-		}
+	}
+	
+	if(Boss.GetComponent(BossAI).Death == true){
+		Boss.transform.position = Restu.transform.position;
+	}
+	
 }
 
 function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
 		IsEventIs = true;
 		prepare = true;
+		Player.GetComponent(PlayerAI).Respawn = RespawnPoint;
 		gameObject.GetComponent(BoxCollider2D).enabled = false;
 	}
 }
@@ -70,12 +80,18 @@ if(IsEventIs == true){
 		B1T.transform.position = B2T.transform.position;
 		BossDoors2.GetComponent(ToEnd).enabled = true;
 		yield WaitForSeconds(TimeForClose);
-		IsBossBattle = true;
 		IsB2 = false;
 		IsEventIs = false;
+		BossBattle();
 		}
 	}
 	if(IsBossBattle == true){
+		
+	}
+}
+
+function BossBattle(){
+		Boss.SetActive(true);
 		CameraPlayer.GetComponent(SmoothCamera2D).target = Player.transform;
 		yield WaitForSeconds(0.5);
 		B1F.GetComponent(SpriteRenderer).sprite = BFNew;
@@ -83,5 +99,4 @@ if(IsEventIs == true){
 		Player.GetComponent(Platformer2DUserControl).enabled = true;
 		Player.GetComponent(PlatformerCharacter2D).enabled = true;
 		Arm.SetActive(true);
-	}
 }
