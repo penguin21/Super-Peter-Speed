@@ -9,6 +9,7 @@ var B1T : Transform;
 var B2T : Transform;
 var B1S : Transform;
 var B2S : Transform;
+var InBossTrans : Transform;
 var B1F : GameObject;
 var B2F : GameObject;
 var Player : GameObject;
@@ -17,6 +18,7 @@ var RespawnPoint : Transform;
 var Boss : GameObject;
 var BFNew : Sprite;
 var Restu : GameObject;
+var BossScript : String;
 
 var CameraPlayer : GameObject;
 private var startTime : float;
@@ -77,7 +79,7 @@ if(IsEventIs == true){
 		IsB1 = false;
 		}
 		if(IsB2 == true){
-		B1T.transform.position = B2T.transform.position;
+		B1T.transform.position = InBossTrans.transform.position;
 		BossDoors2.GetComponent(ToEnd).enabled = true;
 		yield WaitForSeconds(TimeForClose);
 		IsB2 = false;
@@ -91,9 +93,12 @@ if(IsEventIs == true){
 }
 
 function BossBattle(){
+		yield WaitForSeconds(0.5);
 		Boss.SetActive(true);
+		yield WaitForSeconds(5);
 		CameraPlayer.GetComponent(SmoothCamera2D).target = Player.transform;
 		yield WaitForSeconds(0.5);
+		Boss.GetComponent(BossScript).BossStartIs = true;
 		B1F.GetComponent(SpriteRenderer).sprite = BFNew;
 		B2F.GetComponent(SpriteRenderer).sprite = BFNew;
 		Player.GetComponent(Platformer2DUserControl).enabled = true;

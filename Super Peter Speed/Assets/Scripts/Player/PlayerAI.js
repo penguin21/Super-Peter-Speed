@@ -234,3 +234,10 @@ function IsDeath(){
 		PlayerObj.tag = "Player";
 		MainCode.Score = 0;
 }
+
+function IsHit(){
+		anim.Play("Hit");
+		audio.PlayOneShot(HurtPlayerSound);
+		yield WaitForSeconds(0.5);
+		anim.SetFloat("Speed", 0.0);
+}

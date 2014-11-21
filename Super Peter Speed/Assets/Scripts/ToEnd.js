@@ -1,7 +1,7 @@
 var endPoint : Vector3; var duration : float = 1.0;
 
 private var startPoint : Vector3; 
-private var startTime : float;
+var startTime : float;
 
 function Start() { 
 startPoint = transform.position; startTime = Time.time; 

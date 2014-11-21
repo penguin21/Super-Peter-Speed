@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\Bosses\BossAI.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="38" Column="31" />
-      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="42" Column="54" />
+      <File FileName="Assets\Scripts\AI\Bosses\GiantFlow\GFAI.js" Line="57" Column="28" />
+      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="49" Column="58" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
