@@ -73,7 +73,7 @@ if(IsEventIs == true){
 		Player.GetComponent(Animator).SetFloat("Speed", 0.0);
 		Arm.SetActive(false);
 		CameraPlayer.GetComponent(SmoothCamera2D).target = B1T;
-		BossDoor1.GetComponent(ToEnd).enabled = true;
+		BossDoor1.GetComponent(ToEnd).enabled = true
 		yield WaitForSeconds(TimeForClose);
 		IsB2 = true;
 		IsB1 = false;

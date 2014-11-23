@@ -120,6 +120,7 @@
      <Compile Include="Assets\Scripts\TilingBG.js" />
      <Compile Include="Assets\Scripts\Timer.js" />
      <Compile Include="Assets\Scripts\ToEnd.js" />
+     <Compile Include="Assets\Scripts\iTweenScripts\iTweenToEnd.js" />
      <Compile Include="Assets\SpringAnimation.js" />
      <Compile Include="Assets\TalkNPC.js" />
      <Compile Include="Assets\UnlockChapter.js" />

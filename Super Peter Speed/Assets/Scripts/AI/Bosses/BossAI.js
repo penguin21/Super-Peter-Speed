@@ -13,6 +13,7 @@ var FaceDoor2 : GameObject;
 var Door2 : GameObject;
 var Door2End : Vector3;
 var FaceDoorSprite : Sprite;
+var goldBurgerPiece : GameObject;
 
 private var healthBarScript: HealthBar;
 
@@ -54,8 +55,7 @@ function Death(){
 		yield WaitForSeconds(5);
 		FaceDoor1.GetComponent(SpriteRenderer).sprite = FaceDoorSprite;
 		FaceDoor2.GetComponent(SpriteRenderer).sprite = FaceDoorSprite;
-		Door2.GetComponent(ToEnd).startTime = 9.87;
-		Door2.GetComponent(ToEnd).endPoint = Door2End;
+		goldBurgerPiece.SetActive(true);
 		gameObject.GetComponent(HealthBar).enabled = false;
 		yield WaitForSeconds(10);
 		gameObject.SetActive(false);
