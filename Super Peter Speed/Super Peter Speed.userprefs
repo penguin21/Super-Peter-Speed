@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\BossEvent.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\Bosses\GiantFlow\GFAI.js" Line="72" Column="4" />
-      <File FileName="Assets\Scripts\ToEnd.js" Line="14" Column="51" />
+      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="76" Column="48" />
+      <File FileName="Assets\Scripts\AI\Bosses\GiantFlow\GFAI.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ToEnd.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\HealthBar.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="58" Column="35" />
+      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Etc\Waiypoint.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\iTweenScripts\iTweenToEnd.js" Line="12" Column="64" />
-      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="76" Column="47" />
+      <File FileName="Assets\Scripts\iTweenScripts\iTweenToEnd.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
