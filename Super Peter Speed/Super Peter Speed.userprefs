@@ -1,14 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\BossEvent.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\SmoothCamera2D.cs">
     <Files>
-      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="76" Column="48" />
-      <File FileName="Assets\Scripts\AI\Bosses\GiantFlow\GFAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ToEnd.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\HealthBar.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Etc\Waiypoint.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\iTweenScripts\iTweenToEnd.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerSettings.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="12" Column="22" />
+      <File FileName="Assets\Scripts\MainMenuScripts\PlayButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\SmoothCamera2D.cs" Line="13" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

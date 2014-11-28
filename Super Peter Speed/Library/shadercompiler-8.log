@@ -1,22 +1,41 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-8-1860
+Pipe name: \\.\pipe\UnityShaderCompiler-8-6132
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=0 type=0 insize=1274 outsize=441 kw= ok=1
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=0
 Cmd: compileSnippet
-  api=0 type=0 insize=1260 outsize=441 kw= ok=1
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
 Cmd: compileSnippet
-  api=8 type=1 insize=1260 outsize=1609 kw= ok=1
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=4274 outsize=0 kw=POINT ok=0
 Cmd: compileSnippet
-  api=8 type=1 insize=1222 outsize=1715 kw= ok=1
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  error: 1 plat 4 at (114): implicit truncation of vector type
+  error: 1 plat 4 at (115): implicit truncation of vector type
+  api=4 type=0 insize=4274 outsize=0 kw=DIRECTIONAL_COOKIE ok=0
 Cmd: compileSnippet
-  api=0 type=1 insize=1277 outsize=279 kw= ok=1
-Cmd: compileSnippet
-  api=4 type=1 insize=1333 outsize=1136 kw= ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=956 outsize=1812 kw= ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=1041 outsize=1812 kw= ok=1
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  error: 1 plat 4 at (114): implicit truncation of vector type
+  error: 1 plat 4 at (115): implicit truncation of vector type
+  api=4 type=0 insize=6095 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=0
 Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
 
 

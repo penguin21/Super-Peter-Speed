@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class PlayButton : MonoBehaviour {
-	void OnClick(){
-		Application.LoadLevel(1);
+
+	public void EnterToScene(string sceneChangeTo){
+		Application.LoadLevel(sceneChangeTo);
 	}	
 }

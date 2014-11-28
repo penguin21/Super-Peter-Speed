@@ -1,24 +1,27 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-7-5184
+Pipe name: \\.\pipe\UnityShaderCompiler-7-2632
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=0 type=0 insize=1322 outsize=441 kw= ok=1
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  error: 1 plat 4 at (114): implicit truncation of vector type
+  error: 1 plat 4 at (115): implicit truncation of vector type
+  api=4 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=0
 Cmd: compileSnippet
-  api=8 type=1 insize=1322 outsize=2600 kw= ok=1
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=4274 outsize=0 kw=SPOT ok=0
 Cmd: compileSnippet
-  api=8 type=0 insize=1274 outsize=1950 kw= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=1260 outsize=549 kw= ok=1
-Cmd: compileSnippet
-  api=8 type=0 insize=1282 outsize=1950 kw= ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=1282 outsize=1682 kw= ok=1
-Cmd: compileSnippet
-  api=4 type=0 insize=1222 outsize=1388 kw= ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=1333 outsize=328 kw= ok=1
-Cmd: compileSnippet
-  api=8 type=1 insize=956 outsize=1048 kw= ok=1
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  error: 1 plat 4 at (114): implicit truncation of vector type
+  error: 1 plat 4 at (115): implicit truncation of vector type
+  api=4 type=0 insize=6095 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=0
 Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
 
 
