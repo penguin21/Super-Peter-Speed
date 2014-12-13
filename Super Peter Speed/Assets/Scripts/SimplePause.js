@@ -12,7 +12,6 @@ function Update()
     	{
     		Time.timeScale = 0;
     		pauseGame = true;
-    		Screen.showCursor = true;
     	}
     }
     
@@ -20,7 +19,6 @@ function Update()
     {
     	Time.timeScale = 1;
     	pauseGame = false;
-    	Screen.showCursor = false;
     }
 }
 

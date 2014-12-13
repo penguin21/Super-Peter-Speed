@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\AI\ObjFloatingOnWater.js" />
      <Compile Include="Assets\Scripts\AI\ShotAI.js" />
      <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />
+     <Compile Include="Assets\Scripts\AI\WindAI.js" />
      <Compile Include="Assets\Scripts\AI\ZombieAI.js" />
      <Compile Include="Assets\Scripts\CameraBounds.js" />
      <Compile Include="Assets\Scripts\DoorTransform.js" />

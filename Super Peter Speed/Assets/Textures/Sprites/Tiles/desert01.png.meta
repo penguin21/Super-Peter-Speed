@@ -1,0 +1,289 @@
+fileFormatVersion: 2
+guid: a8ca5293d65320649bd7d7b50403e773
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: desert_1
+    21300002: desert_2
+    21300004: desert_3
+    21300006: desert_4
+    21300008: desert_side
+    21300010: desert_back
+    21300012: desertsd_1
+    21300014: desert_fs
+    21300016: desert01_f8
+    21300018: desert01_fd
+    21300020: desert01_fj
+    21300022: desert_side_l
+    21300024: desert_side_r
+    21300026: desert01_fg
+    21300028: bone
+    21300030: desert_cow_bone
+    21300032: desert_cactus_top
+    21300034: desert_cactus_middle
+    21300036: desert01_cactus_botton
+    21300038: desert01_cactus_middle2
+    21300040: desert01_cactus_middle3
+    21300042: desert01_cactus_full
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: desert_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 48
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_2
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 48
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_3
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 34
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_side
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 48
+        width: 1
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_back
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 44
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desertsd_1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 30
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_fs
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 30
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_f8
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 17
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_fd
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 17
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_fj
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_side_l
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 44
+        width: 4
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_side_r
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 4
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_fg
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 23
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: bone
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 0
+        width: 5
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_cow_bone
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 7
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_cactus_top
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 35
+        width: 5
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert_cactus_middle
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 34
+        width: 7
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_cactus_botton
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 5
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_cactus_middle2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 27
+        width: 5
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_cactus_middle3
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 28
+        width: 5
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_cactus_full
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 22
+        width: 5
+        height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

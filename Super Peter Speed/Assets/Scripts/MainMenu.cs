@@ -12,4 +12,12 @@ public class MainMenu : MonoBehaviour {
 		Debug.Log("Good bye");
 		Application.Quit();
 	}
+
+	public void ChangePanelOld(GameObject PanelOld){
+		PanelOld.SetActive(false);
+	}
+
+	public void ChangePanelNew(GameObject PanelNew){
+		PanelNew.SetActive(true);
+	}
 }

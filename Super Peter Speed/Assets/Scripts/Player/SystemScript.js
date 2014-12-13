@@ -1,5 +1,4 @@
-function OnGUI(){
-	 if(GUI.Button (Rect (10,10,200,20), SystemInfo.graphicsDeviceName));
-           
+function Update(){
+     Debug.Log("Your gpu is " + SystemInfo.graphicsDeviceName);
 }
 

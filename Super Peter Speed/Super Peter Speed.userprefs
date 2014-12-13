@@ -1,11 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\SmoothCamera2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\WindAI.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="12" Column="22" />
-      <File FileName="Assets\Scripts\MainMenuScripts\PlayButton.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\SmoothCamera2D.cs" Line="13" Column="4" />
+      <File FileName="Assets\Scripts\Bomb.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\WindAI.js" Line="19" Column="85" />
+      <File FileName="Assets\Scripts\AI\Explosion.cs" Line="76" Column="5" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
