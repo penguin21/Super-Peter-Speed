@@ -1,5 +1,5 @@
-﻿#pragma strict
-var WindSpeed : float = 20;
+﻿var WindSpeed : float = 20;
+var intensityForWind : float = 2;
 
 function Start () {
 
@@ -14,8 +14,8 @@ function OnTriggerStay2D(col : Collider2D){
 		var target : Vector2 = col.gameObject.transform.position;
 		var wind : Vector2 = gameObject.transform.position;
 		
-		var direction : Vector2 = WindSpeed * (target - wind);
+		var direction : Vector2 = WindSpeed * (target + wind);
 		
-		col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / 1, direction.y * 0));
+		col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / intensityForWind, direction.y * 0));
 	}
 }

@@ -90,6 +90,7 @@
      <Compile Include="Assets\Scripts\CameraBounds.js" />
      <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
+     <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\Pause.js" />

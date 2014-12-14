@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\WindAI.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\TimeSystem.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\WindAI.js" Line="19" Column="67" />
-      <File FileName="Assets\Scripts\Bomb.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Explosion.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Etc\TimeSystem.js" Line="1" Column="1" />
+      <File FileName="Assets\TalkNPC.js" Line="20" Column="1" />
+      <File FileName="Assets\Scripts\Player\Shot.js" Line="93" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
