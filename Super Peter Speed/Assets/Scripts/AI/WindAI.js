@@ -16,6 +16,6 @@ function OnTriggerStay2D(col : Collider2D){
 		
 		var direction : Vector2 = WindSpeed * (target - wind);
 		
-		col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / 2f, direction.y * 0));
+		col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / 1, direction.y * 0));
 	}
 }

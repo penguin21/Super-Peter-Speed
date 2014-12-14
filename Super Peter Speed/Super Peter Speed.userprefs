@@ -1,10 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\WindAI.js">
     <Files>
+      <File FileName="Assets\Scripts\AI\WindAI.js" Line="19" Column="67" />
       <File FileName="Assets\Scripts\Bomb.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\WindAI.js" Line="19" Column="85" />
-      <File FileName="Assets\Scripts\AI\Explosion.cs" Line="76" Column="5" />
+      <File FileName="Assets\Scripts\AI\Explosion.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
