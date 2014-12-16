@@ -1,10 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu\InputFieldName.js">
     <Files>
-      <File FileName="Assets\Scripts\SimplePause.js" Line="28" Column="63" />
-      <File FileName="Assets\TalkNPC.js" Line="73" Column="3" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="234" Column="28" />
+      <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="25" Column="25" />
+      <File FileName="Assets\Scripts\MainMenu\LevelEnter.js" Line="1" Column="1" />
+      <File FileName="Assets\ExitChapter.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu\NamePlayerViewer.js" Line="8" Column="50" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
