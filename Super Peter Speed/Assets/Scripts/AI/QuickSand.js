@@ -1,6 +1,7 @@
 ﻿//var SandSpeed : float = 5;
 //var intensityForSand : float = 2;
 var GravityForSand = 0.2;
+var GravityForSandUp = 0.2;
 private var DebugGravity = false;
 private var DebugGravityExit = false;
 
@@ -26,6 +27,7 @@ function OnTriggerStay2D(col : Collider2D){
 		
 		//col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / 0, direction.y * intensityForSand));
 		col.rigidbody2D.AddForce(Vector2.up * GravityForSand);
+		col.rigidbody2D.AddForce(Vector2.up * GravityForSandUp);
 	}
 }
 

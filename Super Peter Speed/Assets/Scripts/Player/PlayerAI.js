@@ -232,7 +232,6 @@ function IsDeath(){
 		Arm.SetActive(true);
 		}
 		PlayerObj.tag = "Player";
-		MainCode.Score = 0;
 }
 
 function IsHit(){

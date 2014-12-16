@@ -24,6 +24,10 @@ TextureImporter:
     21300038: desert01_cactus_middle2
     21300040: desert01_cactus_middle3
     21300042: desert01_cactus_full
+    21300044: desert01_L1
+    21300046: desert01_L2
+    21300048: desert01_L3
+    21300050: desert01_L4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -282,6 +286,46 @@ TextureImporter:
         y: 22
         width: 5
         height: 15
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_L1
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 43
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_L2
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 42
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_L3
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 42
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: desert01_L4
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 43
+        width: 2
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
