@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\VideoTexture_Lite.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Intro.js">
     <Files>
+      <File FileName="Assets\Scripts\Intro.js" Line="5" Column="30" />
       <File FileName="Assets\_Scripts\VideoTexture_Lite.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\LevelEnter.js" Line="1" Column="1" />
       <File FileName="Assets\ExitChapter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\NamePlayerViewer.js" Line="8" Column="50" />
+      <File FileName="Assets\Scripts\MainMenu\NamePlayerViewer.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
