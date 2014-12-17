@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu\InputFieldName.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\VideoTexture_Lite.cs">
     <Files>
-      <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="25" Column="25" />
+      <File FileName="Assets\_Scripts\VideoTexture_Lite.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\LevelEnter.js" Line="1" Column="1" />
       <File FileName="Assets\ExitChapter.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\NamePlayerViewer.js" Line="8" Column="50" />
