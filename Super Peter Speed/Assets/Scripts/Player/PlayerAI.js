@@ -16,7 +16,7 @@ var ForSwiming : boolean = true;
 var Respawn : Transform;
 var IsArm : boolean = true;
 var IsDeathing : boolean = false;
-
+var JumpSound : AudioClip;
 
 //Key
 var KW : int = 60;
@@ -50,6 +50,13 @@ function Start () {
 }
 
 function Update () {
+	
+	if(Input.GetButtonDown("Jump")){
+		 if(!audio.isPlaying){
+     
+             audio.PlayOneShot(JumpSound, 0.7);
+             }
+		}
 	
 	if(healthBarScript.healthWidth < -22){
 		healthBarScript.healthWidth = -22;

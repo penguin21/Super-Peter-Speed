@@ -21,9 +21,6 @@ public class Platformer2DUserControl : MonoBehaviour
 #else
 		if (Input.GetButtonDown("Jump")){
 			jump = true;
-			if(!audio.isPlaying){
-			audio.PlayOneShot(JumpSound, 0.7F);
-			}
 		}
 #endif
 
