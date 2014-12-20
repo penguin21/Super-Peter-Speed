@@ -104,6 +104,7 @@
      <Compile Include="Assets\Scripts\Player\Bouncy.js" />
      <Compile Include="Assets\Scripts\Player\ButtleBrick.js" />
      <Compile Include="Assets\Scripts\Player\ButtleBrickWithObj.js" />
+     <Compile Include="Assets\Scripts\Player\CheckPoint.js" />
      <Compile Include="Assets\Scripts\Player\CrounchDetection.js" />
      <Compile Include="Assets\Scripts\Player\DontDestroyScene.js" />
      <Compile Include="Assets\Scripts\Player\Door.js" />

@@ -1,15 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\CheckPoint.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="117" Column="2" />
-      <File FileName="Assets\_Scripts\VideoTexture_Lite.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\LevelEnter.js" Line="1" Column="1" />
-      <File FileName="Assets\ExitChapter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\NamePlayerViewer.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Platformer2DUserControl.cs" Line="23" Column="16" />
-      <File FileName="Assets\Scripts\Player\CrounchDetection.js" Line="18" Column="33" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="83" Column="13" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\CheckPoint.js" Line="15" Column="29" />
+      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="62" Column="40" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

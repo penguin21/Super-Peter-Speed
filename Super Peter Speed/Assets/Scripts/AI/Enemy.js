@@ -3,7 +3,7 @@ var speed : int = 5;
 var timer : int = 0;
 var howlong : int = 40;
 var whatway : boolean = true;
-var size : int = 5;
+var size : float = 5;
 
 function Update () {
 if (MainCode.pause == true ) 
@@ -61,13 +61,25 @@ Instantiate(SoundObject, transform.position + Vector3(0, 0, 0), Quaternion.Euler
 }
 Destroy(gameObject); 
 }
+
+if(other.gameObject.tag == "Obtascule"){
+		whatway = false;
+		timer = 0;
+	}
+	if(other.gameObject.tag == "Obtascule2"){
+		whatway = true;
+		timer = 0;
+	}
+
 }
 
 function OnCollisionEnter2D(enemyColl : Collision2D){
 	if(enemyColl.gameObject.tag == "Obtascule"){
 		whatway = false;
+		timer = 0;
 	}
 	if(enemyColl.gameObject.tag == "Obtascule2"){
 		whatway = true;
+		timer = 0;
 	}
 }
