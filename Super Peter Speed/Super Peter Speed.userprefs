@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\CheckPoint.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\Enemy.js" Line="83" Column="13" />
+      <File FileName="Super Peter Speed.sln" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\CheckPoint.js" Line="21" Column="23" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\CheckPoint.js" Line="15" Column="29" />
-      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="62" Column="40" />
+      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
