@@ -1,20 +1,25 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-6-7572
+Pipe name: \\.\pipe\UnityShaderCompiler-6-468
 Cmd: getPlatforms
 Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (112): implicit truncation of vector type
-  error: 1 plat 4 at (113): implicit truncation of vector type
-  error: 1 plat 4 at (114): implicit truncation of vector type
-  error: 1 plat 4 at (115): implicit truncation of vector type
-  api=4 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+  api=0 type=0 insize=5438 outsize=1779 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
 Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 4 at (112): implicit truncation of vector type
-  error: 1 plat 4 at (113): implicit truncation of vector type
-  error: 1 plat 4 at (114): implicit truncation of vector type
-  error: 1 plat 4 at (115): implicit truncation of vector type
-  api=4 type=0 insize=6095 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=0
+  api=0 type=0 insize=3244 outsize=560 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3244 outsize=578 kw=DIRECTIONAL_COOKIE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6456 outsize=814 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=6456 outsize=2030 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=4274 outsize=0 kw=DIRECTIONAL ok=0
+Cmd: compileSnippet
+  api=0 type=0 insize=6095 outsize=1222 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=1
 Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
 
 

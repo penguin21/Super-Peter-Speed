@@ -37,14 +37,14 @@ return;
 if ( whatway == true ) 
 {
 transform.localScale.x = -size;
-transform.Translate(Vector3(-speed,0,0) * Time.deltaTime);
+gameObject.rigidbody2D.velocity = new Vector2 (-speed,0);
 }
 
 //Left
 if ( whatway == false ) 
 {
 transform.localScale.x = size;
-transform.Translate(Vector3(speed,0,0) * Time.deltaTime);
+gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
 }
 
 

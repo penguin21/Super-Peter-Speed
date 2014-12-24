@@ -6,6 +6,7 @@ function OnCollisionEnter2D (other : Collision2D){
 	if(other.gameObject.tag == "Buttle"){
 		MainCode.Score += 100;
 		audio.PlayOneShot(EnemyStompSound);
+		EnemyObj.rigidbody2D.gravityScale = 1;
 		EnemyObj.GetComponent(AIChase).enabled = false;
 		EnemyObj.GetComponent(BoxCollider2D).enabled = false;
 		EnemyStompObj.AddComponent(Rigidbody2D);
