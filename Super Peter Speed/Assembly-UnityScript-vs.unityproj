@@ -66,6 +66,7 @@
      <Compile Include="Assets\LevelManager.js" />
      <Compile Include="Assets\PlayerDetectionFlip.js" />
      <Compile Include="Assets\PlayerMapMovement.js" />
+     <Compile Include="Assets\Scripts\AI\AICannon.js" />
      <Compile Include="Assets\Scripts\AI\AIChase.js" />
      <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemy.js" />
      <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" />

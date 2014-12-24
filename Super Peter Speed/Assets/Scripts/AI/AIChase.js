@@ -12,7 +12,8 @@ private var FollowingIsReady : boolean = false;
 private var distanceToTarget : float = 0.0;
 
 function Start(){
-	yield WaitForSeconds (0.01);
+	Debug.Log("Lol");
+	yield WaitForSeconds (0.1);
 	PlayerTarget = GameObject.FindWithTag ("Player").transform;
 	IsFollowing = true;
 }
