@@ -15,18 +15,21 @@ function Start () {
 
 function Shot () {
 	
-	if(Way == true && CanFire == true){
+	var EAI : Enemy;
+	EAI = Enemy.GetComponent("Enemy");
+	
+	if(EAI.whatway == true && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.AddForce(Vector2.right * speed);
+		clone.AddForce(Vector2.right * -speed);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
 		Destroy(clone, 1.0);
 	}
 	
-	if(Way == false && CanFire == true){
+	if(EAI.whatway == false && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.AddForce(Vector2.right * -speed);
+		clone.AddForce(Vector2.right * speed);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -41,10 +44,10 @@ function Update (){
 	
 	
 	if(EAI.whatway == true){
-		Way = false;
+		Shot();
 	}
 
 	if(EAI.whatway == false){
-		Way = true;
+		Shot();
 	}
 }
