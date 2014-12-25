@@ -20,7 +20,7 @@ function Shot () {
 	
 	if(EAI.whatway == true && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.AddForce(Vector2.right * -speed);
+		clone.rigidbody2D.AddForce(Vector2.right * -speed);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -29,7 +29,7 @@ function Shot () {
 	
 	if(EAI.whatway == false && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.AddForce(Vector2.right * speed);
+		clone.rigidbody2D.AddForce(Vector2.right * speed);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;

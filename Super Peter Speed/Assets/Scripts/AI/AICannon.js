@@ -12,6 +12,7 @@ var Buttle : Rigidbody2D;
 var ShotSpawn : GameObject;
 var ShotSpawn2 : GameObject;
 var TimeForShotPress : float = 5.6;
+var ShotSound : AudioClip;
 
 var currentShotSpawn : GameObject;
 private var chaseIs = false;
@@ -29,17 +30,16 @@ function Update(){
 	if(IsFollowing == true){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 	if(distanceToTarget <= searhRange){
+		chaseIs = true;
 		ChasePlayer();
 	}
 	
 	if(L == true){
-		currentShotSpawn = ShotSpawn;
-		Shot();
+		currentShotSpawn = ShotSpawn2;
 	}
 	
 	if(R == true){
-		currentShotSpawn = ShotSpawn2;
-		Shot();
+		currentShotSpawn = ShotSpawn;
 		}
 	}
 }
@@ -48,19 +48,23 @@ function ChasePlayer(){
 	if(transform.position.x <= PlayerTarget.position.x){
 		L = true;
 		R = false;
+		Shot();
 	}
 	
 	if(transform.position.x >= PlayerTarget.position.x){
 		L = false;
 		R = true;
+		Shot();
 	}
 }
 
 function Shot(){
+	yield WaitForSeconds(0.1);
 	if(L == true){
 	if(chaseIs == true && CanFire == true){
-		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
+		clone = Instantiate(Buttle, currentShotSpawn.transform.position, currentShotSpawn.transform.rotation);
 		clone.AddForce(Vector2.right * speed);
+		audio.PlayOneShot(ShotSound, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -68,9 +72,10 @@ function Shot(){
 	}
 	}
 	if(R == true){
-			if(chaseIs == true && CanFire == true){
-		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
+	if(chaseIs == true && CanFire == true){
+		clone = Instantiate(Buttle, currentShotSpawn.transform.position, currentShotSpawn.transform.rotation);
 		clone.AddForce(Vector2.right * -speed);
+		audio.PlayOneShot(ShotSound, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
