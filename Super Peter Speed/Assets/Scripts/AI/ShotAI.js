@@ -8,6 +8,7 @@ var Enemy : GameObject;
 var Way : boolean = true;
 var repeatShot : boolean = true;
 var RepeatShotTime : float = 10;
+var SoundShot : AudioClip;
 
 function Start () {
 
@@ -21,6 +22,7 @@ function Shot () {
 	if(EAI.whatway == true && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
 		clone.rigidbody2D.AddForce(Vector2.right * -speed);
+		audio.PlayOneShot(SoundShot, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -31,6 +33,7 @@ function Shot () {
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
 		clone.rigidbody2D.AddForce(Vector2.right * speed);
 		CanFire = false;
+		audio.PlayOneShot(SoundShot, 0.7);
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
 		Destroy(clone, 1.0);

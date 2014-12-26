@@ -280,6 +280,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimLight.shader" />
+     <None Include="Assets\Shader\DD.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
      <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
@@ -292,6 +293,7 @@
      <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
+     <None Include="Assets\Shader\GG.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimAlpha.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
