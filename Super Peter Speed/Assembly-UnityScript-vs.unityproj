@@ -96,6 +96,8 @@
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
+     <Compile Include="Assets\Scripts\Expla\ForLoop.js" />
+     <Compile Include="Assets\Scripts\Expla\WhileLoop.js" />
      <Compile Include="Assets\Scripts\MainMenu\InputFieldName.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerViewer.js" />

@@ -23,6 +23,7 @@ var KW : int = 60;
 var KH : int = 60;
 var TK : float = 10;
 
+var InfectedIntents : int = 5;
 private var startTime : float;
 private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
@@ -180,6 +181,14 @@ function OnCollisionEnter2D(other : Collision2D){
 		audio.PlayOneShot(HurtPlayerSound);
 		}
 		
+		if(other.gameObject.tag == "InfectedEnemy"){
+		healthBarScript.healthWidth -= 20;
+		anim.Play("Hit");
+		audio.PlayOneShot(HurtPlayerSound);
+		InfectedIntents = 5;
+		Infected();
+		}
+		
 		if(MainCode.Heart <= 0){
 			Application.LoadLevel(Application.loadedLevel);
 			}
@@ -246,4 +255,13 @@ function IsHit(){
 		audio.PlayOneShot(HurtPlayerSound);
 		yield WaitForSeconds(0.5);
 		anim.SetFloat("Speed", 0.0);
+}
+
+function Infected(){
+	while(InfectedIntents > 0){
+		yield WaitForSeconds(4);
+		healthBarScript.healthWidth -= 5;
+		audio.PlayOneShot(HurtPlayerSound);
+		InfectedIntents--;
+	}
 }
