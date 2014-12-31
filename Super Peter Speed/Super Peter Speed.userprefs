@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\ShotAI.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\CameraIntruction.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\ShotAI.js" Line="36" Column="37" />
+      <File FileName="Assets\Scripts\ToEnd.js" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\Etc\CameraIntruction.js" Line="19" Column="36" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

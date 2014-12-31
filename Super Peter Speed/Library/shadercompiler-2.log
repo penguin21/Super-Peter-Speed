@@ -1,37 +1,53 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-2-1968
+Pipe name: \\.\pipe\UnityShaderCompiler-2-6416
 Cmd: getPlatforms
 Cmd: compileSnippet
-  api=0 type=0 insize=5438 outsize=739 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+  api=8 type=0 insize=1139 outsize=1625 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=5438 outsize=876 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=1 insize=3244 outsize=941 kw=SPOT ok=1
-Cmd: compileSnippet
-  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 8 at (112): implicit truncation of vector type
-  error: 1 plat 8 at (113): implicit truncation of vector type
-  error: 1 plat 8 at (114): implicit truncation of vector type
-  error: 1 plat 8 at (115): implicit truncation of vector type
-  api=8 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
-Cmd: compileSnippet
-  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 8 at (112): implicit truncation of vector type
-  error: 1 plat 8 at (113): implicit truncation of vector type
-  error: 1 plat 8 at (114): implicit truncation of vector type
-  error: 1 plat 8 at (115): implicit truncation of vector type
-  api=8 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=0
-Cmd: compileSnippet
-  api=0 type=1 insize=6456 outsize=432 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
-Cmd: compileSnippet
-  api=0 type=0 insize=4274 outsize=957 kw=DIRECTIONAL ok=1
+  error: 2 plat 8 at (28): 'vert': function return value missing semantics
+  api=8 type=0 insize=1336 outsize=0 kw= ok=0
 Cmd: compileSnippet
   error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
   error: 1 plat 4 at (112): implicit truncation of vector type
   error: 1 plat 4 at (113): implicit truncation of vector type
   error: 1 plat 4 at (114): implicit truncation of vector type
   error: 1 plat 4 at (115): implicit truncation of vector type
-  api=4 type=0 insize=4274 outsize=0 kw=DIRECTIONAL_COOKIE ok=0
+  api=4 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  error: 1 plat 4 at (114): implicit truncation of vector type
+  error: 1 plat 4 at (115): implicit truncation of vector type
+  api=4 type=0 insize=4274 outsize=0 kw=DIRECTIONAL ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=4274 outsize=0 kw=POINT_COOKIE ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 8 at (112): implicit truncation of vector type
+  error: 1 plat 8 at (113): implicit truncation of vector type
+  error: 1 plat 8 at (114): implicit truncation of vector type
+  error: 1 plat 8 at (115): implicit truncation of vector type
+  api=8 type=0 insize=4203 outsize=0 kw= ok=0
+Cmd: compileSnippet
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (112): implicit truncation of vector type
+  error: 1 plat 4 at (113): implicit truncation of vector type
+  error: 1 plat 4 at (114): implicit truncation of vector type
+  error: 1 plat 4 at (115): implicit truncation of vector type
+  api=4 type=0 insize=6095 outsize=0 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=0
 Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
 
 
