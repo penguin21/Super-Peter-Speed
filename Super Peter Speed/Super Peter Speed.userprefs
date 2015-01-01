@@ -1,12 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\AIEnemyInfected.js">
     <Files>
-      <File FileName="Assets\Scripts\Expla\ForLoop.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\AICannon.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Expla\WhileLoop.js" Line="6" Column="26" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="26" Column="1" />
+      <File FileName="Assets\Scripts\AI\AIEnemyInfected.js" Line="24" Column="48" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="46" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -70,6 +70,7 @@
      <Compile Include="Assets\Scripts\AI\AIChase.js" />
      <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemy.js" />
      <Compile Include="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" />
+     <Compile Include="Assets\Scripts\AI\AIEnemyInfected.js" />
      <Compile Include="Assets\Scripts\AI\BallControl.js" />
      <Compile Include="Assets\Scripts\AI\BombEnemyThrow.js" />
      <Compile Include="Assets\Scripts\AI\BossEvent.js" />

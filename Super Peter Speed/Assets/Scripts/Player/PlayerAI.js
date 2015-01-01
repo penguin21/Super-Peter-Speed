@@ -17,13 +17,15 @@ var Respawn : Transform;
 var IsArm : boolean = true;
 var IsDeathing : boolean = false;
 var JumpSound : AudioClip;
+var InfectedTotal = 5;
+var IsInfected = true;
 
 //Key
 var KW : int = 60;
 var KH : int = 60;
 var TK : float = 10;
 
-var InfectedIntents : int = 5;
+private var InfectedIntents : int = 0;
 private var startTime : float;
 private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
@@ -180,13 +182,16 @@ function OnCollisionEnter2D(other : Collision2D){
 		anim.Play("Hit");
 		audio.PlayOneShot(HurtPlayerSound);
 		}
-		
+		if(IsInfected == true){
 		if(other.gameObject.tag == "InfectedEnemy"){
 		healthBarScript.healthWidth -= 20;
 		anim.Play("Hit");
 		audio.PlayOneShot(HurtPlayerSound);
-		InfectedIntents = 5;
+		InfectedIntents = InfectedTotal;
+		IsInfected = false;
+		other.transform.tag = "Enemy";
 		Infected();
+			}
 		}
 		
 		if(MainCode.Heart <= 0){
@@ -258,10 +263,15 @@ function IsHit(){
 }
 
 function Infected(){
+	if(IsInfected == false){
 	while(InfectedIntents > 0){
 		yield WaitForSeconds(4);
 		healthBarScript.healthWidth -= 5;
 		audio.PlayOneShot(HurtPlayerSound);
 		InfectedIntents--;
+		}
+	}
+	if(InfectedIntents == 0){
+		IsInfected = true;
 	}
 }
