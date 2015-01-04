@@ -12,6 +12,9 @@ TextureImporter:
     21300014: DesertPyramid_SideDown3
     21300016: DesertPyramid_Ch
     21300018: DesertPyramid_Sfing
+    21300020: DesertPyramid_CH1
+    21300022: DesertPyramid_No
+    21300024: DesertPyramid_Dec
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -150,6 +153,36 @@ TextureImporter:
         y: 0
         width: 18
         height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DesertPyramid_CH1
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 20
+        width: 1
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DesertPyramid_No
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 17
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DesertPyramid_Dec
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 19
+        width: 5
+        height: 2
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
