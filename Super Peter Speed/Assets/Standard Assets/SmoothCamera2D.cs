@@ -10,7 +10,7 @@ public class SmoothCamera2D : MonoBehaviour {
 
 	// Update is called once per frame
 	void Start(){
-	  target = GameObject.FindWithTag ("Player").transform;
+		target = GameObject.FindWithTag ("Player").transform;
 
 
 	}

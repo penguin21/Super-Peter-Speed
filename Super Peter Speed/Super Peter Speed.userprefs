@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\AIEnemyInfected.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Tiling.cs">
     <Files>
-      <File FileName="Assets\Scripts\AI\AIEnemyInfected.js" Line="24" Column="48" />
-      <File FileName="Assets\Scripts\AI\Enemy.js" Line="46" Column="21" />
+      <File FileName="Assets\Scripts\Tiling.cs" Line="51" Column="25" />
+      <File FileName="Assets\Scripts\ScrollingBG3.cs" Line="7" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -248,6 +248,7 @@
      <Compile Include="Assets\Scripts\Rocket.cs" />
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScoreShadow.cs" />
+     <Compile Include="Assets\Scripts\ScrollingBG3.cs" />
      <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Tiling.cs" />

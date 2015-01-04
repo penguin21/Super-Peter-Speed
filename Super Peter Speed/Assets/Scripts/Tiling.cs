@@ -5,7 +5,8 @@ using System.Collections;
 
 public class Tiling : MonoBehaviour {
 
-	public int offsetX = 2;			// the offset so that we don't get any weird errors
+	public int offsetX = 2;	// the offset so that we don't get any weird errors
+	public int buddy = 25;
 
 	// these are used for checking if we need to instantiate stuff
 	public bool hasARightBuddy = false;
@@ -42,12 +43,12 @@ public class Tiling : MonoBehaviour {
 			// checking if we can see the edge of the element and then calling MakeNewBuddy if we can
 			if (cam.transform.position.x >= edgeVisiblePositionRight - offsetX && hasARightBuddy == false)
 			{
-				MakeNewBuddy (1);
+				MakeNewBuddy (buddy);
 				hasARightBuddy = true;
 			}
 			else if (cam.transform.position.x <= edgeVisiblePositionLeft + offsetX && hasALeftBuddy == false)
 			{
-				MakeNewBuddy (-1);
+				MakeNewBuddy (-buddy);
 				hasALeftBuddy = true;
 			}
 		}
