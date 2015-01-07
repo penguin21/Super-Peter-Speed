@@ -47,5 +47,6 @@ function Update () {
 
 function Warping(){
 	PlayerOnWarpObj.transform.position = SpawnWarp.transform.position;
+	PlayerOnWarpObj.GetComponent(PlayerAI).Respawn = SpawnWarp;
 	CameraObj.GetComponent(SmoothCamera2D).enabled = true;
 }
