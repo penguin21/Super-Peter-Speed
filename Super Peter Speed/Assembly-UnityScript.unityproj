@@ -77,6 +77,7 @@
      <Compile Include="Assets\Scripts\AI\Bosses\BossAI.js" />
      <Compile Include="Assets\Scripts\AI\Bosses\GiantFlow\GFAI.js" />
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
+     <Compile Include="Assets\Scripts\AI\ButtleAIMov.js" />
      <Compile Include="Assets\Scripts\AI\Enemy.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStomp.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStompAIChase.js" />
@@ -88,6 +89,7 @@
      <Compile Include="Assets\Scripts\AI\QuickSand.js" />
      <Compile Include="Assets\Scripts\AI\ShotAI.js" />
      <Compile Include="Assets\Scripts\AI\TNTActiveExplosion.js" />
+     <Compile Include="Assets\Scripts\AI\TurretAI.js" />
      <Compile Include="Assets\Scripts\AI\WindAI.js" />
      <Compile Include="Assets\Scripts\AI\ZombieAI.js" />
      <Compile Include="Assets\Scripts\CameraBounds.js" />

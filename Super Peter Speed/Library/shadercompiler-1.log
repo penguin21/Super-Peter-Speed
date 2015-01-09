@@ -1,25 +1,15 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-1-4492
+Pipe name: \\.\pipe\UnityShaderCompiler-1-6864
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=530 outsize=290 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=1139 outsize=365 kw= ok=1
+  api=1 type=0 insize=537 outsize=126 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=1139 outsize=195 kw= ok=1
+  api=1 type=1 insize=537 outsize=29 kw= ok=1
+Cmd: preprocess
+  insize=5299 outsize=2585 ok=1
 Cmd: compileSnippet
-  api=0 type=0 insize=1336 outsize=680 kw= ok=1
+  api=1 type=0 insize=3016 outsize=191 kw= ok=1
 Cmd: compileSnippet
-  api=0 type=1 insize=1336 outsize=255 kw= ok=1
-Cmd: compileSnippet
-  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 8 at (112): implicit truncation of vector type
-  error: 1 plat 8 at (113): implicit truncation of vector type
-  error: 1 plat 8 at (114): implicit truncation of vector type
-  error: 1 plat 8 at (115): implicit truncation of vector type
-  api=8 type=0 insize=6456 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
-Cmd: compileSnippet
-  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized
-  error: 1 plat 8 at (112): implicit truncation of vector type
-  error: 1 plat 8 at (113): implicit truncation of vector type
-  error: 1 plat 8 at (114): implicit truncation of vector type
-  error: 1 plat 8 at (115): implicit truncation of vector type
-  api=8 type=0 insize=6095 outsize=0 kw=LIGHTMAP_ON DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_ON ok=0
+  api=1 type=1 insize=3016 outsize=240 kw= ok=1
