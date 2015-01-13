@@ -1,9 +1,14 @@
 ﻿#pragma strict
 
 var pauseGame : boolean = false;
+var CameraObj : GameObject;
+
+function Start(){
+	CameraObj = GameObject.FindWithTag ("MainCamera");
+}
 
 function Update()
-{
+{	
 	if(Input.GetKeyDown("escape"))
 	{
 		pauseGame = !pauseGame;
@@ -12,6 +17,7 @@ function Update()
     	{
     		Time.timeScale = 0;
     		pauseGame = true;
+ 
     	}
     }
     
@@ -19,6 +25,7 @@ function Update()
     {
     	Time.timeScale = 1;
     	pauseGame = false;
+ 		
     }
 }
 

@@ -97,7 +97,9 @@
      <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
+     <Compile Include="Assets\Scripts\Etc\MoveScript.js" />
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
+     <Compile Include="Assets\Scripts\Etc\ToBoxSpawn.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
      <Compile Include="Assets\Scripts\Expla\ForLoop.js" />
      <Compile Include="Assets\Scripts\Expla\Servers.js" />
