@@ -1,7 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\ToBoxSpawn.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Audio\BGM\RedameMusic.txt">
     <Files>
+      <File FileName="Assets\Audio\BGM\RedameMusic.txt" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Etc\MoveScript.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Etc\ToBoxSpawn.js" Line="5" Column="39" />
       <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
