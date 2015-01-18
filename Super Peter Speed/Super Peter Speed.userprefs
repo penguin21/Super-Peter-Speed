@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\PeterIsLifeShot\Assets\Scripts\Player\HeadBobber.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\FoldersData.js">
     <Files>
-      <File FileName="..\..\PeterIsLifeShot\Assets\Scripts\Player\HeadBobber.js" Line="30" Column="3" />
+      <File FileName="Assets\Scripts\Etc\LoadMusic.js" Line="22" Column="37" />
+      <File FileName="Assets\Scripts\Etc\FoldersData.js" Line="29" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
