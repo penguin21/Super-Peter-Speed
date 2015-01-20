@@ -93,11 +93,13 @@
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
      <Compile Include="Assets\StrumpyShaderEditor\Editor\Scripts\NodeEditorWindow.cs" />
      <Compile Include="Assets\StrumpyShaderEditor\Editor\Scripts\StrumpyPreviewWindow.cs" />
+     <Compile Include="Assets\Synapse\Editor\SynapseAssetInspector.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Synapse\Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
@@ -153,6 +155,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
@@ -183,6 +186,18 @@
  </Reference>
  <Reference Include="StrumpyShaderEditor">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/StrumpyShaderEditor/Editor/StrumpyShaderEditor.dll</HintPath>
+ </Reference>
+ <Reference Include="Synapse.Runtime">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Synapse.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SynapseDemo">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Demo/SynapseDemo.dll</HintPath>
+ </Reference>
+ <Reference Include="Synapse.Assets">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Editor/Synapse.Assets.dll</HintPath>
+ </Reference>
+ <Reference Include="Synapse.Editor">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Editor/Synapse.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

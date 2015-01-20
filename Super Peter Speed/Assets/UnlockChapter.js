@@ -38,4 +38,13 @@ function Update () {
 		LockObj1.SetActive(true);
 		IntruductionC.SetActive(false);
 	}
+	if(IntruductionReached == 1){
+		LockObj2.SetActive(false);
+		Chapter1C.SetActive(true);
+	}
+	else
+	if(IntruductionReached == 0){
+		LockObj2.SetActive(true);
+		Chapter1C.SetActive(false);
+	}
 }

@@ -98,6 +98,7 @@
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
      <Compile Include="Assets\Scripts\Etc\FoldersData.js" />
+     <Compile Include="Assets\Scripts\Etc\LoadImage.js" />
      <Compile Include="Assets\Scripts\Etc\LoadMusic.js" />
      <Compile Include="Assets\Scripts\Etc\MoveScript.js" />
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
@@ -151,6 +152,7 @@
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Synapse\Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
@@ -206,12 +208,19 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="Synapse.Runtime">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Synapse.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SynapseDemo">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Demo/SynapseDemo.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
