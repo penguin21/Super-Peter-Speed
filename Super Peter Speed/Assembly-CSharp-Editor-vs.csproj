@@ -94,6 +94,14 @@
      <Compile Include="Assets\StrumpyShaderEditor\Editor\Scripts\NodeEditorWindow.cs" />
      <Compile Include="Assets\StrumpyShaderEditor\Editor\Scripts\StrumpyPreviewWindow.cs" />
      <Compile Include="Assets\Synapse\Editor\SynapseAssetInspector.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAEditorWindow.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAExportWindow.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAImageCreationWindow.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\EditorGUI\UPAImageEditorPreview.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\UPACustomTypes.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\UPADrawer.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\UPAImage.cs" />
+     <Compile Include="Assets\UPAToolkit\Editor\UPASession.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
