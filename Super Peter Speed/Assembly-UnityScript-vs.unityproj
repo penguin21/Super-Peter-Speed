@@ -101,6 +101,7 @@
      <Compile Include="Assets\Scripts\Etc\LoadImage.js" />
      <Compile Include="Assets\Scripts\Etc\LoadMusic.js" />
      <Compile Include="Assets\Scripts\Etc\MoveScript.js" />
+     <Compile Include="Assets\Scripts\Etc\PeterPrison.js" />
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
      <Compile Include="Assets\Scripts\Etc\ToBoxSpawn.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
