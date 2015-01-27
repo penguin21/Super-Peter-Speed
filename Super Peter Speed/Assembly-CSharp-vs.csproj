@@ -204,6 +204,8 @@
      <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
      <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+     <Compile Include="Assets\OpenFileDalog\OpenFileDialog.cs" />
+     <Compile Include="Assets\OpenFileDalog\sample.cs" />
      <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\Demo Scene\Scripts\OrthographicSetup.cs" />
      <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\Demo Scene\Scripts\ScreenPlacement.cs" />
      <Compile Include="Assets\Pixelplacement\ScreenPlacementExtension\ScreenPlacementExtension.cs" />

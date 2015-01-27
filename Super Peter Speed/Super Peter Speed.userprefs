@@ -1,10 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\PeterPrison.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\OpenFileDalog\OpenFileDialog.cs">
     <Files>
-      <File FileName="Assets\Scripts\Etc\PeterPrison.js" Line="12" Column="27" />
-      <File FileName="Assets\LevelManager.js" Line="148" Column="48" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="122" Column="26" />
+      <File FileName="Assets\Scripts\Etc\LoadMusic.js" Line="1" Column="1" />
+      <File FileName="Assets\OpenFileDalog\sample.cs" Line="1" Column="1" />
+      <File FileName="Assets\OpenFileDalog\OpenFileDialog.cs" Line="6" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
