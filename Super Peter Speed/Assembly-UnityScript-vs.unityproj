@@ -98,6 +98,7 @@
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
      <Compile Include="Assets\Scripts\Etc\FoldersData.js" />
+     <Compile Include="Assets\Scripts\Etc\InstantingTest.js" />
      <Compile Include="Assets\Scripts\Etc\LoadImage.js" />
      <Compile Include="Assets\Scripts\Etc\LoadMusic.js" />
      <Compile Include="Assets\Scripts\Etc\MoveScript.js" />
@@ -145,6 +146,10 @@
      <Compile Include="Assets\Scripts\iTweenScripts\iTweenToEnd.js" />
      <Compile Include="Assets\SpringAnimation.js" />
      <Compile Include="Assets\TalkNPC.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\JSONPauseMenu.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\Movement.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\PauseMenu.js" />
+     <Compile Include="Assets\UnitySerializer\Scripts\Spawner.js" />
      <Compile Include="Assets\UnlockChapter.js" />
      <Compile Include="Assets\WorldLevelSelectorGUI.js" />
      <Compile Include="Assets\WorldsSelector.js" />
@@ -167,6 +172,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\HOTween_License.txt" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
@@ -182,6 +188,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimLight.shader" />
+     <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
      <None Include="Assets\Shader\DD.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
@@ -210,6 +217,7 @@
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
+     <None Include="Assets\UnitySerializer\readme.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>

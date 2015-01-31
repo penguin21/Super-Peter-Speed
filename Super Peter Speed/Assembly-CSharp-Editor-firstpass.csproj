@@ -46,22 +46,16 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Docs\DocMainPage.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\ActionStateEditor.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\AnyStateEditor.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\BehaviourMachineAboutWindow.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\BehaviourMachineAddNodeWindow.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\BehaviourMachineMainWindow.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\BehaviourMachineToolbar.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\BehaviourTreeEditor.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\BlackboardEditor.cs" />
-     <Compile Include="Assets\Plugins\Editor\BehaviourMachineEditor\Wrapper\MonoStateEditor.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\EditPrefabIdentifier.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\EditSaveGameManager.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\EditStoreInformation.cs" />
+     <Compile Include="Assets\Plugins\Editor\whydoidoit.com\UnitySerializerWindow.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
-     <None Include="Assets\Plugins\BehaviourMachine\Readme!!!.txt" />
      <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+     <None Include="Assets\Synapse\Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
@@ -75,6 +69,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\HOTween_License.txt" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
@@ -90,6 +85,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimLight.shader" />
+     <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
      <None Include="Assets\Shader\DD.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
@@ -118,6 +114,7 @@
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
+     <None Include="Assets\UnitySerializer\readme.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
@@ -143,14 +140,20 @@
  <Reference Include="StrumpyShaderEditor">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/StrumpyShaderEditor/Editor/StrumpyShaderEditor.dll</HintPath>
  </Reference>
+ <Reference Include="Synapse.Runtime">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Synapse.Runtime.dll</HintPath>
+ </Reference>
+ <Reference Include="SynapseDemo">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Demo/SynapseDemo.dll</HintPath>
+ </Reference>
+ <Reference Include="Synapse.Assets">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Editor/Synapse.Assets.dll</HintPath>
+ </Reference>
+ <Reference Include="Synapse.Editor">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Editor/Synapse.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
- </Reference>
- <Reference Include="BehaviourMachineRuntime">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Plugins/BehaviourMachine/BehaviourMachineRuntime.dll</HintPath>
- </Reference>
- <Reference Include="BehaviourMachineEditor">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Plugins/Editor/BehaviourMachineEditor/BehaviourMachineEditor.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
