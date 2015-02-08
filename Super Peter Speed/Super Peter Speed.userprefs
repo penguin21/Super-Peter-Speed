@@ -1,11 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FallPlatform.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
       <File FileName="Assets\Scripts\AI\FallPlatform.js" Line="13" Column="27" />
-      <File FileName="Assets\Scripts\Etc\InstantingTest.js" Line="19" Column="53" />
+      <File FileName="Assets\Scripts\Etc\InstantingTest.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\Shot.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="246" Column="13" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="209" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

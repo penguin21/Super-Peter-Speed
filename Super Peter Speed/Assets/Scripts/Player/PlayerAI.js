@@ -25,6 +25,7 @@ var KW : int = 60;
 var KH : int = 60;
 var TK : float = 10;
 
+private var JumpSoundIs = true;
 private var InfectedIntents : int = 0;
 private var startTime : float;
 private var PlayerScript : Platformer2DUserControl;
@@ -53,13 +54,14 @@ function Start () {
 }
 
 function Update () {
-	
+	if(JumpSoundIs == true){
 	if(Input.GetButtonDown("Jump")){
 		 if(!audio.isPlaying){
      
              audio.PlayOneShot(JumpSound, 0.7);
              }
 		}
+	}	
 	
 	if(healthBarScript.healthWidth < -22){
 		healthBarScript.healthWidth = -22;
@@ -199,6 +201,13 @@ function OnCollisionEnter2D(other : Collision2D){
 			}
 }
 
+function OnCollisionStay2D(other : Collision2D){
+	JumpSoundIs = true;
+}
+
+function OnCollisionExit2D(other : Collision2D){
+	JumpSoundIs = false;
+}
 
 function OnGUI () {
 var guiTime = Time.time - startTime; 
