@@ -4,6 +4,9 @@ var timer : int = 0;
 var howlong : int = 40;
 var whatway : boolean = true;
 var size : float = 5;
+var Col1 : Transform;
+var Col2 : Transform;
+var CollsionIs = false;
 
 function Update () {
 if (MainCode.pause == true ) 
@@ -47,6 +50,12 @@ transform.localScale.x = size;
 gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
 }
 
+if(Physics2D.Linecast(Col1.position, Col2.position)){
+	whatway = !whatway;
+	timer = 0;
+}
+RayCasting();
+Ber();
 
 }
 
@@ -82,4 +91,12 @@ function OnCollisionEnter2D(enemyColl : Collision2D){
 		whatway = true;
 		timer = 0;
 	}
+}
+
+function RayCasting(){
+	CollsionIs = Physics2D.Linecast(Col1.position, Col2.position);
+}
+
+function Ber (){
+	
 }
