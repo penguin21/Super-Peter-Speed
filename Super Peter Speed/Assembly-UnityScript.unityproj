@@ -108,6 +108,7 @@
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
      <Compile Include="Assets\Scripts\Expla\ForLoop.js" />
      <Compile Include="Assets\Scripts\Expla\Servers.js" />
+     <Compile Include="Assets\Scripts\Expla\TestRaycast.js" />
      <Compile Include="Assets\Scripts\Expla\Web.js" />
      <Compile Include="Assets\Scripts\Expla\WhileLoop.js" />
      <Compile Include="Assets\Scripts\MainMenu\InputFieldName.js" />
