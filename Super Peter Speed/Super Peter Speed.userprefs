@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MainMenu\InputFieldName.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="249" Column="23" />
       <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="33" Column="28" />
-      <File FileName="Assets\Scripts\MainMenu\NamePlayerChange.js" Line="23" Column="2" />
+      <File FileName="Assets\Scripts\MainMenu\NamePlayerChange.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

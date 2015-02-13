@@ -246,6 +246,7 @@ function IsDeath(){
 		PlayerObj.GetComponent(Platformer2DUserControl).enabled = false;
 		PlayerObj.GetComponent(PlatformerCharacter2D).enabled = false;
 		PlayerObj.GetComponent(Swimg).enabled = false;
+		InfectedIntents = 0;
 		if(IsArm == true){
 		Arm.SetActive(false);
 		}
