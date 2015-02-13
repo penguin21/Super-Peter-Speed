@@ -1,5 +1,5 @@
 ﻿var Wait : float = 5;
-var SceneToChange : String;
+var Scene : String;
 
 function Update () {
 	ChangeScene(); //To changing
@@ -7,5 +7,5 @@ function Update () {
 
 function ChangeScene(){
 	yield WaitForSeconds(Wait);
-	Application.LoadLevel(SceneToChange);
+	Application.LoadLevel(Scene);
 }
