@@ -1,0 +1,267 @@
+fileFormatVersion: 2
+guid: 713e80de80fa3e94cbf020be6a790a08
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PirateGirl_0
+    21300002: PirateGirl_W2
+    21300004: PirateGirl_W3
+    21300006: PirateGirl_Arm1
+    21300008: PirateGirl_Arm2
+    21300010: PirateGirl_C0
+    21300012: PirateGirl_C1
+    21300014: PirateGirl_Normal
+    21300016: PirateGirl_Left
+    21300018: PirateGirl_Attack
+    21300020: PirateGirl_Death
+    21300022: PirateGirl_Up
+    21300024: PirateGirl_Hit
+    21300026: PirateGirl_Hat
+    21300028: PirateGirl_Hair1
+    21300030: PirateGirl_Hair2
+    21300032: PirateGirl_Hair3
+    21300034: PirateGirl_Hair4
+    21300036: PirateGirl_Hair5
+    21300038: PirateGirl_Hair6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: PirateGirl_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 22
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_W2
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 22
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_W3
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 22
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Arm1
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 8
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Arm2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 8
+        width: 4
+        height: 13
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_C0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 0
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_C1
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 20
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Normal
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Left
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Attack
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Death
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 52
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Up
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hit
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 44
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hat
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 46
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hair1
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 31
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hair2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 30
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hair3
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 29
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hair4
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 28
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hair5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 27
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PirateGirl_Hair6
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 26
+        width: 2
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
