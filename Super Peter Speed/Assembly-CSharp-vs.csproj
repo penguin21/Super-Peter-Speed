@@ -46,6 +46,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\2DVLS\Core\Light2D.cs" />
+     <Compile Include="Assets\2DVLS\Core\Light2D_EventEmitter.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\CreateLight_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\EventSample_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\FOVScript_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\HUD_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\LookAt_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\Orbit_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\RandomAimRotate_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\Rotate_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\SinMove_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\SinRotate_VLS.cs" />
+     <Compile Include="Assets\2DVLS\Samples\Scripts\StressTest_VLS.cs" />
      <Compile Include="Assets\2DWater\Scripts\C#\SpringScript.cs" />
      <Compile Include="Assets\2DWater\Scripts\C#\Water.cs" />
      <Compile Include="Assets\2DWater\Scripts\C#\WaveSimulator.cs" />
@@ -304,6 +317,8 @@
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\Temp\TempShader.shader" />
      <None Include="Assets\LiquidPhysics\Shaders\Metaballs_Multiple.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutlineHard.shader" />
+     <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Diffuse.shader" />
+     <None Include="Assets\2DVLS\READ-ME.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\HOTween_License.txt" />
@@ -319,6 +334,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
      <None Include="Assets\Shader\TestShader.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
+     <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout (2-Sided).shader" />
      <None Include="Assets\Audio\BGM\RedameMusic.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
@@ -330,6 +346,9 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
      <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\Shader\Glass.shader" />
+     <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Light.shader" />
+     <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Diffuse (2-Sided).shader" />
      <None Include="Assets\Plugins\Pixelplacement\iTween\ReadMe!\ReadMe!.txt" />
      <None Include="Assets\NGUI\Examples\Other\English.txt" />
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
@@ -347,6 +366,7 @@
      <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch.shader" />
+     <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />

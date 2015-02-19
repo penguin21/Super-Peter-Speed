@@ -1,13 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MoveWorld.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Shader\Glass.shader">
     <Files>
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="35" Column="45" />
-      <File FileName="Assets\Scripts\Player\Swimg.js" Line="44" Column="24" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="261" Column="29" />
+      <File FileName="Assets\Shader\Glass.shader" Line="40" Column="2" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\Swimg.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MainMenu\NamePlayerChange.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="48" Column="37" />
+      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="1" Column="1" />
       <File FileName="Assets\CameraMenuMove.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\MoveWorld.cs" Line="9" Column="27" />
     </Files>
