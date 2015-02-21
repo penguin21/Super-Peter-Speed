@@ -11,6 +11,20 @@ ModelImporter:
     100010: MouthUp_001
     100012: MouthUp_002
     100014: MouthUp_004
+    100016: Base
+    100018: Base2
+    100020: Body_MeshPart0
+    100022: Body_MeshPart1
+    100024: Body_MeshPart2
+    100026: Body_MeshPart3
+    100028: BodyBone
+    100030: L1
+    100032: L2
+    100034: L3
+    100036: L4
+    100038: R1
+    100040: R2
+    100042: R3
     400000: Body
     400002: //RootNode
     400004: Mouth
@@ -19,13 +33,43 @@ ModelImporter:
     400010: MouthUp_001
     400012: MouthUp_002
     400014: MouthUp_004
+    400016: Base
+    400018: Base2
+    400020: Body_MeshPart0
+    400022: Body_MeshPart1
+    400024: Body_MeshPart2
+    400026: Body_MeshPart3
+    400028: BodyBone
+    400030: L1
+    400032: L2
+    400034: L3
+    400036: L4
+    400038: R1
+    400040: R2
+    400042: R3
     2300000: Body
+    2300002: Body_MeshPart0
+    2300004: Body_MeshPart1
+    2300006: Body_MeshPart2
+    2300008: Body_MeshPart3
     3300000: Body
+    3300002: Body_MeshPart0
+    3300004: Body_MeshPart1
+    3300006: Body_MeshPart2
+    3300008: Body_MeshPart3
     4300000: Mouth
     4300002: Body
+    4300004: Body_MeshPart0
+    4300006: Body_MeshPart1
+    4300008: Body_MeshPart2
+    4300010: Body_MeshPart3
     7400000: Default Take
     9500000: //RootNode
     13700000: Mouth
+    13700002: Body_MeshPart0
+    13700004: Body_MeshPart1
+    13700006: Body_MeshPart2
+    13700008: Body_MeshPart3
   materials:
     importMaterials: 1
     materialName: 0
