@@ -1,0 +1,223 @@
+fileFormatVersion: 2
+guid: c3db3aa95ffca654aabddfda88c85406
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: DPC_1
+    21300002: DarkPeterCastle_Side
+    21300004: DarkPeterCastle_Side2
+    21300006: CDP_Side3
+    21300008: DarkPeterCastle_0
+    21300010: DarkPeterCastle_1
+    21300012: DarkPeterCastle_2
+    21300014: DarkPeterCastle_3
+    21300016: DarkPeterCastle_4
+    21300018: DarkPeterCastle_5
+    21300020: DarkPeterCastle_6
+    21300022: DarkPeterCastle_7
+    21300024: DarkPeterCastle_8
+    21300026: DarkPeterCastle_Statue1
+    21300028: DarkPeterCastle_Statue2
+    21300030: DarkPeterCastle_StatueBase
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: DPC_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_Side
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 22
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_Side2
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 22
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CDP_Side3
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 22
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 7
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 19
+        width: 2
+        height: 2
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_3
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 22
+        width: 2
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 20
+        width: 3
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 19
+        width: 3
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_7
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 13
+        width: 3
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_8
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 13
+        width: 1
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_Statue1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 37
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_Statue2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 37
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_StatueBase
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 29
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
