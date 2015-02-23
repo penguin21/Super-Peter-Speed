@@ -93,6 +93,7 @@
      <Compile Include="Assets\Scripts\AI\WindAI.js" />
      <Compile Include="Assets\Scripts\AI\ZombieAI.js" />
      <Compile Include="Assets\Scripts\CameraBounds.js" />
+     <Compile Include="Assets\Scripts\CameraSnake.js" />
      <Compile Include="Assets\Scripts\ChangeSceneToSecounds.js" />
      <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
