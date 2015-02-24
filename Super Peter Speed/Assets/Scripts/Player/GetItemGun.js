@@ -16,6 +16,7 @@ function OnCollisionEnter2D(other: Collision2D) {
 	if(other.gameObject.tag == "Player"){
 		if(ArmIsNotActive == true){
 			audio.PlayOneShot(SoundGet, 0.7);
+			other.GetComponent(PlayerAI).IsArm = true;
 			Arm.SetActive(true);
 			yield WaitForSeconds(0.5);
 			Destroy(gameObject);

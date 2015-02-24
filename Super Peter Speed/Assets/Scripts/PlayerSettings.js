@@ -7,6 +7,7 @@ var CameraObj : GameObject;
 var IsPlayerIsWarp : boolean = false;
 var PlayerOnWarpObj : GameObject;
 var SpawnWarp : Transform;
+var LevelArmIs = true;
 
 private var SpawnW : boolean = false;
 
@@ -43,6 +44,10 @@ function Update () {
 		CameraObj.GetComponent(SmoothCamera2D).enabled = true;	
 		}
 	}
+	if(LevelArmIs == false){
+		
+	}
+	
 }
 
 function Warping(){

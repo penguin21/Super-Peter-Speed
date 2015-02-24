@@ -1,17 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraSnake.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\GetItemGun.js">
     <Files>
-      <File FileName="Assets\Scripts\CameraSnake.js" Line="14" Column="77" />
-      <File FileName="Assets\Shader\Glass.shader" Line="40" Column="2" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Swimg.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\NamePlayerChange.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="1" Column="1" />
-      <File FileName="Assets\CameraMenuMove.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MoveWorld.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="78" Column="1" />
+      <File FileName="Assets\Scripts\PlayerSettings.js" Line="48" Column="3" />
+      <File FileName="Assets\Scripts\Player\GetItemGun.js" Line="19" Column="46" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

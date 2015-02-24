@@ -42,6 +42,7 @@ function Awake()
 }  
 
 function Start () {
+
 	startTime = Time.time;
 	if(IsArm == true){
 	Arm = GameObject.FindWithTag ("Arm");
@@ -73,6 +74,12 @@ function Update () {
 	
 	if(healthBarScript.healthWidth == -22){
 		IsDeath();
+	}
+	if(IsArm == true){
+		Arm.SetActive(true);
+	}
+	else{
+		Arm.SetActive(false);
 	}
 	
 	if(IsDeath1 == true){
