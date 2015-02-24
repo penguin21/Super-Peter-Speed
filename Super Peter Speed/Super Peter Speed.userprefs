@@ -1,10 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\GetItemGun.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="78" Column="1" />
+      <File FileName="Assets\Scripts\Player\GetItemGun.js" Line="21" Column="44" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="57" Column="3" />
       <File FileName="Assets\Scripts\PlayerSettings.js" Line="48" Column="3" />
-      <File FileName="Assets\Scripts\Player\GetItemGun.js" Line="19" Column="46" />
+      <File FileName="Assets\Scripts\AI\Bosses\BossAI.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\BossEvent.js" Line="45" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

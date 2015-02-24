@@ -3,9 +3,11 @@ var ArmIsNotActive : boolean = false;
 var Arm : GameObject;
 var NameSaveGun : String;
 var SoundGet : AudioClip;
+var Player : GameObject;
 
 function Start () {
-
+	yield WaitForSeconds(0.1);
+	Player = GameObject.FindWithTag("Player");
 }
 
 function Update () {
@@ -16,7 +18,7 @@ function OnCollisionEnter2D(other: Collision2D) {
 	if(other.gameObject.tag == "Player"){
 		if(ArmIsNotActive == true){
 			audio.PlayOneShot(SoundGet, 0.7);
-			other.GetComponent(PlayerAI).IsArm = true;
+			Player.GetComponent(PlayerAI).OnlyPrin();
 			Arm.SetActive(true);
 			yield WaitForSeconds(0.5);
 			Destroy(gameObject);

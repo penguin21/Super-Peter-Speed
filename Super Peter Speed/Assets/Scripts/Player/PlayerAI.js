@@ -19,6 +19,7 @@ var IsDeathing : boolean = false;
 var JumpSound : AudioClip;
 var InfectedTotal = 5;
 var IsInfected = true;
+var IsPrin = false;
 
 //Key
 var KW : int = 60;
@@ -52,6 +53,9 @@ function Start () {
 	MainCode.Score = 0;
 	healthBarScript.healthWidth = 231;
 	Respawn = GameObject.FindWithTag ("Spawn").transform;
+	if(IsPrin == true){
+		Arm.SetActive(false);
+	}
 }
 
 function Update () {
@@ -74,12 +78,6 @@ function Update () {
 	
 	if(healthBarScript.healthWidth == -22){
 		IsDeath();
-	}
-	if(IsArm == true){
-		Arm.SetActive(true);
-	}
-	else{
-		Arm.SetActive(false);
 	}
 	
 	if(IsDeath1 == true){
@@ -291,4 +289,8 @@ function Infected(){
 	if(InfectedIntents == 0){
 		IsInfected = true;
 	}
+}
+
+function OnlyPrin(){
+	Arm.SetActive(true);
 }
