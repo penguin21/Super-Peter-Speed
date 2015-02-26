@@ -4,6 +4,7 @@ var Arm : GameObject;
 var NameSaveGun : String;
 var SoundGet : AudioClip;
 var Player : GameObject;
+var DoorH : GameObject;
 
 function Start () {
 	yield WaitForSeconds(0.1);
@@ -20,6 +21,7 @@ function OnCollisionEnter2D(other: Collision2D) {
 			audio.PlayOneShot(SoundGet, 0.7);
 			Player.GetComponent(PlayerAI).OnlyPrin();
 			Arm.SetActive(true);
+			DoorH.SetActive(true);
 			yield WaitForSeconds(0.5);
 			Destroy(gameObject);
 		}
