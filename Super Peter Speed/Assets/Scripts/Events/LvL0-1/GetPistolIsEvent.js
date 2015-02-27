@@ -23,6 +23,7 @@ function Start(){
 }
 
 function DoorIsActived(){
+	GetComponent(BoxCollider2D).enabled = false;
 	DoorR.enabled = true;
 	yield WaitForSeconds(Secounds);
 	Cam.GetComponent(SmoothCamera2D).target = Player.transform;
