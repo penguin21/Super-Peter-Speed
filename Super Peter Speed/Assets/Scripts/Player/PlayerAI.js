@@ -68,6 +68,14 @@ function Update () {
 		}
 	}	
 	
+	if(anim.GetBool("Ground")){
+		JumpSoundIs = true;
+	}
+	else
+	{
+		JumpSoundIs = false;
+	}
+	
 	if(healthBarScript.healthWidth < -22){
 		healthBarScript.healthWidth = -22;
 	}
@@ -144,14 +152,14 @@ function OnTriggerEnter2D(other : Collider2D){
 
 function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Water"){
-		IsSwiming = true;
+		//IsSwiming = true;
 	}
 }
 
 
 function OnTriggerExit2D(other : Collider2D){
 	if(other.gameObject.tag == "Water"){
-		IsSwiming = false;
+		//IsSwiming = false;
 	}
 }
 
