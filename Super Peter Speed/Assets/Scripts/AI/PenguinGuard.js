@@ -18,6 +18,7 @@ var CanFire = true;
 var ShotSound : AudioClip;
 var TimeForShotPress = 0.5;
 var ButtleSize = 1.818816;
+var SoundHit : AudioClip;
 
 private var FollowingIsReady : boolean = false;
 private var distanceToTarget : float = 0.0;
@@ -104,5 +105,16 @@ function Shot(){
 		Destroy(clone, 1.0);
 		}
 		}
+	}
+}
+
+function OnCollisionEnter2D (other : Collision2D){
+	if(other.gameObject.tag == "Buttle"){
+		anim.Play("Hit");
+		anim.SetBool("Stand",false);
+		anim.SetBool("Walk",false);
+		audio.PlayOneShot(SoundHit, 0.7);
+		yield WaitForSeconds(0.1);
+		anim.SetBool("Stand",true);
 	}
 }
