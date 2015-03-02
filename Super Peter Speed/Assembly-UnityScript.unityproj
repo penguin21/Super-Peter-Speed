@@ -98,6 +98,7 @@
      <Compile Include="Assets\Scripts\ChangeSceneToSecounds.js" />
      <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
+     <Compile Include="Assets\Scripts\EditorCamera.js" />
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
      <Compile Include="Assets\Scripts\Etc\FoldersData.js" />
      <Compile Include="Assets\Scripts\Etc\InstantingTest.js" />
@@ -118,6 +119,7 @@
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerChange.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerViewer.js" />
+     <Compile Include="Assets\Scripts\MouseFollow.js" />
      <Compile Include="Assets\Scripts\Pause.js" />
      <Compile Include="Assets\Scripts\Pause\PauseCore.js" />
      <Compile Include="Assets\Scripts\Pause\PauseKey.js" />
@@ -178,6 +180,7 @@
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\HOTween_License.txt" />
+     <None Include="Assets\FreeParallax\Readme.txt" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorGUIFramework.xml" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
