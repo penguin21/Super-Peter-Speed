@@ -96,6 +96,7 @@
      <Compile Include="Assets\Scripts\CameraBounds.js" />
      <Compile Include="Assets\Scripts\CameraSnake.js" />
      <Compile Include="Assets\Scripts\ChangeSceneToSecounds.js" />
+     <Compile Include="Assets\Scripts\CreditsCamera.js" />
      <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
      <Compile Include="Assets\Scripts\EditorCamera.js" />
