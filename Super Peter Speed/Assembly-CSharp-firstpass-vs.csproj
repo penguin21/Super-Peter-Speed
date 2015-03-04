@@ -141,6 +141,7 @@
      <Compile Include="Assets\Plugins\whydoidoit.com\UnitySerializerVersion.cs" />
      <Compile Include="Assets\Plugins\whydoidoit.com\Utility\Types.cs" />
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\Standard Assets\FadeIn.cs" />
      <Compile Include="Assets\Standard Assets\Platformer2DUserControl.cs" />
      <Compile Include="Assets\Standard Assets\PlatformerCharacter2D.cs" />
      <Compile Include="Assets\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />

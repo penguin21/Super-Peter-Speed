@@ -116,6 +116,7 @@
      <Compile Include="Assets\Scripts\Expla\TestRaycast.js" />
      <Compile Include="Assets\Scripts\Expla\Web.js" />
      <Compile Include="Assets\Scripts\Expla\WhileLoop.js" />
+     <Compile Include="Assets\Scripts\Fade.js" />
      <Compile Include="Assets\Scripts\MainMenu\InputFieldName.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerChange.js" />
