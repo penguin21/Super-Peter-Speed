@@ -2,17 +2,27 @@
 using System.Collections;
 
 public class MainMenu : MonoBehaviour {
-	
+
+	public GameObject Cam;
 	private GameObject GameObjectUsed;
+	public string SceneA;
+
+	void Start(){
+
+
+	}
 
 	public void EnterToScene(string sceneChangeTo){
 		Debug.Log("Enter to scene");
-		Application.LoadLevel(sceneChangeTo);
+		Cam.GetComponent<FadeIn>().enabled = true;
+		SceneA = sceneChangeTo;
+		StartCoroutine(ChangeSceneFade());
 	}
 
 	public void Quit(){
 		Debug.Log("Good bye");
-		Application.Quit();
+		Cam.GetComponent<FadeIn>().enabled = true;
+		StartCoroutine(QuitFade());
 	}
 
 	public void ChangePanelOld(GameObject PanelOld){
@@ -34,5 +44,13 @@ public class MainMenu : MonoBehaviour {
 	public void EnabledComponentWorld(GameObject W){
 		W.GetComponent<MoveWorld>().enabled = true;
 	}
-	
+	IEnumerator QuitFade() {
+		yield return new WaitForSeconds(1.5f);
+		Application.Quit();
+	}
+	IEnumerator ChangeSceneFade() {
+		yield return new WaitForSeconds(1.5f);
+		Application.LoadLevel(SceneA);
+	}
+
 }

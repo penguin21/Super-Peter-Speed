@@ -14,14 +14,26 @@ function Awake()
 }
 
 function Update () {
+	if (Input.anyKeyDown){//To skip Credits
+    keyPressed = Input.inputString;
+    SkipCredits();
+	}
 	CameraCredits();
 }
 
-function CameraCredits(){
+function CameraCredits(){//Camera Down
 	var lerp: float = Mathf.PingPong(Time.time, duration) / duration;
 	
 	transform.Translate(Vector3(0,-SpeedCam,0) * Time.deltaTime);
 	yield WaitForSeconds(Secounds);
+	SpeedCam = 0;
+	yield WaitForSeconds(5);
+	GetComponent(FadeIn).enabled = true;
+	yield WaitForSeconds(1.5);
+	Application.LoadLevel(SceneToChange); //Change to Scene
+}
+
+function SkipCredits(){
 	GetComponent(FadeIn).enabled = true;
 	yield WaitForSeconds(1.5);
 	Application.LoadLevel(SceneToChange);
