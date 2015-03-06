@@ -7,6 +7,7 @@ var size : float = 5;
 var Col1 : Transform;
 var Col2 : Transform;
 var CollsionIs = false;
+var Ignore : LayerMask;
 
 function Update () {
 if (MainCode.pause == true ) 
@@ -50,14 +51,6 @@ transform.localScale.x = size;
 gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
 }
 
-if(Physics2D.Linecast(Col1.position, Col2.position)){
-	whatway = !whatway;
-	timer = 0;
-}
-else
-if(Physics2D.Linecast(Col1.position, Col2.position, 1 <<  LayerMask.NameToLayer("BGs"))){
-
-}
 
 RayCasting();
 Ber();
@@ -99,6 +92,11 @@ function OnCollisionEnter2D(enemyColl : Collision2D){
 
 function RayCasting(){
 	CollsionIs = Physics2D.Linecast(Col1.position, Col2.position);
+	
+	if(Physics2D.Linecast(Col1.position, Col2.position)){
+	whatway = !whatway;
+	timer = 0;
+	}
 }
 
 function Ber (){

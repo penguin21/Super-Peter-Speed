@@ -5,7 +5,8 @@ using System.IO;
 public class ScreenShot : MonoBehaviour
 {	
 	public string SC = "/Super Peter Speed/Screenshots";
-	private int count = 0;
+	public int count;
+	private System.DateTime date;
 
 	void Start() {
 
@@ -18,7 +19,7 @@ public class ScreenShot : MonoBehaviour
 	}
 	
 	IEnumerator ScreenshotEncode()
-	{
+	{	
 		// wait for graphics to render
 		yield return new WaitForEndOfFrame();
 		
