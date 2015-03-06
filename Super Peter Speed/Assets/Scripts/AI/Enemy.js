@@ -54,14 +54,18 @@ if(Physics2D.Linecast(Col1.position, Col2.position)){
 	whatway = !whatway;
 	timer = 0;
 }
+else
+if(Physics2D.Linecast(Col1.position, Col2.position, 1 <<  LayerMask.NameToLayer("BGs"))){
+
+}
+
 RayCasting();
 Ber();
 
 }
 
 
-function OnTriggerEnter2D (other : Collider2D)
-{
+function OnTriggerEnter2D (other : Collider2D){
 
 if(other.gameObject.tag == "Good_Shoot") 
 {

@@ -3,6 +3,7 @@ var LevelsFolder : String = "/Levels";
 var CustomSpritesFolder : String = "/CustomSprites";
 var LocalFolder : String = "/Super Peter Speed";
 var appdata : String;
+var Screenshots : String = "/Screenshots";
 appdata = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData)+ LocalFolder;
 
 function Awake(){
@@ -26,6 +27,12 @@ function Start () {
      //if it doesn't, create it
      Directory.CreateDirectory(appdata + CustomSpritesFolder);
      Debug.Log("Directory Custom Sprites is created on "+ appdata + CustomSpritesFolder);
+ 	}
+ 	
+ 	if(!Directory.Exists(appdata + Screenshots)){    
+     //if it doesn't, create it
+     Directory.CreateDirectory(appdata + Screenshots);
+     Debug.Log("Directory Screenshot folder is Created on " + appdata + Screenshots);
  	}
 }
 
