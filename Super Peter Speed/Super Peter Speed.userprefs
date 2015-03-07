@@ -1,9 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScreenShot.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\Bosses\GiantDarkPeter\DPBAI.js">
     <Files>
-      <File FileName="Assets\Scripts\ScreenShot.cs" Line="40" Column="11" />
-      <File FileName="Assets\Scripts\Etc\TimeSystem.js" Line="9" Column="37" />
+      <File FileName="Assets\Scripts\AI\Bosses\GiantDarkPeter\DPBAI.js" Line="11" Column="46" />
+      <File FileName="Assets\Scripts\ScreenShot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Etc\TimeSystem.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\CreditsCamera.js" Line="27" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
