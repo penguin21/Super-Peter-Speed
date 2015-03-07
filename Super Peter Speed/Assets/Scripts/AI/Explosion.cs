@@ -12,7 +12,9 @@ public class Explosion : MonoBehaviour {
 	public GameObject bomb;
 	public AudioClip BombClip;
 	public GameObject BombSoundObj;
+	public GameObject ExplosionBomb;
 	public Transform Ob;
+
 
 	bool exploded = false;
 	BoxCollider2D explosionRadiusB;
@@ -59,6 +61,7 @@ public class Explosion : MonoBehaviour {
 					Object.Destroy(this.gameObject.transform.parent.gameObject);
 				}
 				Instantiate(BombSoundObj,Ob.position,Ob.rotation);
+				Instantiate(ExplosionBomb,Ob.position,Ob.rotation);
 				explosionRadius.radius = currentRadius;
 			}
 

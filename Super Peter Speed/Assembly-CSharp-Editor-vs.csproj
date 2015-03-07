@@ -170,6 +170,7 @@
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout.shader" />
+     <None Include="Assets\True Explosions\System\Shaders\SphereVolumetricExplosion.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
@@ -180,9 +181,6 @@
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
- </Reference>
- <Reference Include="Assembly-UnityScript">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>

@@ -279,6 +279,16 @@
      <Compile Include="Assets\Synapse\Demo\World\NPC\Heat.cs" />
      <Compile Include="Assets\Synapse\Demo\World\NPC\Points.cs" />
      <Compile Include="Assets\Synapse\Demo\World\RandomSpawner.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\PseudoVolumetricExplosion.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\ExploderComponent.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\LightComponent.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\ParticleComponent.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\PseudoVolumetricComponent.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\VolumetricComponent.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\VolumetricComponent2D.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder2D.cs" />
+     <Compile Include="Assets\True Explosions\System\Scripts\exploders\SphereExploder.cs" />
      <Compile Include="Assets\UnitySerializer\Scripts\AddSomeForce.cs" />
      <Compile Include="Assets\UnitySerializer\Scripts\AdditionalData.cs" />
      <Compile Include="Assets\UnitySerializer\Scripts\AdditionalDataStorage.cs" />
@@ -371,6 +381,7 @@
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout.shader" />
+     <None Include="Assets\True Explosions\System\Shaders\SphereVolumetricExplosion.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />

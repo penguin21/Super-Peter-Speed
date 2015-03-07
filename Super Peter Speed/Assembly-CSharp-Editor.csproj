@@ -170,6 +170,7 @@
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout.shader" />
+     <None Include="Assets\True Explosions\System\Shaders\SphereVolumetricExplosion.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
@@ -225,8 +226,6 @@
       <Project>{55F85A2B-7AB8-4E71-5358-239C879ED590}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp.csproj">
       <Project>{565634AE-6AE7-1DDA-811B-5F5DA9D5E326}</Project>      <Name>Assembly-CSharp</Name>    </ProjectReference>
-    <ProjectReference Include="Assembly-UnityScript.unityproj">
-      <Project>{4BBBC119-20ED-068A-6C31-02ABE3E08535}</Project>      <Name>Assembly-UnityScript</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-CSharp-Editor-firstpass.csproj">
       <Project>{8CD2BDD4-3C3C-E71D-952E-0FA2203D0CAE}</Project>      <Name>Assembly-CSharp-Editor-firstpass</Name>    </ProjectReference>
   </ItemGroup>

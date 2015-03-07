@@ -122,6 +122,7 @@
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutline.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout.shader" />
+     <None Include="Assets\True Explosions\System\Shaders\SphereVolumetricExplosion.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />

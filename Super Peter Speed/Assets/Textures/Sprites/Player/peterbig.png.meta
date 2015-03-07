@@ -21,6 +21,8 @@ TextureImporter:
     21300032: peter_death
     21300034: peter_hit
     21300036: PeterDeath1
+    21300038: peter_Turn1
+    21300040: peter_Turn2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -239,6 +241,26 @@ TextureImporter:
         y: 88
         width: 32
         height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_Turn1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 50
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_Turn2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 50
+        width: 21
+        height: 31
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
