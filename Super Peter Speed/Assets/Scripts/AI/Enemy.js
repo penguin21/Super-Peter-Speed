@@ -8,31 +8,48 @@ var Col1 : Transform;
 var Col2 : Transform;
 var CollsionIs = false;
 var Ignore : LayerMask;
+var PlayerTarget : Transform;
+var ToActivation = false;
+var searhRange : float = 15;
+
+private var IsWalking = false;
+private var distanceToTarget : float = 0.0;
+
+function Start(){
+	yield WaitForSeconds (0.1);
+	PlayerTarget = GameObject.FindWithTag ("Player").transform;
+	ToActivation = true;
+}
 
 function Update () {
+	if(ToActivation  == true){
+	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
+	if(distanceToTarget <= searhRange){
+		IsWalking = true;
+	}
+	
 if (MainCode.pause == true ) 
 {
 return;
 }
+		if(IsWalking == true){
 
-timer += 1;
-if ( timer >= howlong ) {
-timer = 0;
+		timer += 1;
+		if ( timer >= howlong ) {
+		timer = 0;
 
-if ( whatway == true ) 
-{
-whatway = false;
-return;
-}
+		if ( whatway == true ) 
+		{
+		whatway = false;
+		return;
+	}
 
-if ( whatway == false ) 
-{
-whatway = true;
-return;
-}
-
-
-}
+		if ( whatway == false ) 
+		{
+		whatway = true;
+		return;
+		}
+	}
 
 
 
@@ -51,6 +68,8 @@ transform.localScale.x = size;
 gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
 }
 
+}
+}
 
 RayCasting();
 Ber();
