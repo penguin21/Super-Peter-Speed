@@ -8,7 +8,7 @@ var Col1 : Transform;
 var Col2 : Transform;
 var anim : Animator;
 var size = 5.0;
-
+var hitBlockSound : AudioClip;
 
 function Start () {
 
@@ -48,11 +48,13 @@ function RayCasting(){
 		if(L == true){
 			L = false;
 			R = true;
+			audio.PlayOneShot(hitBlockSound, 0.7);
 		}
 		else
 		if(R == true){
 			L = true;
 			R = false;
+			audio.PlayOneShot(hitBlockSound, 0.7);
 		}
 	}
 }
