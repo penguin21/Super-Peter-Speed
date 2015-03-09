@@ -10,6 +10,7 @@ var anim : Animator;
 var size = 5.0;
 var hitBlockSound : AudioClip;
 
+
 function Start () {
 
 }
@@ -38,12 +39,15 @@ function Update () {
 		RayCasting();
 		Ber();	
 	}
-	
+		if(IsRod == false){
+			gameObject.rigidbody2D.velocity = new Vector2 (0,0);
+			anim.SetBool("Stand", true);
+			anim.SetBool("Rod", false);
+		}
 }
 
 function RayCasting(){
 	CollsionIs = Physics2D.Linecast(Col1.position, Col2.position);
-	
 	if(Physics2D.Linecast(Col1.position, Col2.position)){
 		if(L == true){
 			L = false;
@@ -55,10 +59,20 @@ function RayCasting(){
 			L = true;
 			R = false;
 			audio.PlayOneShot(hitBlockSound, 0.7);
-		}
+			}
 	}
 }
 
 function Ber (){
 	
+}
+
+function OnCollisionEnter2D(other : Collision2D){
+	if(other.gameObject.tag == "Enemy"){
+		if(IsRod == true){
+			if(other.gameObject.GetComponent(GunIsDeathEnemy)){
+				other.gameObject.GetComponent(GunIsDeathEnemy).Death();
+			}
+		}
+	}
 }
