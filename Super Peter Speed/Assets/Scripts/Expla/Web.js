@@ -5,5 +5,5 @@ function Start () {
 	// Wait for download to complete
 	yield www;
 	// assign texture
-	renderer.material.mainTexture = www.texture;
+	GetComponent.<Renderer>().material.mainTexture = www.texture;
 }

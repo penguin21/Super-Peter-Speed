@@ -19,20 +19,20 @@ function Update () {
 	if(IsRod == true){
 		if(L == true){
 			transform.localScale.x = size;
-			gameObject.rigidbody2D.velocity = new Vector2 (speedShell,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speedShell,0);
 			anim.SetBool("Stand", false);
 			anim.SetBool("Rod", true);
 		}
 		
 		if(R == true){
 			transform.localScale.x = -size;
-			gameObject.rigidbody2D.velocity = new Vector2 (-speedShell,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speedShell,0);
 			anim.SetBool("Stand", false);
 			anim.SetBool("Rod", true);
 		}
 		
 		if(L == false && R == false){
-			gameObject.rigidbody2D.velocity = new Vector2 (0,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,0);
 			anim.SetBool("Stand", true);
 			anim.SetBool("Rod", false);
 		}
@@ -40,7 +40,7 @@ function Update () {
 		Ber();	
 	}
 		if(IsRod == false){
-			gameObject.rigidbody2D.velocity = new Vector2 (0,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,0);
 			anim.SetBool("Stand", true);
 			anim.SetBool("Rod", false);
 		}
@@ -52,13 +52,13 @@ function RayCasting(){
 		if(L == true){
 			L = false;
 			R = true;
-			audio.PlayOneShot(hitBlockSound, 0.7);
+			GetComponent.<AudioSource>().PlayOneShot(hitBlockSound, 0.7);
 		}
 		else
 		if(R == true){
 			L = true;
 			R = false;
-			audio.PlayOneShot(hitBlockSound, 0.7);
+			GetComponent.<AudioSource>().PlayOneShot(hitBlockSound, 0.7);
 			}
 	}
 }

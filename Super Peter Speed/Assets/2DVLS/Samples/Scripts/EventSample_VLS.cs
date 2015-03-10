@@ -34,9 +34,9 @@ public class EventSample_VLS : MonoBehaviour
     void Update()
     {
         if (isDetected)
-            renderer.material.color = Color.Lerp(renderer.material.color, c, Time.deltaTime * 10f);
+            GetComponent<Renderer>().material.color = Color.Lerp(GetComponent<Renderer>().material.color, c, Time.deltaTime * 10f);
         else
-            renderer.material.color = Color.Lerp(renderer.material.color, Color.black, Time.deltaTime * 5f);
+            GetComponent<Renderer>().material.color = Color.Lerp(GetComponent<Renderer>().material.color, Color.black, Time.deltaTime * 5f);
 
         isDetected = false;
     }
@@ -64,7 +64,7 @@ public class EventSample_VLS : MonoBehaviour
         {
             c -= l.LightColor;
 
-            if ((renderer.material.color.r > 0.95f) && (renderer.material.color.g > 0.95f) && (renderer.material.color.b > 0.95f))
+            if ((GetComponent<Renderer>().material.color.r > 0.95f) && (GetComponent<Renderer>().material.color.g > 0.95f) && (GetComponent<Renderer>().material.color.b > 0.95f))
             {
                 AudioSource.PlayClipAtPoint(whiteSound, transform.position, 0.5f);
                 Light2D l2d = Light2D.Create(transform.position, hitLightMaterial, new Color(.8f, .8f, 0.6f), Random.Range(3, 5f));

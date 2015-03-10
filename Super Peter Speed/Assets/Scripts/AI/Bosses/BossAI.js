@@ -50,7 +50,7 @@ function Death(){
 		gameObject.GetComponent(Animator).SetBool("Walk", false);
 		gameObject.GetComponent(Animator).SetBool("Death", true);
 		gameObject.GetComponent(BoxCollider2D).enabled = false;
-		audio.PlayOneShot(SoundDeath);
+		GetComponent.<AudioSource>().PlayOneShot(SoundDeath);
 		Deathing = true;
 		yield WaitForSeconds(5);
 		FaceDoor1.GetComponent(SpriteRenderer).sprite = FaceDoorSprite;

@@ -6,7 +6,7 @@ using System.Collections;
 public class OrthographicSetup : MonoBehaviour {
 	void Awake(){
 		Debug.LogWarning("Camera set to orthographic and it's size adjusted to closer match pixel usage (FYI this is NOT neccesary for using ScreenPlacement, you can even use a perspective camera).");
-		camera.orthographic = true;
-		camera.orthographicSize = Screen.height/2;	
+		GetComponent<Camera>().orthographic = true;
+		GetComponent<Camera>().orthographicSize = Screen.height/2;	
 	}
 }

@@ -9,7 +9,7 @@ public class GAFRenderTexture : MonoBehaviour {
 	void Start () {
 	
 		renderTexture = new RenderTexture( Screen.width, Screen.height, 16, RenderTextureFormat.ARGB32 );
-		camera.targetTexture = renderTexture;
+		GetComponent<Camera>().targetTexture = renderTexture;
 		
 	}
 	

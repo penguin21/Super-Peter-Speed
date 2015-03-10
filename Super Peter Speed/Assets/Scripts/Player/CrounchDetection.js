@@ -18,14 +18,14 @@ function Update () {
 	if(PlayerAnim.GetBool("Crouch")){
 		Player.GetComponent(BoxCollider2D).size.y = SX;
 		Player.GetComponent(BoxCollider2D).size.x = SY;
-		Player.GetComponent(BoxCollider2D).center.x = CX;
-		Player.GetComponent(BoxCollider2D).center.y = CY;
+		Player.GetComponent(BoxCollider2D).offset.x = CX;
+		Player.GetComponent(BoxCollider2D).offset.y = CY;
 	}
 	else
 	{
 		Player.GetComponent(BoxCollider2D).size.y = POY;
 		Player.GetComponent(BoxCollider2D).size.x = POX;
-		Player.GetComponent(BoxCollider2D).center.y = POSY;
-		Player.GetComponent(BoxCollider2D).center.x = POSX;
+		Player.GetComponent(BoxCollider2D).offset.y = POSY;
+		Player.GetComponent(BoxCollider2D).offset.x = POSX;
 	}
 }

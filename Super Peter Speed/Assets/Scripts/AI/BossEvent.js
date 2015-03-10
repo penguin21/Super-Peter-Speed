@@ -53,9 +53,9 @@ function Update(){
 	}
 	if(MusicIsIs == true){
 	if(MusicIs == true){
-		CameraPlayer.GetComponent(AudioSource).audio.volume = 0.37;
-		CameraPlayer.GetComponent(AudioSource).audio.clip = MusicBoss;
-		CameraPlayer.GetComponent(AudioSource).audio.Play();
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().volume = 0.37;
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().clip = MusicBoss;
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().Play();
 		}
 	}
 	
@@ -69,7 +69,7 @@ function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
 		IsEventIs = true;
 		prepare = true;
-		CameraPlayer.GetComponent(AudioSource).audio.volume = 0;
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().volume = 0;
 		Player.GetComponent(PlayerAI).Respawn = RespawnPoint;
 		gameObject.GetComponent(BoxCollider2D).enabled = false;
 	}

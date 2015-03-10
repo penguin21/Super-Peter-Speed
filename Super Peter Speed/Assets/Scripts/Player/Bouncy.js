@@ -10,7 +10,7 @@ function OnCollisionEnter2D (other : Collision2D) {
  
 function Update () {
     if(bounce) {
-Player.rigidbody2d.velocity.y = bounceAmount;    Player.rigidbody2D.AddForce(Vector2.up);
+Player.rigidbody2d.velocity.y = bounceAmount;    Player.GetComponent.<Rigidbody2D>().AddForce(Vector2.up);
 bounce = false;
     }
 }

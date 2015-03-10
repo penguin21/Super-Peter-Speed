@@ -9,6 +9,6 @@ function Update () {
 	if(Input.GetKeyDown("escape")){
 	Time.timeScale = 1.0;
 	Pause.SetActive(false);
-	MainCam.GetComponent(AudioSource).audio.Play();
+	MainCam.GetComponent(AudioSource).GetComponent.<AudioSource>().Play();
 	}
 }

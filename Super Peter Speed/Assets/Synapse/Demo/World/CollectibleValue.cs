@@ -24,7 +24,7 @@ namespace Synapse
 			public void Init()
 			{
 				m_index = Random.Range(0, m_values.Length);
-				renderer.material.color = m_values[m_index].m_color;
+				GetComponent<Renderer>().material.color = m_values[m_index].m_color;
 				
 				m_instances.Add(this);
 			}

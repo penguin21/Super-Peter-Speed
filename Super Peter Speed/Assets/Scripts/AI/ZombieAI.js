@@ -49,7 +49,7 @@ if ( whatway == true )
 {
 anim.SetBool("Walk", true);
 transform.localScale.x = -size;
-gameObject.rigidbody2D.velocity = new Vector2 (-speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,0);
 }
 
 //Left
@@ -57,7 +57,7 @@ if ( whatway == false )
 {
 anim.SetBool("Walk", true);
 transform.localScale.x = size;
-gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
 	}
 }
 if(IsWalk == false){

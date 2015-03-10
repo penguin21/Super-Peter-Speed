@@ -61,9 +61,9 @@ function Start () {
 function Update () {
 	if(JumpSoundIs == true){
 	if(Input.GetButtonDown("Jump")){
-		 if(!audio.isPlaying){
+		 if(!GetComponent.<AudioSource>().isPlaying){
      
-             audio.PlayOneShot(JumpSound, 0.7);
+             GetComponent.<AudioSource>().PlayOneShot(JumpSound, 0.7);
              }
 		}
 	}	
@@ -128,8 +128,8 @@ function Update () {
 		if(IsSwiming == false){
 			PlayerObj.GetComponent(PlatformerCharacter2D).enabled = true;
 			PlayerObj.GetComponent(Swimg).IsSwimg = false;
-			PlayerObj.rigidbody2D.gravityScale = 3;
-			PlayerObj.rigidbody2D.drag = 0.42;
+			PlayerObj.GetComponent.<Rigidbody2D>().gravityScale = 3;
+			PlayerObj.GetComponent.<Rigidbody2D>().drag = 0.42;
 		}
 	}
 }
@@ -137,8 +137,8 @@ function Update () {
 function OnTriggerEnter2D(other : Collider2D){
 	if(other.gameObject.tag == "Point"){
 		MainCode.Score += 10;
-		audio.clip = PointSoundEffect;
-		audio.Play();
+		GetComponent.<AudioSource>().clip = PointSoundEffect;
+		GetComponent.<AudioSource>().Play();
 		Destroy(other.gameObject); //Get a point
 	}
 	
@@ -172,8 +172,8 @@ function OnCollisionEnter2D(other : Collision2D){
 		
 		if(other.gameObject.tag == "Health Potion"){
 		healthBarScript.healthWidth += 12;
-		audio.clip = HealthPotionSound;
-		audio.Play();
+		GetComponent.<AudioSource>().clip = HealthPotionSound;
+		GetComponent.<AudioSource>().Play();
 		if(MainCode.Heart >= MainCode.MaxHeart){
 			}
 		Destroy(other.gameObject);
@@ -182,26 +182,26 @@ function OnCollisionEnter2D(other : Collision2D){
 		if(other.gameObject.tag == "Poision Potion"){
 		healthBarScript.healthWidth -= 12;
 		Destroy(other.gameObject);
-		audio.clip = PoisionSound;
-		audio.Play();
+		GetComponent.<AudioSource>().clip = PoisionSound;
+		GetComponent.<AudioSource>().Play();
 		}
 		
 		if(other.gameObject.tag == "Key"){
 		MainCode.Key += 1;
-		audio.PlayOneShot(KeySoundEffect);
+		GetComponent.<AudioSource>().PlayOneShot(KeySoundEffect);
 		Destroy(other.gameObject);
 		}
 		
 		if(other.gameObject.tag == "Enemy"){
 		healthBarScript.healthWidth -= 20;
 		anim.Play("Hit");
-		audio.PlayOneShot(HurtPlayerSound);
+		GetComponent.<AudioSource>().PlayOneShot(HurtPlayerSound);
 		}
 		if(IsInfected == true){
 		if(other.gameObject.tag == "InfectedEnemy"){
 		healthBarScript.healthWidth -= 20;
 		anim.Play("Hit");
-		audio.PlayOneShot(HurtPlayerSound);
+		GetComponent.<AudioSource>().PlayOneShot(HurtPlayerSound);
 		InfectedIntents = InfectedTotal;
 		IsInfected = false;
 		other.transform.tag = "Enemy";
@@ -280,7 +280,7 @@ function IsDeath(){
 
 function IsHit(){
 		anim.Play("Hit");
-		audio.PlayOneShot(HurtPlayerSound);
+		GetComponent.<AudioSource>().PlayOneShot(HurtPlayerSound);
 		yield WaitForSeconds(0.5);
 		anim.SetFloat("Speed", 0.0);
 }
@@ -290,7 +290,7 @@ function Infected(){
 	while(InfectedIntents > 0){
 		yield WaitForSeconds(4);
 		healthBarScript.healthWidth -= 5;
-		audio.PlayOneShot(HurtPlayerSound);
+		GetComponent.<AudioSource>().PlayOneShot(HurtPlayerSound);
 		InfectedIntents--;
 		}
 	}

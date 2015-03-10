@@ -49,8 +49,8 @@ public class VideoTexture_Lite : MonoBehaviour
 		
 	// Zeros camera range - effectively blackens the screen
 	
-		camera.farClipPlane = 0;
-		camera.nearClipPlane = 0;
+		GetComponent<Camera>().farClipPlane = 0;
+		GetComponent<Camera>().nearClipPlane = 0;
 	}
 	
 	void Start ()
@@ -59,7 +59,7 @@ public class VideoTexture_Lite : MonoBehaviour
 		
 		if (audioAttached)
 		{
-			myAudio.attachedAudioSource = audio;
+			myAudio.attachedAudioSource = GetComponent<AudioSource>();
 			myAudio.fps = FPS;
 			myAudio.frameIndex = firstFrame;
 		}

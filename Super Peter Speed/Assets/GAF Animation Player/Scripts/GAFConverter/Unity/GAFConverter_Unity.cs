@@ -438,12 +438,12 @@ public class GAFConverterUnity : GAFConverter {
 		mf.mesh = mesh;
 		
 		//Material stuff
-		tmpobj.renderer.sharedMaterial = mSharedMaterials[el.AtlasId - 1];
-		tmpobj.renderer.sharedMaterial.color = new Color(1f, 1f, 1f, 1f);
-		tmpobj.renderer.sharedMaterial.mainTexture = a.AtlasTexture;
+		tmpobj.GetComponent<Renderer>().sharedMaterial = mSharedMaterials[el.AtlasId - 1];
+		tmpobj.GetComponent<Renderer>().sharedMaterial.color = new Color(1f, 1f, 1f, 1f);
+		tmpobj.GetComponent<Renderer>().sharedMaterial.mainTexture = a.AtlasTexture;
 	
-		tmpobj.renderer.castShadows = false;
-		tmpobj.renderer.receiveShadows = false;
+		tmpobj.GetComponent<Renderer>().castShadows = false;
+		tmpobj.GetComponent<Renderer>().receiveShadows = false;
 		
 		
 		//Attach to parent
@@ -533,7 +533,7 @@ public class GAFConverterUnity : GAFConverter {
 				mh.a = 1f;
 				mh.d = 1f;
 				
-				go.renderer.enabled = false;
+				go.GetComponent<Renderer>().enabled = false;
 				
 				// For PRO realisation
 				/*

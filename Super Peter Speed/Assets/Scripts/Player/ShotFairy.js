@@ -83,7 +83,7 @@ var myPos = Camera.main.WorldToScreenPoint(transform.position);
 var dir = myPos - Input.mousePosition;
 clone = Instantiate(bullet, Spawn.transform.position, Spawn.transform.rotation);
 clone.AddForce(Vector2.right * speed);
-        audio.Play();
+        GetComponent.<AudioSource>().Play();
         CanFire = false;
         yield WaitForSeconds (FireRate);
         CanFire = true;
@@ -98,7 +98,7 @@ clone.AddForce(Vector2.right * -speed);
         if(ButtleIsSize == true){
         clone.transform.localScale.x = -ButtleSize;
         }
-        audio.Play();
+        GetComponent.<AudioSource>().Play();
         Destroy(clone, 1.0);
         CanFire = false;
         yield WaitForSeconds (FireRate);
@@ -110,7 +110,7 @@ clone.AddForce(Vector2.right * -speed);
       if(facingU == true && CanFire == true) { //Shot Up
 clone = Instantiate(bullet, Spawn.transform.position, Spawn.transform.rotation);
 clone.AddForce(Vector2.up * speed);
-        audio.Play();
+        GetComponent.<AudioSource>().Play();
         Destroy(clone, 1.0);
         CanFire = false;
         yield WaitForSeconds (FireRate);
@@ -121,7 +121,7 @@ clone.AddForce(Vector2.up * speed);
           if(facingD == true && CanFire == true) { //Shot Down
 clone = Instantiate(bullet, Spawn.transform.position, Spawn.transform.rotation);
 clone.AddForce(Vector2.up * -speed);
-        audio.Play();
+        GetComponent.<AudioSource>().Play();
         Destroy(clone, 1.0);
         CanFire = false;
         yield WaitForSeconds (FireRate);

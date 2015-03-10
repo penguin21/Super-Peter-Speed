@@ -12,7 +12,7 @@ function Start(){
 
 function StartExplosion (){
 	var lerp : float = Mathf.PingPong (Time.time, DurationColor) / DurationColor;
-			TNT.renderer.material.color = Color.Lerp (ExplosionWaitingColor, ExplosionWaitingColor2 , lerp);
+			TNT.GetComponent.<Renderer>().material.color = Color.Lerp (ExplosionWaitingColor, ExplosionWaitingColor2 , lerp);
 			yield WaitForSeconds (waitingForExplosionTime);
 			Instantiate(ExplosionObject, SpawnExplosion.transform.position, SpawnExplosion.transform.rotation);
 			Destroy(TNT);

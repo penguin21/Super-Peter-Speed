@@ -15,7 +15,7 @@ public class FOVScript_VLS : MonoBehaviour
         Light2D.RegisterEventListener(LightEventListenerType.OnExit, OnLightExit);
 
         // Keep the initial object color [For Visualization]
-        kColor = gameObject.renderer.material.color;
+        kColor = gameObject.GetComponent<Renderer>().material.color;
     }
 
     void OnDisable()
@@ -38,7 +38,7 @@ public class FOVScript_VLS : MonoBehaviour
             Debug.Log("Object Entered Light");
 
             // Change color [For Visualization]
-            gameObject.renderer.material.color = Color.blue;
+            gameObject.GetComponent<Renderer>().material.color = Color.blue;
         }
     }
 
@@ -53,7 +53,7 @@ public class FOVScript_VLS : MonoBehaviour
             Debug.Log("Object Inside Light");
 
             // Change color [For Visualization]
-            gameObject.renderer.material.color = Color.Lerp(gameObject.renderer.material.color, Color.red, Time.deltaTime * 0.5f);
+            gameObject.GetComponent<Renderer>().material.color = Color.Lerp(gameObject.GetComponent<Renderer>().material.color, Color.red, Time.deltaTime * 0.5f);
         }
     }
 
@@ -68,7 +68,7 @@ public class FOVScript_VLS : MonoBehaviour
             Debug.Log("Object Exited Light");
 
             // Change color [For Visualization]
-            gameObject.renderer.material.color = kColor;
+            gameObject.GetComponent<Renderer>().material.color = kColor;
         }
     }
 }

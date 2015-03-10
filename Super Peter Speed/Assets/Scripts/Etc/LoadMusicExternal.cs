@@ -22,9 +22,9 @@ public class LoadMusicExternal : MonoBehaviour {
 		
 		yield return m_get;
 		
-		GetComponent<AudioSource>().audio.clip = m_get.audioClip;
+		GetComponent<AudioSource>().GetComponent<AudioSource>().clip = m_get.audioClip;
 		
-		audio.Play();
+		GetComponent<AudioSource>().Play();
 		
 	}
 }

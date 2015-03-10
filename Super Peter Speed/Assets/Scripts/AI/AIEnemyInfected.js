@@ -7,7 +7,7 @@ var durationForDesinfectTotal : float = 1.05;
 private var b = false;
 
 function Start () {
-	renderer.material.color = colorInfected;
+	GetComponent.<Renderer>().material.color = colorInfected;
 }
 
 function Update () {
@@ -20,11 +20,11 @@ function Update () {
 function Colorul(){
 	var lerp : float = Mathf.PingPong (Time.time, durationForDesinfect) / durationForDesinfect;
 	if(b == false){
-	renderer.material.color = Color.Lerp (colorInfected, colorDesinfected, lerp);
+	GetComponent.<Renderer>().material.color = Color.Lerp (colorInfected, colorDesinfected, lerp);
 	yield WaitForSeconds(durationForDesinfectTotal);
 	b = true;
 	}
 	if(b == true){
-	renderer.material.color = colorDesinfected;
+	GetComponent.<Renderer>().material.color = colorDesinfected;
 	}
 }

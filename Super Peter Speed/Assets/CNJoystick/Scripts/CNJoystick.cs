@@ -83,7 +83,7 @@ public class CNJoystick : MonoBehaviour
     // Use this for initialization
     void Awake()
     {
-        CurrentCamera = transform.parent.camera;
+        CurrentCamera = transform.parent.GetComponent<Camera>();
 
         transformCache = transform;
         joystickBase = transformCache.FindChild("Base").gameObject;
@@ -254,7 +254,7 @@ public class CNJoystick : MonoBehaviour
         }
         transformCache.localPosition = snapPosition;
 
-        SpriteRenderer joystickBaseSpriteRenderer = joystickBase.renderer as SpriteRenderer;
+        SpriteRenderer joystickBaseSpriteRenderer = joystickBase.GetComponent<Renderer>() as SpriteRenderer;
         joystickBaseRadius = joystickBaseSpriteRenderer.bounds.extents.x;
 
         /** OBSOLETE CODE USED FOR PERSPECTIVE CAMERAS 

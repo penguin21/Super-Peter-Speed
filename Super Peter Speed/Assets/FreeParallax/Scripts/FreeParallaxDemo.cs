@@ -8,7 +8,7 @@ public class FreeParallaxDemo : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		cloud.rigidbody2D.velocity = new Vector2(0.1f, 0.0f);
+		cloud.GetComponent<Rigidbody2D>().velocity = new Vector2(0.1f, 0.0f);
 	}
 	
 	// Update is called once per frame

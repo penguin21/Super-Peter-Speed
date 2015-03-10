@@ -111,7 +111,7 @@ public class Light2DEditor : Editor
     void OnSceneGUI()
     {
         Light2D l = (Light2D)target;
-        EditorUtility.SetSelectedWireframeHidden(l.renderer, !l.EDITOR_SHOW_MESH);
+        EditorUtility.SetSelectedWireframeHidden(l.GetComponent<Renderer>(), !l.EDITOR_SHOW_MESH);
         Tools.current = Tool.None;
         Event e = Event.current;
 

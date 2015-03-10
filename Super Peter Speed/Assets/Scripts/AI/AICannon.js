@@ -63,7 +63,7 @@ function Shot(){
 	if(chaseIs == true && CanFire == true){
 		clone = Instantiate(Buttle, currentShotSpawn.transform.position, currentShotSpawn.transform.rotation);
 		clone.AddForce(Vector2.right * speed);
-		audio.PlayOneShot(ShotSound, 0.7);
+		GetComponent.<AudioSource>().PlayOneShot(ShotSound, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -74,7 +74,7 @@ function Shot(){
 	if(chaseIs == true && CanFire == true){
 		clone = Instantiate(Buttle, currentShotSpawn.transform.position, currentShotSpawn.transform.rotation);
 		clone.AddForce(Vector2.right * -speed);
-		audio.PlayOneShot(ShotSound, 0.7);
+		GetComponent.<AudioSource>().PlayOneShot(ShotSound, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;

@@ -298,7 +298,7 @@ public class GAFConverterToolUnity : EditorWindow {
 	private void SetupCamera()
 	{
 		Camera cam;
-		if ( Camera.mainCamera == null )
+		if ( Camera.main == null )
 		{
 			GameObject camGo = new GameObject("Main Camera");	
 			camGo.tag = "MainCamera";
@@ -306,11 +306,11 @@ public class GAFConverterToolUnity : EditorWindow {
 		}
 		else
 		{
-			cam = Camera.mainCamera;
+			cam = Camera.main;
 		}
 		
 		cam.transform.position = new Vector3( mScreenResolution.x / 2f, -mScreenResolution.y / 2, -1000f );
-		cam.isOrthoGraphic = true;
+		cam.orthographic = true;
 		cam.orthographicSize = mScreenResolution.y / 2;
 		
 		cam.clearFlags = CameraClearFlags.Color;

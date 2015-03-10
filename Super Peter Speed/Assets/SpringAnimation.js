@@ -4,7 +4,7 @@ var waitForStopAnimation : float = 0.124;
 var SoundSpring : AudioClip;
 
 function OnCollisionEnter2D (other : Collision2D){
-	audio.PlayOneShot(SoundSpring, 0.7);
+	GetComponent.<AudioSource>().PlayOneShot(SoundSpring, 0.7);
 	anim.SetBool("Normal",false);
 	anim.SetBool("IsJump",true);
 }

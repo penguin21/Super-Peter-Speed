@@ -147,7 +147,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 						
 			mCurrentGameObject = t.gameObject;
 		
-			mCurrentGameObject.renderer.enabled = false;
+			mCurrentGameObject.GetComponent<Renderer>().enabled = false;
 							
 			mBlurGos.Add( mCurrentGameObject, new List<GameObject>() );
 		}
@@ -283,7 +283,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 			mtx.m11 = mh.d;
 							
 			//
-			mCurrentGameObject.renderer.material.SetTexture("_MaskMap", mh.maskTexture );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetTexture("_MaskMap", mh.maskTexture );
 								
 			float screenAscpect = (float) Screen.width / Screen.height;
 		
@@ -324,7 +324,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 		
 			Matrix4x4 move = Matrix4x4.TRS(new Vector3( moveX, moveY, 0f), Quaternion.identity, Vector3.one );													
 		
-			mCurrentGameObject.renderer.material.SetMatrix("_Matrix0",  piv * scale * rotGO * mtx * scaleBack * screenScale * move );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetMatrix("_Matrix0",  piv * scale * rotGO * mtx * scaleBack * screenScale * move );
 			//mCurrentGameObject.renderer.material.SetMatrix("_Matrix0",  piv * scale * mtx * screenScale * move );			
 			
 		}
@@ -397,13 +397,13 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 			
 		if ( alpha == 0 ) 
 		{
-			mCurrentGameObject.renderer.enabled = false;		
+			mCurrentGameObject.GetComponent<Renderer>().enabled = false;		
 			return; // if we not see object we dont apply alpha
 		}
 		else
 		{
-			mCurrentGameObject.renderer.enabled = true;
-			mCurrentGameObject.renderer.material.SetFloat("_Alpha", alpha  );
+			mCurrentGameObject.GetComponent<Renderer>().enabled = true;
+			mCurrentGameObject.GetComponent<Renderer>().material.SetFloat("_Alpha", alpha  );
 			
 //			if ( alpha == 1 )
 //			{
@@ -431,7 +431,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 				List<Material> mats = new List<Material>();
 				for( int i=0; i < GAFConstants.cBlurIterations * GAFConstants.cPerRadiusBlurIterations; i++ )
 				{
-					mats.Add( new Material( mCurrentGameObject.renderer.material ));
+					mats.Add( new Material( mCurrentGameObject.GetComponent<Renderer>().material ));
 				}
 				mBlurMats.Add ( mCurrentGameObject, mats );
 			}
@@ -447,7 +447,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 						GameObject go = GameObject.Instantiate( mCurrentGameObject ) as GameObject;
 						go.name = mCurrentGameObject.name + "_blur_" + r.ToString();
 						go.transform.parent = mCurrentGameObject.transform.parent;
-						go.renderer.sharedMaterial = mBlurMats[mCurrentGameObject][r];
+						go.GetComponent<Renderer>().sharedMaterial = mBlurMats[mCurrentGameObject][r];
 						go.transform.localScale = mCurrentGameObject.transform.localScale;
 						
 						// Add it to list
@@ -467,7 +467,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 						mCurrentGameObject.transform.localPosition + new Vector3( mCurrentState.HorizontalBlur * (  (float) ( r + 1 ) / ( GAFConstants.cBlurIterations ) ) * Mathf.Cos( i * piStep ) , 
 																				  mCurrentState.VerticalBlur * (  (float) ( r + 1 ) / ( GAFConstants.cBlurIterations ) ) * Mathf.Sin( i * piStep ), 0f );
 					
-					mBlurGos[mCurrentGameObject][r * GAFConstants.cPerRadiusBlurIterations + i].renderer.enabled = true;
+					mBlurGos[mCurrentGameObject][r * GAFConstants.cPerRadiusBlurIterations + i].GetComponent<Renderer>().enabled = true;
 				}
 			
 				float currenAlpha = mCurrentState.Alpha;
@@ -477,14 +477,14 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 			}
 			
 			//mCurrentGameObject.renderer.material.SetFloat("_Alpha", (currenAlpha /  ( GAFConstants.cBlurIterations / 2f + 1f) ));
-			mCurrentGameObject.renderer.material.SetFloat("_Alpha", 0f );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetFloat("_Alpha", 0f );
 		}
 		else
 		{
 			
 			for( int i=0;i<mBlurGos[mCurrentGameObject].Count;i++)
 			{
-				mBlurGos[mCurrentGameObject][i].renderer.enabled = false;
+				mBlurGos[mCurrentGameObject][i].GetComponent<Renderer>().enabled = false;
 			}
 					
 		}
@@ -501,13 +501,13 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 			Color cMult = mCurrentState.ColorTansformaitonMtx.Multipliers;
 			Color cOffset = mCurrentState.ColorTansformaitonMtx.Offsets;
 			
-			mCurrentGameObject.renderer.material.SetColor("_ColorMult", cMult );
-			mCurrentGameObject.renderer.material.SetColor("_ColorShift", cOffset );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetColor("_ColorMult", cMult );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetColor("_ColorShift", cOffset );
 		}
 		else
 		{
-			mCurrentGameObject.renderer.material.SetColor("_ColorMult", Color.white );
-			mCurrentGameObject.renderer.material.SetColor("_ColorShift", new Color( 0, 0, 0, 0) );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetColor("_ColorMult", Color.white );
+			mCurrentGameObject.GetComponent<Renderer>().material.SetColor("_ColorShift", new Color( 0, 0, 0, 0) );
 		}
 	}
 	#endregion
@@ -617,12 +617,12 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 				// Not hide objects in editor mode
 				if ( Application.isPlaying )
 				{
-					t.renderer.enabled = false;
+					t.GetComponent<Renderer>().enabled = false;
 				}
 				
-				t.renderer.sharedMaterial.SetTexture("_MaskMap", null );
-				t.renderer.sharedMaterial.SetColor("_ColorMult", Color.white );
-				t.renderer.sharedMaterial.SetColor("_ColorShift", new Color( 0, 0, 0, 0) );
+				t.GetComponent<Renderer>().sharedMaterial.SetTexture("_MaskMap", null );
+				t.GetComponent<Renderer>().sharedMaterial.SetColor("_ColorMult", Color.white );
+				t.GetComponent<Renderer>().sharedMaterial.SetColor("_ColorShift", new Color( 0, 0, 0, 0) );
 			}
 		}	
 	}
@@ -653,7 +653,7 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 		//Set to default state
 		foreach( Transform t in transform )
 		{
-			t.renderer.enabled = false;	
+			t.GetComponent<Renderer>().enabled = false;	
 		}
 		
 		for ( int i=fromFrame;i<toFrame;i++)
@@ -777,12 +777,12 @@ public class GAFAnimationPlayerBase : MonoBehaviour {
 			
 		if ( alpha == 0 ) 
 		{
-			go.renderer.enabled = false;		
+			go.GetComponent<Renderer>().enabled = false;		
 			return; // if we not see object we dont apply alpha
 		}
 		else
 		{
-			go.renderer.enabled = true;
+			go.GetComponent<Renderer>().enabled = true;
 			//In fact we dont apply alpha for perfomance reason and generated materials
 		}
 			

@@ -176,7 +176,7 @@ public class GAFConverterUnityEditor : GAFConverterUnity {
 				mm.a = 1f;
 				mm.d = 1f;
 					
-				go.renderer.enabled = false;
+				go.GetComponent<Renderer>().enabled = false;
 				
 				/*
 				// PRO version realisation with render to texture
@@ -260,7 +260,7 @@ public class GAFConverterUnityEditor : GAFConverterUnity {
 		//Set to default state
 		foreach( Transform t in mGo.transform )
 		{
-			t.renderer.enabled = false;	
+			t.GetComponent<Renderer>().enabled = false;	
 		}
 		
 		for ( int i=fromFrame;i<toFrame;i++)
@@ -364,12 +364,12 @@ public class GAFConverterUnityEditor : GAFConverterUnity {
 			
 		if ( alpha == 0 ) 
 		{
-			go.renderer.enabled = false;		
+			go.GetComponent<Renderer>().enabled = false;		
 			return; // if we not see object we dont apply alpha
 		}
 		else
 		{
-			go.renderer.enabled = true;
+			go.GetComponent<Renderer>().enabled = true;
 			//In fact we dont apply alpha for perfomance reason
 		}
 			

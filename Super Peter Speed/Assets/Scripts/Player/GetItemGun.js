@@ -18,7 +18,7 @@ function Update () {
 function OnCollisionEnter2D(other: Collision2D) {
 	if(other.gameObject.tag == "Player"){
 		if(ArmIsNotActive == true){
-			audio.PlayOneShot(SoundGet, 0.7);
+			GetComponent.<AudioSource>().PlayOneShot(SoundGet, 0.7);
 			Player.GetComponent(PlayerAI).OnlyPrin();
 			Arm.SetActive(true);
 			DoorH.SetActive(true);
@@ -26,7 +26,7 @@ function OnCollisionEnter2D(other: Collision2D) {
 			Destroy(gameObject);
 		}
 		if(ArmIsNotActive == false){
-			audio.PlayOneShot(SoundGet, 0.7);
+			GetComponent.<AudioSource>().PlayOneShot(SoundGet, 0.7);
 			GunItem.SetActive(true);
 			yield WaitForSeconds(0.5);
 			Destroy(gameObject);

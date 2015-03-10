@@ -70,13 +70,13 @@ public class Explosion : MonoBehaviour {
 
 	void OnTriggerEnter2D(Collider2D col){
 		if(exploded == true){
-			if(col.gameObject.rigidbody2D !=null){
+			if(col.gameObject.GetComponent<Rigidbody2D>() !=null){
 				Vector2 target = col.gameObject.transform.position;
 				Vector2 bomb = gameObject.transform.position;
 
 				Vector2 direction = 140f * (target - bomb);
 
-				col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / 2f, direction.y * 10));
+				col.gameObject.GetComponent<Rigidbody2D>().AddForce(new Vector2 (direction.x / 2f, direction.y * 10));
 
 			}
 		}

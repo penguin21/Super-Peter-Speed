@@ -17,9 +17,9 @@ function OnTriggerStay2D (other : Collider2D){
 			var r3 : Vector3 = Camera.main.WorldToScreenPoint(transform.position);
 			
 		
-			TNT.renderer.material.color = Color.Lerp (ExplosionWaitingColor, ExplosionWaitingColor2 , lerp);
+			TNT.GetComponent.<Renderer>().material.color = Color.Lerp (ExplosionWaitingColor, ExplosionWaitingColor2 , lerp);
 			yield WaitForSeconds (waitingForExplosionTime);
-			audio.PlayOneShot(ExplosionSound , 0.7);
+			GetComponent.<AudioSource>().PlayOneShot(ExplosionSound , 0.7);
 			Instantiate(ExplosionObject, SpawnExplosion.transform.position, SpawnExplosion.transform.rotation);
 			Destroy(TNT);
 			yield WaitForSeconds (0.5);

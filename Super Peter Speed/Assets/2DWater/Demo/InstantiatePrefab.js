@@ -6,7 +6,7 @@ function Update () {
 	if(Input.GetMouseButtonDown(0)){
 		var mousex = Input.mousePosition.x;
 		var mousey = Input.mousePosition.y;
-		var ray = camera.main.ScreenPointToRay (Vector3(mousex,mousey,0));
+		var ray = GetComponent.<Camera>().main.ScreenPointToRay (Vector3(mousex,mousey,0));
 		var crate = Instantiate(prefab, Vector3(ray.origin.x,ray.origin.y,0), Quaternion.identity);
 		KillObject(crate);
 	}

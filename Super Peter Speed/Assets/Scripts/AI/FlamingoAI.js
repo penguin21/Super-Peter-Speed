@@ -76,7 +76,7 @@ anim.SetBool("Stand",false);
 anim.SetBool("Walking",true);
 anim.SetBool("Flying",false);
 transform.localScale.x = -size;
-gameObject.rigidbody2D.velocity = new Vector2 (-speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,0);
 }
 
 //Left
@@ -86,7 +86,7 @@ anim.SetBool("Stand",false);
 anim.SetBool("Walking",true);
 anim.SetBool("Flying",false);
 transform.localScale.x = size;
-gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
 			}
 		}
 	}
@@ -100,7 +100,7 @@ function FlyStart(){
 		anim.SetBool("Walking",false);
 		anim.SetBool("Flying",true);
 		transform.localScale.x = -size;
-		gameObject.rigidbody2D.velocity = new Vector2 (-SpeedFly,SpeedUpFly);
+		gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-SpeedFly,SpeedUpFly);
 		yield WaitForSeconds (1);
 		IsWalking = true;
 	}
@@ -112,7 +112,7 @@ function FlyStart(){
 		anim.SetBool("Walking",false);
 		anim.SetBool("Flying",true);
 		transform.localScale.x = size;
-		gameObject.rigidbody2D.velocity = new Vector2 (SpeedFly,SpeedUpFly);
+		gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (SpeedFly,SpeedUpFly);
 		yield WaitForSeconds (1);
 		IsWalking = true;
 		}

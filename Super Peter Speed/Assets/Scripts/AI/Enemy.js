@@ -58,14 +58,14 @@ return;
 if ( whatway == true ) 
 {
 transform.localScale.x = -size;
-gameObject.rigidbody2D.velocity = new Vector2 (-speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,0);
 }
 
 //Left
 if ( whatway == false ) 
 {
 transform.localScale.x = size;
-gameObject.rigidbody2D.velocity = new Vector2 (speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
 }
 
 }
@@ -100,11 +100,11 @@ if(other.gameObject.tag == "Obtascule"){
 
 function OnCollisionEnter2D(enemyColl : Collision2D){
 	if(enemyColl.gameObject.tag == "Obtascule"){
-		whatway = false;
+		whatway = !whatway;
 		timer = 0;
 	}
 	if(enemyColl.gameObject.tag == "Obtascule2"){
-		whatway = true;
+		whatway = !whatway;
 		timer = 0;
 	}
 }

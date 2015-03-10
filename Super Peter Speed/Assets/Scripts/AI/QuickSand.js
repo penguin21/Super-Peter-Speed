@@ -19,20 +19,20 @@ function Update () {
 }
 
 function OnTriggerStay2D(col : Collider2D){
-	if(col.gameObject.rigidbody2D !=null){
+	if(col.gameObject.GetComponent.<Rigidbody2D>() !=null){
 		//var target : Vector2 = col.gameObject.transform.position;
 		//var sand : Vector2 = gameObject.transform.position;
 		
 		//var direction : Vector2 = SandSpeed * (target + sand);
 		
 		//col.gameObject.rigidbody2D.AddForce(new Vector2 (direction.x / 0, direction.y * intensityForSand));
-		col.rigidbody2D.AddForce(Vector2.up * GravityForSand);
-		col.rigidbody2D.AddForce(Vector2.up * GravityForSandUp);
+		col.GetComponent.<Rigidbody2D>().AddForce(Vector2.up * GravityForSand);
+		col.GetComponent.<Rigidbody2D>().AddForce(Vector2.up * GravityForSandUp);
 	}
 }
 
 function OnTriggerExit2D(col : Collider2D){
-	if(col.gameObject.rigidbody2D !=null){
+	if(col.gameObject.GetComponent.<Rigidbody2D>() !=null){
 		//col.rigidbody2D.gravityScale = 1;
 	}
 }

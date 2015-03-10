@@ -11,12 +11,12 @@ function OnCollisionEnter2D (other : Collision2D){
 
 function Death(){
 		MainCode.Score += 100;
-		audio.PlayOneShot(EnemyStompSound);
-		EnemyObj.rigidbody2D.gravityScale = 1;
+		GetComponent.<AudioSource>().PlayOneShot(EnemyStompSound);
+		EnemyObj.GetComponent.<Rigidbody2D>().gravityScale = 1;
 		EnemyObj.GetComponent(Enemy).enabled = false;
 		EnemyObj.GetComponent(BoxCollider2D).enabled = false;
 		EnemyStompObj.GetComponent(BoxCollider2D).enabled = false;
-		rigidbody2D.fixedAngle = false;
+		GetComponent.<Rigidbody2D>().fixedAngle = false;
 		yield WaitForSeconds (2);
 		Destroy(EnemyObj);
 }

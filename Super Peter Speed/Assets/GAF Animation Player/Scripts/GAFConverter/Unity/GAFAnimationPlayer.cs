@@ -18,9 +18,9 @@ public class GAFAnimationPlayer : GAFAnimationPlayerBase {
 			int count = 0;
 			foreach( Transform t in transform )
 			{
-				if ( t.gameObject.renderer != null )
+				if ( t.gameObject.GetComponent<Renderer>() != null )
 				{
-					if ( t.gameObject.renderer.enabled )
+					if ( t.gameObject.GetComponent<Renderer>().enabled )
 					{
 						count++;
 					}

@@ -46,7 +46,7 @@ function Shot(){
 	if(canFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
 		clone.transform.rotation = gameObject.transform.rotation;
-		audio.PlayOneShot(ShotSound, 0.7);
+		GetComponent.<AudioSource>().PlayOneShot(ShotSound, 0.7);
 		canFire = false;
 		yield WaitForSeconds (0.2);
 		canFire = true;

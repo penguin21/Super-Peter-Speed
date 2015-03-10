@@ -19,7 +19,7 @@
 	<DebugType>full</DebugType>
 	<Optimize>false</Optimize>
 	<OutputPath>Temp\bin\Debug\</OutputPath>
-	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<DefineConstants>DEBUG;TRACE;UNITY_5_0_0;UNITY_5_0;UNITY_5;ENABLE_LICENSE_RENAME;ENABLE_NEW_BUGREPORTER;ENABLE_2D_PHYSICS;ENABLE_4_6_FEATURES;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_NEW_HIERARCHY;ENABLE_PHYSICS;ENABLE_PHYSICS_PHYSX3;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_AUDIOMIXER_SUSPEND;ENABLE_NONPRO;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_32;UNITY_EDITOR_WIN</DefineConstants>
 	<ErrorReport>prompt</ErrorReport>
 	<WarningLevel>4</WarningLevel>
 	<NoWarn>0169</NoWarn>
@@ -289,31 +289,6 @@
      <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder.cs" />
      <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder2D.cs" />
      <Compile Include="Assets\True Explosions\System\Scripts\exploders\SphereExploder.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\AddSomeForce.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\AdditionalData.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\AdditionalDataStorage.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\ArrayOfPrefabs.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\CentreAndPointMe.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\ChangeColor.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\ColorMe.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\CreateChildSphere.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\CreateTexture.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\DeleteComponent.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\DeletedComponent.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\IsDeserializing.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\KeepAReference.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\OpenDoor.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\RenameObject.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\SaveAndLoad.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\SaveAndLoadToServer.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\SaveAndReload.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\ScaleObject.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\SwitchMesh.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\TestCoroutines.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\TestJSON.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\TestLoading.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\TestSerialization.cs" />
-     <Compile Include="Assets\UnitySerializer\Scripts\VariablesToSave.cs" />
      <Compile Include="Assets\_Scripts\VideoTexture_Lite.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
@@ -354,7 +329,6 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
      <None Include="Assets\JMO Assets\!JMO Assets Readme.txt" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimLight.shader" />
-     <None Include="Assets\Plugins\whydoidoit.com\license.txt" />
      <None Include="Assets\Shader\DD.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
@@ -388,10 +362,9 @@
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
      <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
-     <None Include="Assets\UnitySerializer\readme.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/HOTween.dll</HintPath>

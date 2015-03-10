@@ -387,7 +387,7 @@ public class Light2D : MonoBehaviour
             objs._3DColliders = Physics.OverlapSphere(DiectionalLightPivotPoint + transform.position, directionalLightSphereSize, shadowLayer);
 
             #if !(UNITY_2_6 || UNITY_2_6_1 || UNITY_3_0 || UNITY_3_0_0 || UNITY_3_1 || UNITY_3_2 || UNITY_3_3 || UNITY_3_4 || UNITY_3_5 || UNITY_4_0 || UNITY_4_0_1 || UNITY_4_1 || UNITY_4_2)
-            objs._2DColliders = Physics2D.OverlapAreaAll(transform.position - renderer.bounds.extents, transform.position + renderer.bounds.extents, shadowLayer); //transform.TransformPoint(DiectionalLightPivotPoint + transform.position + new Vector3(-beamSize, beamRange, 0)), transform.InverseTransformPoint(DiectionalLightPivotPoint + new Vector3(beamSize, -beamRange, 0)), shadowLayer);
+            objs._2DColliders = Physics2D.OverlapAreaAll(transform.position - GetComponent<Renderer>().bounds.extents, transform.position + GetComponent<Renderer>().bounds.extents, shadowLayer); //transform.TransformPoint(DiectionalLightPivotPoint + transform.position + new Vector3(-beamSize, beamRange, 0)), transform.InverseTransformPoint(DiectionalLightPivotPoint + new Vector3(beamSize, -beamRange, 0)), shadowLayer);
             #endif
         }
 

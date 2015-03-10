@@ -21,8 +21,8 @@ function Shot () {
 	
 	if(EAI.whatway == true && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.rigidbody2D.AddForce(Vector2.right * -speed);
-		audio.PlayOneShot(SoundShot, 0.7);
+		clone.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * -speed);
+		GetComponent.<AudioSource>().PlayOneShot(SoundShot, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -31,9 +31,9 @@ function Shot () {
 	
 	if(EAI.whatway == false && CanFire == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.rigidbody2D.AddForce(Vector2.right * speed);
+		clone.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * speed);
 		CanFire = false;
-		audio.PlayOneShot(SoundShot, 0.7);
+		GetComponent.<AudioSource>().PlayOneShot(SoundShot, 0.7);
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
 		Destroy(clone, 1.0);

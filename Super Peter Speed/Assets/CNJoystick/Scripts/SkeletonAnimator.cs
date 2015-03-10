@@ -42,13 +42,13 @@ public class SkeletonAnimator : MonoBehaviour
         {
             if (sqrMag >= 0.3f)
             {
-                animation[WALK].speed = charController.velocity.magnitude / RUN_SPEED_MULTIPLIER;
-                animation.CrossFade(RUN);
+                GetComponent<Animation>()[WALK].speed = charController.velocity.magnitude / RUN_SPEED_MULTIPLIER;
+                GetComponent<Animation>().CrossFade(RUN);
             }
             else
             {
-                animation[WALK].speed = charController.velocity.magnitude / WALK_SPEED_MULTIPLIER;
-                animation.CrossFade(WALK);
+                GetComponent<Animation>()[WALK].speed = charController.velocity.magnitude / WALK_SPEED_MULTIPLIER;
+                GetComponent<Animation>().CrossFade(WALK);
             }
 
         }
@@ -56,6 +56,6 @@ public class SkeletonAnimator : MonoBehaviour
 
     void StoppedMoving()
     {
-        animation.CrossFade(IDLE);
+        GetComponent<Animation>().CrossFade(IDLE);
     }
 }

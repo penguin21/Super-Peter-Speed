@@ -29,21 +29,21 @@ public class DynamicParticle : MonoBehaviour {
 		if(newState!=currentState){ //Only change to a different state
 			currentState=newState;
 			startTime=Time.time;//Reset the life of the particle on a state change
-			rigidbody2D.velocity=new Vector2();	// Reset the particle velocity	
+			GetComponent<Rigidbody2D>().velocity=new Vector2();	// Reset the particle velocity	
 			switch(newState){
 				case STATES.WATER:
 					particleImage.color=waterColor;// Set the color for the metaball shader to know how to draw each particle
-					rigidbody2D.gravityScale=1.0f; // To simulate Water density
+					GetComponent<Rigidbody2D>().gravityScale=1.0f; // To simulate Water density
 				break;
 				case STATES.GAS:
 					particleImage.color=gasColor;										
 					particleLifeTime=particleLifeTime/2.0f;	// Gas lives the time the other particles
-					rigidbody2D.gravityScale=0.0f;// To simulate Gas density
+					GetComponent<Rigidbody2D>().gravityScale=0.0f;// To simulate Gas density
 					gameObject.layer=LayerMask.NameToLayer("Gas");// To have a different collision layer than the other particles (so gas doesnt rises up the lava but still collides with the wolrd)
 				break;					
 				case STATES.LAVA:
 					particleImage.color=lavaColor;															
-					rigidbody2D.gravityScale=0.3f; // To simulate the lava density
+					GetComponent<Rigidbody2D>().gravityScale=0.3f; // To simulate the lava density
 				break;	
 				case STATES.NONE:
 					Destroy(gameObject);
@@ -63,8 +63,8 @@ public class DynamicParticle : MonoBehaviour {
 				ScaleDown();
 			break;
 			case STATES.GAS:
-				if(rigidbody2D.velocity.y<50){ //Limits the speed in Y to avoid reaching mach 7 in speed
-					rigidbody2D.AddForce (new Vector2(0,GAS_FLOATABILITY)); // Gas always goes upwards
+				if(GetComponent<Rigidbody2D>().velocity.y<50){ //Limits the speed in Y to avoid reaching mach 7 in speed
+					GetComponent<Rigidbody2D>().AddForce (new Vector2(0,GAS_FLOATABILITY)); // Gas always goes upwards
 				}
 				ScaleDown();
 			break;
@@ -74,8 +74,8 @@ public class DynamicParticle : MonoBehaviour {
 	// This scales the particle image acording to its velocity, so it looks like its deformable... but its not ;)
 	void MovementAnimation(){
 		Vector3 movementScale=new Vector3(1.0f,1.0f,1.0f);//Tamaño de textura no de metaball			
-		movementScale.x+=Mathf.Abs(rigidbody2D.velocity.x)/30.0f;
-		movementScale.z+=Mathf.Abs(rigidbody2D.velocity.y)/30.0f;
+		movementScale.x+=Mathf.Abs(GetComponent<Rigidbody2D>().velocity.x)/30.0f;
+		movementScale.z+=Mathf.Abs(GetComponent<Rigidbody2D>().velocity.y)/30.0f;
 		movementScale.y=1.0f;		
 		particleImage.gameObject.transform.localScale=movementScale;
 	}

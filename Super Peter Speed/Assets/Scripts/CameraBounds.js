@@ -8,7 +8,7 @@
      
      
      function Start() {
-         var vertExtent = Camera.main.camera.orthographicSize;    
+         var vertExtent = Camera.main.GetComponent.<Camera>().orthographicSize;    
          var horzExtent = Camera.main.ortiographicSize * Screen.width / Screen.height;
  
          // Calculations assume map is position at the origin

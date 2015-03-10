@@ -1,7 +1,7 @@
 ﻿var text : GUIText;
 
 function OnGUI(){
-	guiText.text = "Score:" + MainCode.Score;
+	GetComponent.<GUIText>().text = "Score:" + MainCode.Score;
 }
 
 function Update(){

@@ -35,7 +35,7 @@ function FixedUpdate () {
 
 //Create a splash effect by calling Splash() function in the "Water" script.
 function OnTriggerEnter(other: Collider) {
-	Water.Splash(other.collider.rigidbody.velocity.y,ID,other.transform);
+	Water.Splash(other.GetComponent.<Collider>().GetComponent.<Rigidbody>().velocity.y,ID,other.transform);
 	//Here you can access the script on the "other" object and call a specific function
 	//var ScripName: ScriptName;
 	//ScriptName = other.transform.GetComponent("ScriptName") as ScriptName;

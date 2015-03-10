@@ -86,9 +86,9 @@ function Shot(){
 		if(CanFire == true){
 		if(L == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.rigidbody2D.AddForce(Vector2.right * ButtleSpeed);
+		clone.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * ButtleSpeed);
 		clone.transform.localScale.x = -ButtleSize;
-		audio.PlayOneShot(ShotSound, 0.7);
+		GetComponent.<AudioSource>().PlayOneShot(ShotSound, 0.7);
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
 		CanFire = true;
@@ -96,8 +96,8 @@ function Shot(){
 		}
 		if(R == true){
 		clone = Instantiate(Buttle, ShotSpawn.transform.position, ShotSpawn.transform.rotation);
-		clone.rigidbody2D.AddForce(Vector2.right * -ButtleSpeed);
-		audio.PlayOneShot(ShotSound, 0.7);
+		clone.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * -ButtleSpeed);
+		GetComponent.<AudioSource>().PlayOneShot(ShotSound, 0.7);
 		clone.transform.localScale.x = ButtleSize;
 		CanFire = false;
 		yield WaitForSeconds (TimeForShotPress);
@@ -113,7 +113,7 @@ function OnCollisionEnter2D (other : Collision2D){
 		anim.Play("Hit");
 		anim.SetBool("Stand",false);
 		anim.SetBool("Walk",false);
-		audio.PlayOneShot(SoundHit, 0.7);
+		GetComponent.<AudioSource>().PlayOneShot(SoundHit, 0.7);
 		yield WaitForSeconds(0.1);
 		anim.SetBool("Stand",true);
 	}

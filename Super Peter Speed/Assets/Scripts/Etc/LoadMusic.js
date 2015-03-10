@@ -24,7 +24,7 @@ private var audioSource : AudioSource;
      Directory.CreateDirectory(appdata + Mu);
  	}
      // Set an AudioSource to this object
-     audioSource = audio;
+     audioSource = GetComponent.<AudioSource>();
      if(audioSource == null)
          audioSource = gameObject.AddComponent(AudioSource);
      
