@@ -280,15 +280,6 @@
      <Compile Include="Assets\Synapse\Demo\World\NPC\Points.cs" />
      <Compile Include="Assets\Synapse\Demo\World\RandomSpawner.cs" />
      <Compile Include="Assets\True Explosions\System\Scripts\effects\PseudoVolumetricExplosion.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\ExploderComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\LightComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\ParticleComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\PseudoVolumetricComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\VolumetricComponent.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\effects\exploderComponents\VolumetricComponent2D.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\exploders\Exploder2D.cs" />
-     <Compile Include="Assets\True Explosions\System\Scripts\exploders\SphereExploder.cs" />
      <Compile Include="Assets\_Scripts\VideoTexture_Lite.cs" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Fireman\Fireman.txt" />
