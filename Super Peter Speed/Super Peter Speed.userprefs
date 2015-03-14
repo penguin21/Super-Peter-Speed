@@ -1,7 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Audio\BGM\RedameMusic.txt">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UnlockChapter.js">
     <Files>
+      <File FileName="Assets\UnlockChapter.js" Line="1" Column="1" />
       <File FileName="Assets\Audio\BGM\RedameMusic.txt" Line="18" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
     </Files>
