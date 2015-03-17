@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\Filter.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FlowJump.js">
     <Files>
-      <File FileName="Assets\Scripts\Etc\TextureScale.js" Line="126" Column="2" />
-      <File FileName="Assets\UnlockChapter.js" Line="1" Column="1" />
-      <File FileName="Assets\Audio\BGM\RedameMusic.txt" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Etc\Filter.cs" Line="5" Column="2" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="15" Column="31" />
+      <File FileName="Assets\Scripts\AI\FlowJump.js" Line="93" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

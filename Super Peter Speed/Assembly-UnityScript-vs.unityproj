@@ -86,6 +86,7 @@
      <Compile Include="Assets\Scripts\AI\EnemyStompAIChaseZombie.js" />
      <Compile Include="Assets\Scripts\AI\FallPlatform.js" />
      <Compile Include="Assets\Scripts\AI\FlamingoAI.js" />
+     <Compile Include="Assets\Scripts\AI\FlowJump.js" />
      <Compile Include="Assets\Scripts\AI\FlowShellToS.js" />
      <Compile Include="Assets\Scripts\AI\NPCFriendLook.js" />
      <Compile Include="Assets\Scripts\AI\ObjFloatingOnWater.js" />
