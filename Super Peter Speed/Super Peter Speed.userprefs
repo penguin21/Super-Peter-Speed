@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\UnlockChapter.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\Filter.cs">
     <Files>
+      <File FileName="Assets\Scripts\Etc\TextureScale.js" Line="126" Column="2" />
       <File FileName="Assets\UnlockChapter.js" Line="1" Column="1" />
-      <File FileName="Assets\Audio\BGM\RedameMusic.txt" Line="18" Column="1" />
+      <File FileName="Assets\Audio\BGM\RedameMusic.txt" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Etc\Filter.cs" Line="5" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
