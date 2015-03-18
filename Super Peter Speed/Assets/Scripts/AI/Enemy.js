@@ -11,6 +11,7 @@ var Ignore : LayerMask;
 var PlayerTarget : Transform;
 var ToActivation = false;
 var searhRange : float = 15;
+var IsTimer = false;
 
 private var IsWalking = false;
 private var distanceToTarget : float = 0.0;
@@ -33,7 +34,7 @@ if (MainCode.pause == true )
 return;
 }
 		if(IsWalking == true){
-
+	if(IsTimer == true){
 		timer += 1;
 		if ( timer >= howlong ) {
 		timer = 0;
@@ -50,6 +51,7 @@ return;
 		return;
 		}
 	}
+}
 
 
 

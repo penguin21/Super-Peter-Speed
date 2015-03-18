@@ -11,8 +11,9 @@ var Ignore : LayerMask;
 var PlayerTarget : Transform;
 var ToActivation = false;
 var searhRange : float = 15;
-var JumpSpeed = 4;
+var IsTimer = false;
 
+private var IsJump = false;
 private var IsWalking = false;
 private var distanceToTarget : float = 0.0;
 
@@ -27,6 +28,7 @@ function Update () {
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 	if(distanceToTarget <= searhRange){
 		IsWalking = true;
+		IsJump = true;
 	}
 	
 if (MainCode.pause == true ) 
@@ -34,7 +36,7 @@ if (MainCode.pause == true )
 return;
 }
 		if(IsWalking == true){
-
+	if(IsTimer == true){
 		timer += 1;
 		if ( timer >= howlong ) {
 		timer = 0;
@@ -51,6 +53,7 @@ return;
 		return;
 		}
 	}
+}
 
 
 
@@ -59,14 +62,14 @@ return;
 if ( whatway == true ) 
 {
 transform.localScale.x = -size;
-gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,0);
+gameObject.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * -speed);
 }
 
 //Left
 if ( whatway == false ) 
 {
 transform.localScale.x = size;
-gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
+gameObject.GetComponent.<Rigidbody2D>().AddForce(Vector2.right * speed);;
 }
 
 }
@@ -107,6 +110,15 @@ function OnCollisionEnter2D(enemyColl : Collision2D){
 	if(enemyColl.gameObject.tag == "Obtascule2"){
 		whatway = !whatway;
 		timer = 0;
+	}
+	if(IsJump == true){
+	gameObject.GetComponent(Animator).SetBool("Jump", true);
+	}
+}
+function OnCollisionExit2D(enemyColl : Collision2D){
+	if(IsJump == true){
+	yield WaitForSeconds(0.2);
+	gameObject.GetComponent(Animator).SetBool("Jump", false);
 	}
 }
 
