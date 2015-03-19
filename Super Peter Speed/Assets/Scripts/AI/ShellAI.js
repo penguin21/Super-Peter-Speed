@@ -12,10 +12,13 @@ var hitBlockSound : AudioClip;
 var IsUp = false;
 var TimeToUp = 2.0;
 var TimeToUpPrep = 5.0;
+var flowShell : GameObject;
+var flowShellSpawn : Transform;
 
+var H = true;
 
 function Start () {
-
+	
 }
 
 function Update () {
@@ -25,6 +28,7 @@ function Update () {
 			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speedShell,0);
 			anim.SetBool("Stand", false);
 			anim.SetBool("Rod", true);
+			H = false;
 		}
 		
 		if(R == true){
@@ -32,13 +36,16 @@ function Update () {
 			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speedShell,0);
 			anim.SetBool("Stand", false);
 			anim.SetBool("Rod", true);
+			H = false;
 		}
 		
 		if(L == false && R == false){
 			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,0);
 			anim.SetBool("Stand", true);
 			anim.SetBool("Rod", false);
+			H = true;
 		}
+		
 		RayCasting();
 		Ber();	
 	}
@@ -48,7 +55,9 @@ function Update () {
 			anim.SetBool("Rod", false);
 		}
 		if(IsUp == true){
+			if(H == true){
 			ShellUp();
+			}
 		}
 }
 
@@ -85,8 +94,13 @@ function OnCollisionEnter2D(other : Collision2D){
 
 function ShellUp(){
 	if(IsUp == true){
+	if(H == true){
 		yield WaitForSeconds(TimeToUpPrep);
 		GetComponent(Animator).SetBool("ShellUp", true);
 		yield WaitForSeconds(TimeToUp);
+		Instantiate(flowShell, flowShellSpawn.transform.position, flowShellSpawn.transform.rotation);
+		H = false;
+		Destroy(gameObject);
+		}
 	}
 }
