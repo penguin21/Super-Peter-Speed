@@ -1,14 +1,14 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FlowJumpDeath.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\ShellAI.js">
     <Files>
       <File FileName="Assets\Scripts\AI\FlowJumpDeath.js" Line="16" Column="12" />
       <File FileName="Assets\Scripts\AI\FlowJump.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\ObjFloatingOnWater.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\ZombieAI.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Player\GunIsDeathEnemy.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\EnemyStomp.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\ShellAI.js" Line="90" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

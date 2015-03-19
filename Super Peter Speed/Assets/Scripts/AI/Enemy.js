@@ -90,11 +90,11 @@ Destroy(gameObject);
 }
 
 if(other.gameObject.tag == "Obtascule"){
-		whatway = false;
+		whatway = !whatway;
 		timer = 0;
 	}
 	if(other.gameObject.tag == "Obtascule2"){
-		whatway = true;
+		whatway = !whatway;
 		timer = 0;
 	}
 

@@ -9,6 +9,9 @@ var Col2 : Transform;
 var anim : Animator;
 var size = 5.0;
 var hitBlockSound : AudioClip;
+var IsUp = false;
+var TimeToUp = 2.0;
+var TimeToUpPrep = 5.0;
 
 
 function Start () {
@@ -44,6 +47,9 @@ function Update () {
 			anim.SetBool("Stand", true);
 			anim.SetBool("Rod", false);
 		}
+		if(IsUp == true){
+			ShellUp();
+		}
 }
 
 function RayCasting(){
@@ -74,5 +80,13 @@ function OnCollisionEnter2D(other : Collision2D){
 				other.gameObject.GetComponent(GunIsDeathEnemy).Death();
 			}
 		}
+	}
+}
+
+function ShellUp(){
+	if(IsUp == true){
+		yield WaitForSeconds(TimeToUpPrep);
+		GetComponent(Animator).SetBool("ShellUp", true);
+		yield WaitForSeconds(TimeToUp);
 	}
 }
