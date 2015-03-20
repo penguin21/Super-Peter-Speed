@@ -117,6 +117,7 @@ function RayCasting(){
 	if(Physics2D.Linecast(Col1.position, Col2.position)){
 	whatway = !whatway;
 	timer = 0;
+	return;
 	}
 }
 
