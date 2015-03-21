@@ -19,17 +19,23 @@ var ShotSound : AudioClip;
 var TimeForShotPress = 0.5;
 var ButtleSize = 1.818816;
 var SoundHit : AudioClip;
+var Lifes = 5;
+var Arm : GameObject;
 
+private var IsDeath = false;
+private var lifesU = 1;
 private var FollowingIsReady : boolean = false;
 private var distanceToTarget : float = 0.0;
 
 function Start(){
+	lifesU = Lifes;
 	yield WaitForSeconds (0.1);
 	PlayerTarget = GameObject.FindWithTag ("Player").transform;
 	IsFollowing = true;
 }
 
 function Update(){
+if(IsDeath == false){
 	if(IsFollowing == true){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 	if(distanceToTarget <= searhRange){
@@ -60,8 +66,13 @@ function Update(){
 		
 	}
 }
+	if(lifesU < 0){
+		Death();
+	}
+}
 
 function ChasePlayer(){
+if(IsDeath == false){
 if(Walk == true){
 	if(transform.position.x <= PlayerTarget.position.x){
 		yield WaitForSeconds (SecoundsForChange);
@@ -79,9 +90,11 @@ if(Walk == true){
 		R = true;
 	}
 	}
+	}
 }
 
 function Shot(){
+	if(IsDeath == false){
 	if(Shotting == true){
 		if(CanFire == true){
 		if(L == true){
@@ -106,15 +119,32 @@ function Shot(){
 		}
 		}
 	}
+	}
 }
 
 function OnCollisionEnter2D (other : Collision2D){
+	if(IsDeath == false){
 	if(other.gameObject.tag == "Buttle"){
 		anim.Play("Hit");
 		anim.SetBool("Stand",false);
 		anim.SetBool("Walk",false);
 		GetComponent.<AudioSource>().PlayOneShot(SoundHit, 0.7);
+		lifesU -= 1; 
 		yield WaitForSeconds(0.1);
 		anim.SetBool("Stand",true);
+		
 	}
+	}
+}
+
+function Death(){
+	IsDeath = true;
+	Arm.SetActive(false);
+	anim.SetBool("Death", true);
+	anim.SetBool("Walk", false);
+	anim.SetBool("Stand", false);
+	anim.SetBool("Hit", false);
+	yield WaitForSeconds(2);
+	MainCode.Score += 200;
+	Destroy(gameObject);
 }

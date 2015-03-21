@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: c5e91c40d40b3b545bbc8f9901929602
+timeCreated: 1426940885
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: PenguinGuard
@@ -17,6 +19,7 @@ TextureImporter:
     21300024: PenguinGuard_Jump
     21300026: PenguinGuard_Fall
     21300028: PenguinGuard_Arm
+    21300030: PenguinGuard_0
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -35,6 +38,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
@@ -45,6 +51,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -198,5 +205,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PenguinGuard_0
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 88
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 17}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

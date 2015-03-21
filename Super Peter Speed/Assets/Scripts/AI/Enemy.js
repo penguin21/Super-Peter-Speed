@@ -13,16 +13,19 @@ var ToActivation = false;
 var searhRange : float = 15;
 var IsTimer = false;
 
+
 private var IsWalking = false;
 private var distanceToTarget : float = 0.0;
 
 function Start(){
 	yield WaitForSeconds (0.1);
 	PlayerTarget = GameObject.FindWithTag ("Player").transform;
+	
 	ToActivation = true;
 }
 
 function Update () {
+	
 	if(ToActivation  == true){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 	if(distanceToTarget <= searhRange){
@@ -75,7 +78,6 @@ gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
 
 RayCasting();
 Ber();
-
 }
 
 
