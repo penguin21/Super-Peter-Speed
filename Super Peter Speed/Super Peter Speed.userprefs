@@ -1,14 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\InstantingTest.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\IconLoading.js">
     <Files>
-      <File FileName="Assets\Scripts\Etc\InstantingTest.js" Line="15" Column="5" />
-      <File FileName="Assets\Scripts\MouseFollow.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\PenguinGuard.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\FlowJump.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\Shot.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\FlowJumpDeath.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ChangeSceneToSecounds.js" Line="16" Column="31" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="8" Column="9" />
+      <File FileName="Assets\Scripts\IconLoading.js" Line="8" Column="47" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

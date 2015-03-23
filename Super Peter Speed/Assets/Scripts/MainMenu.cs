@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour {
 
 	public GameObject Cam;
 	private GameObject GameObjectUsed;
-	public string SceneA;
+	private string SceneA;
 
 	void Start(){
 
