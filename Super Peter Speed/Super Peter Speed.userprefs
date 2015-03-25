@@ -1,10 +1,13 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\IconLoading.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\WinEvent.js">
     <Files>
-      <File FileName="Assets\Scripts\ChangeSceneToSecounds.js" Line="16" Column="31" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="8" Column="9" />
-      <File FileName="Assets\Scripts\IconLoading.js" Line="8" Column="47" />
+      <File FileName="Assets\Scripts\Etc\WinEvent.js" Line="21" Column="12" />
+      <File FileName="Assets\Standard Assets\PlatformerCharacter2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ChangeSceneToSecounds.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\IconLoading.js" Line="1" Column="1" />
+      <File FileName="Assets\Standard Assets\Platformer2DUserControl.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

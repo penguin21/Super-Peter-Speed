@@ -1,10 +1,14 @@
 fileFormatVersion: 2
 guid: 71c3b504e9d291e4ba29e7e4a51bea97
+timeCreated: 1427295986
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: ExitLevel_H
     21300002: ExitLevel_Base
     21300004: ExitLevel_Sing
+    21300006: ExitLevel_P1
+    21300008: ExitLevel_P2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -23,6 +27,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
@@ -33,6 +40,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -76,5 +84,27 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ExitLevel_P1
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 126
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ExitLevel_P2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 126
+        width: 4
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 

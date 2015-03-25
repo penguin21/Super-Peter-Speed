@@ -118,6 +118,7 @@
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
      <Compile Include="Assets\Scripts\Etc\ToBoxSpawn.js" />
      <Compile Include="Assets\Scripts\Etc\Waiypoint.js" />
+     <Compile Include="Assets\Scripts\Etc\WinEvent.js" />
      <Compile Include="Assets\Scripts\Events\LvL0-1\GetPistolIsEvent.js" />
      <Compile Include="Assets\Scripts\Expla\ForLoop.js" />
      <Compile Include="Assets\Scripts\Expla\Servers.js" />
