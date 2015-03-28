@@ -1,13 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\WinEvent.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\SoundController.js">
     <Files>
-      <File FileName="Assets\Scripts\Etc\WinEvent.js" Line="17" Column="16" />
-      <File FileName="Assets\Standard Assets\PlatformerCharacter2D.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\ChangeSceneToSecounds.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\IconLoading.js" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Platformer2DUserControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu\SoundOptions.js" Line="9" Column="56" />
+      <File FileName="Assets\Scripts\Etc\SoundController.js" Line="8" Column="75" />
+      <File FileName="Assets\Scripts\Etc\BGMController.js" Line="4" Column="1" />
+      <File FileName="Assets\Scripts\MainMenu\SFX.cs" Line="37" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

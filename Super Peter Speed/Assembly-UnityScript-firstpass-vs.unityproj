@@ -88,6 +88,7 @@
      <None Include="Assets\JMO Assets\Toony Gooch\!ToonyGooch Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
      <None Include="Assets\Shader\TestShader.shader" />
+     <None Include="Assets\Shader\GlitchShader.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout (2-Sided).shader" />
      <None Include="Assets\Audio\BGM\RedameMusic.txt" />

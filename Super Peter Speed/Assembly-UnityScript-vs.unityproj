@@ -107,6 +107,7 @@
      <Compile Include="Assets\Scripts\DoorTransform.js" />
      <Compile Include="Assets\Scripts\DoorTransformLevel.js" />
      <Compile Include="Assets\Scripts\EditorCamera.js" />
+     <Compile Include="Assets\Scripts\Etc\BGMController.js" />
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
      <Compile Include="Assets\Scripts\Etc\FoldersData.js" />
      <Compile Include="Assets\Scripts\Etc\InstantingTest.js" />
@@ -114,6 +115,7 @@
      <Compile Include="Assets\Scripts\Etc\LoadMusic.js" />
      <Compile Include="Assets\Scripts\Etc\MoveScript.js" />
      <Compile Include="Assets\Scripts\Etc\PeterPrison.js" />
+     <Compile Include="Assets\Scripts\Etc\SoundController.js" />
      <Compile Include="Assets\Scripts\Etc\TextureScale.js" />
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
      <Compile Include="Assets\Scripts\Etc\ToBoxSpawn.js" />
@@ -131,6 +133,7 @@
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerChange.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerViewer.js" />
+     <Compile Include="Assets\Scripts\MainMenu\SoundOptions.js" />
      <Compile Include="Assets\Scripts\MouseFollow.js" />
      <Compile Include="Assets\Scripts\Pause.js" />
      <Compile Include="Assets\Scripts\Pause\PauseCore.js" />
@@ -200,6 +203,7 @@
      <None Include="Assets\JMO Assets\Toony Gooch\!ToonyGooch Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
      <None Include="Assets\Shader\TestShader.shader" />
+     <None Include="Assets\Shader\GlitchShader.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout (2-Sided).shader" />
      <None Include="Assets\Audio\BGM\RedameMusic.txt" />
