@@ -35,6 +35,17 @@ if(pauseGame == true){
 		if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/2.17, 165, 30), "Resume")) {
 	        pauseGame = false;
 	        //Resume the Game
-	    	 }
+	    }
+	    
+	    if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/1.8, 165, 30), "Return to Main Menu")) {
+	        Time.timeScale = 1;
+	        Application.LoadLevel("MainMenu");
+	        //Return to Main Menu
+	   	 }
+	   	 
+	   	  if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/1.6, 165, 30), "Quit Game")) {
+	        Application.Quit();
+	        //Quit the Game
+	   	 }
 	 }
 }

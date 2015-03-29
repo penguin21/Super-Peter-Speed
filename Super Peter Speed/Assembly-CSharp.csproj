@@ -252,6 +252,7 @@
      <Compile Include="Assets\Scripts\MainMenu\GTButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\GTInputManager.cs" />
      <Compile Include="Assets\Scripts\MainMenu\MainMenuChangePanel.cs" />
+     <Compile Include="Assets\Scripts\MainMenu\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\MainMenu\QuitToMenu.cs" />
      <Compile Include="Assets\Scripts\MainMenu\RestartButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\ResumeButton.cs" />
