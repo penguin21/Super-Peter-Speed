@@ -99,6 +99,15 @@
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\HOTweenComponent.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\HOTweenManager.cs" />
      <Compile Include="Assets\JMO Assets\Toony Gooch\Demo\AutoRotateObject.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanLanguageNameAttribute.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanLocalization.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanLocalizedBehaviour.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanLocalizedImage.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanLocalizedSpriteRenderer.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanLocalizedText.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanPhrase.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanPhraseNameAttribute.cs" />
+     <Compile Include="Assets\LeanLocalization\Scripts\LeanTranslation.cs" />
      <Compile Include="Assets\LiquidPhysics\Scripts\DynamicParticle.cs" />
      <Compile Include="Assets\LiquidPhysics\Scripts\ParticleGenerator.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
@@ -340,6 +349,7 @@
      <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
+     <None Include="Assets\Shader\GlitchCameraEffect.shader" />
      <None Include="Assets\Shader\GG.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimAlpha.shader" />

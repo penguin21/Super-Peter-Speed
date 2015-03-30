@@ -59,6 +59,7 @@
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenComponentInspector.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenEditor.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Editor\HOTweenManagerInspector.cs" />
+     <Compile Include="Assets\LeanLocalization\Editor\LeanLocalization_Editor.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvDatabaseInspector.cs" />
      <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Editor\InvFindItem.cs" />
      <Compile Include="Assets\NGUI\Scripts\Editor\BMFontReader.cs" />
@@ -161,6 +162,7 @@
      <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
+     <None Include="Assets\Shader\GlitchCameraEffect.shader" />
      <None Include="Assets\Shader\GG.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimAlpha.shader" />

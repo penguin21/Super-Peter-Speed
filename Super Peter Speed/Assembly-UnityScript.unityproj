@@ -114,6 +114,7 @@
      <Compile Include="Assets\Scripts\Etc\LoadImage.js" />
      <Compile Include="Assets\Scripts\Etc\LoadMusic.js" />
      <Compile Include="Assets\Scripts\Etc\MoveScript.js" />
+     <Compile Include="Assets\Scripts\Etc\NewUILang.js" />
      <Compile Include="Assets\Scripts\Etc\PeterPrison.js" />
      <Compile Include="Assets\Scripts\Etc\SoundController.js" />
      <Compile Include="Assets\Scripts\Etc\TextureScale.js" />
@@ -228,6 +229,7 @@
      <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
+     <None Include="Assets\Shader\GlitchCameraEffect.shader" />
      <None Include="Assets\Shader\GG.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimAlpha.shader" />

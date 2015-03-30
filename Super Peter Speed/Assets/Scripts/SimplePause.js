@@ -32,9 +32,16 @@ function Update()
 function OnGUI() {
 if(pauseGame == true){
 		GUI.Box(Rect(Screen.width/2 - 60, Screen.height/2.3, 200, 230),"Pause Menu");
+		if(Application.systemLanguage.English){
 		if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/2.17, 165, 30), "Resume")) {
 	        pauseGame = false;
 	        //Resume the Game
+	    }
+	    }else if(Application.systemLanguage.Spanish){
+	    if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/2.17, 165, 30), "Continuar")) {
+	        pauseGame = false;
+	        //Resume the Game
+	    }
 	    }
 	    
 	    if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/1.8, 165, 30), "Return to Main Menu")) {

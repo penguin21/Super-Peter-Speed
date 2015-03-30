@@ -1,14 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SimplePause.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeanLocalization\Scripts\LeanLocalization.cs">
     <Files>
-      <File FileName="Assets\Scripts\SimplePause.js" Line="46" Column="93" />
-      <File FileName="Assets\Scripts\MainMenu\SoundOptions.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Etc\SoundController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Etc\BGMController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\SFX.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\MainMenu\PauseMenu.cs" Line="18" Column="11" />
+      <File FileName="Assets\LeanLocalization\Scripts\LeanLocalization.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Etc\NewUILang.js" Line="16" Column="34" />
+      <File FileName="Assets\Scripts\MainMenu\InputFieldName.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SimplePause.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
