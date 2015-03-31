@@ -1,14 +1,11 @@
 fileFormatVersion: 2
-guid: 05f9babb7b67970439987731ad237de9
-timeCreated: 1427787270
+guid: 46ac2a44b8f043e4cb18365394fda5e8
+timeCreated: 1427787016
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: cave_MidUp
-    21300002: cave_BottomMid
-    21300004: cave_st1
-    21300006: cave_st2
-    21300008: cave_Lm
+    21300000: undergroundStalites_H
+    21300002: undergroundStalites_St1
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -54,53 +51,23 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: cave_MidUp
+    - name: undergroundStalites_H
       rect:
         serializedVersion: 2
-        x: 18
-        y: 17
-        width: 1
-        height: 5
+        x: 0
+        y: 0
+        width: 63
+        height: 53
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_BottomMid
+    - name: undergroundStalites_St1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 14
-        width: 1
-        height: 1
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_st1
-      rect:
-        serializedVersion: 2
-        x: 42
-        y: 20
-        width: 7
-        height: 11
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_st2
-      rect:
-        serializedVersion: 2
-        x: 55
-        y: 21
-        width: 3
-        height: 6
-      alignment: 0
-      pivot: {x: .5, y: .5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_Lm
-      rect:
-        serializedVersion: 2
-        x: 33
-        y: 17
-        width: 4
-        height: 5
+        x: 68
+        y: 0
+        width: 153
+        height: 55
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
