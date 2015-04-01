@@ -1,15 +1,15 @@
 fileFormatVersion: 2
-guid: 05f9babb7b67970439987731ad237de9
-timeCreated: 1427886927
+guid: efea65560bee9b34baf71ef33da8db6a
+timeCreated: 1427887512
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: cave_MidUp
-    21300002: cave_BottomMid
-    21300004: cave_st1
-    21300006: cave_st2
-    21300008: cave_Lm
-    21300010: cave_L3
+    21300000: poop_0
+    21300002: poop_1
+    21300004: poop_2
+    21300006: poop_3
+    21300008: poop_4
+    21300010: poop_5
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -55,63 +55,63 @@ TextureImporter:
   buildTargetSettings: []
   spriteSheet:
     sprites:
-    - name: cave_MidUp
+    - name: poop_0
       rect:
         serializedVersion: 2
-        x: 18
-        y: 17
-        width: 1
-        height: 5
+        x: 0
+        y: 0
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_BottomMid
+    - name: poop_1
       rect:
         serializedVersion: 2
-        x: 19
-        y: 14
-        width: 1
-        height: 1
+        x: 12
+        y: 0
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_st1
+    - name: poop_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 20
-        width: 7
-        height: 11
+        x: 24
+        y: 0
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_st2
+    - name: poop_3
       rect:
         serializedVersion: 2
-        x: 55
-        y: 21
-        width: 3
-        height: 6
+        x: 36
+        y: 0
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_Lm
+    - name: poop_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 17
-        width: 4
-        height: 5
+        x: 48
+        y: 0
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
-    - name: cave_L3
+    - name: poop_5
       rect:
         serializedVersion: 2
-        x: 43
-        y: 12
-        width: 3
-        height: 3
+        x: 60
+        y: 0
+        width: 11
+        height: 7
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
