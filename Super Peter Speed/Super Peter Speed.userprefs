@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\Enemy.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FlowShellToS.js">
     <Files>
+      <File FileName="Assets\Scripts\Player\AudioPlay.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\Enemy.js" Line="2" Column="21" />
+      <File FileName="Assets\Scripts\AI\FlowShellToS.js" Line="9" Column="39" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
