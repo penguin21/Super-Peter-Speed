@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\PlatformerCharacter2D.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\Enemy.js">
     <Files>
-      <File FileName="Assets\Standard Assets\PlatformerCharacter2D.cs" Line="36" Column="1" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="2" Column="21" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
