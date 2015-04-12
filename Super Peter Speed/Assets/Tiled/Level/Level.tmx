@@ -6,7 +6,11 @@
  </tileset>
  <layer name="G" width="95" height="100">
   <data encoding="base64" compression="zlib">
-   eJzt0bENgDAMBMAHKmDpjMZoUUSD6EkicSd95cb2JwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9LAOzNbhvpmdA3MkV9thyd3F0x96meH3e1LeM/hSBS2mBTs=
+   eJzt0bkNgDAQBMAFEsBNU5pLs8jcALYlZqRN7pJ7EgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARtgn5hiw38rKxNxJfWfY8s+/rHD7K3n6+tn14AsNG3AGCA==
   </data>
  </layer>
+ <objectgroup name="Col" width="95" height="100">
+  <object x="34" y="3109" width="1007" height="102"/>
+  <object x="1093" y="3144" width="173" height="85"/>
+ </objectgroup>
 </map>
