@@ -2,13 +2,23 @@
 
 var pauseGame : boolean = false;
 var CameraObj : GameObject;
+var Player : GameObject;
 
 function Start(){
 	CameraObj = GameObject.FindWithTag ("MainCamera");
+	Player = GameObject.FindWithTag ("Player");
 }
 
 function Update()
 {	
+	if(!CameraObj){
+		CameraObj = GameObject.FindWithTag ("MainCamera");
+	}
+	
+	if(!Player){
+		Player = GameObject.FindWithTag ("Player");
+	}
+	
 	if(Input.GetKeyDown("escape"))
 	{
 		pauseGame = !pauseGame;
@@ -46,7 +56,9 @@ if(pauseGame == true){
 	    
 	    if(GUI.Button (Rect(Screen.width/2 - 50, Screen.height/1.8, 165, 30), "Return to Main Menu")) {
 	        Time.timeScale = 1;
+	        Destroy(Player);
 	        Application.LoadLevel("MainMenu");
+	        Destroy(gameObject);
 	        //Return to Main Menu
 	   	 }
 	   	 

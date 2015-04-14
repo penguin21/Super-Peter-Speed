@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SimplePause.js">
     <Files>
-      <File FileName="Assets\Scripts\PlayerSing.js" Line="4" Column="27" />
-      <File FileName="Assets\Standard Assets\PlatformerCharacter2D.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" Line="15" Column="43" />
+      <File FileName="Assets\Scripts\SimplePause.js" Line="61" Column="30" />
+      <File FileName="Assets\Scripts\DoorTransformLevel.js" Line="5" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
