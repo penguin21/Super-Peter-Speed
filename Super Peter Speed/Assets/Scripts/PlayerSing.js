@@ -1,7 +1,7 @@
 var textObj : GameObject;
 
 function Start () {
-
+	textObj.SetActive(false);
 }
 
 function Update () {

@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\Player.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js">
     <Files>
-      <File FileName="..\..\SMWFanProject\Assets\Scripts\Player.js" Line="11" Column="1" />
+      <File FileName="Assets\Scripts\PlayerSing.js" Line="4" Column="27" />
+      <File FileName="Assets\Standard Assets\PlatformerCharacter2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\AI\AIChaseGunIsDeathEnemyZombie.js" Line="15" Column="43" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
