@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SimplePause.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelEditor\LevelEditorManager.js">
     <Files>
-      <File FileName="Assets\Scripts\SimplePause.js" Line="61" Column="30" />
-      <File FileName="Assets\Scripts\DoorTransformLevel.js" Line="5" Column="24" />
+      <File FileName="Assets\Scripts\Etc\InstantingTest.js" Line="16" Column="11" />
+      <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="14" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
