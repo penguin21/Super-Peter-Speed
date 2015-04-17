@@ -1,4 +1,5 @@
 ﻿var LevelT : Transform;
+var IsEditor = true;
 
 function Start () {
 
