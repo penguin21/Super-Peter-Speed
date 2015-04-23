@@ -1,13 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\NewsText.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\AI\EnemyIgnore.js">
     <Files>
-      <File FileName="Assets\Scripts\Etc\NewsText.js" Line="7" Column="1" />
-      <File FileName="Assets\Scripts\EditorCamera.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LevelEditor\ItemPropietesD.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\ZombieAI.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\AI\AIChase.js" Line="1" Column="1" />
+      <File FileName="..\..\SMWFanProject\Assets\Scripts\AI\EnemyIgnore.js" Line="4" Column="63" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
