@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\AI\EnemyIgnore.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraBounds.js">
     <Files>
-      <File FileName="..\..\SMWFanProject\Assets\Scripts\AI\EnemyIgnore.js" Line="4" Column="63" />
+      <File FileName="Assets\Scripts\CameraBounds.js" Line="3" Column="18" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
