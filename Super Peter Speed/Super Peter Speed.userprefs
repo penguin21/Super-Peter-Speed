@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\CameraBounds.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\AI\SMWGoombaHead.js">
     <Files>
-      <File FileName="Assets\Scripts\CameraBounds.js" Line="3" Column="18" />
+      <File FileName="..\..\SMWFanProject\Assets\Scripts\AI\SMWGoombaHead.js" Line="22" Column="21" />
+      <File FileName="..\..\SMWFanProject\Assets\Scripts\AI\ClassicGoombaStomp.js" Line="16" Column="35" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
