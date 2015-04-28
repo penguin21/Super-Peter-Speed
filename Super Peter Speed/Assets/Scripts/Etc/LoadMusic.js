@@ -23,6 +23,11 @@ private var audioSource : AudioSource;
      //if it doesn't, create it
      Directory.CreateDirectory(appdata + Mu);
  	}
+ 	
+ 	if(Directory.Exists(path)){
+ 		Debug.Log("No Music");
+ 	}
+ 	
      // Set an AudioSource to this object
      audioSource = GetComponent.<AudioSource>();
      if(audioSource == null)

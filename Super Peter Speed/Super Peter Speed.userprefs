@@ -1,9 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\AI\SMWGoombaHead.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelEditor\LevelEditorManager.js">
     <Files>
-      <File FileName="..\..\SMWFanProject\Assets\Scripts\AI\SMWGoombaHead.js" Line="22" Column="21" />
-      <File FileName="..\..\SMWFanProject\Assets\Scripts\AI\ClassicGoombaStomp.js" Line="16" Column="35" />
+      <File FileName="Assets\Scripts\LevelEditor\ItemPropietesD.js" Line="16" Column="7" />
+      <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="22" Column="1" />
+      <File FileName="Assets\Scripts\Etc\LoadMusic.js" Line="41" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
