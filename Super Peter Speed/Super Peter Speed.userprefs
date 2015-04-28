@@ -1,10 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelEditor\LevelEditorManager.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\CameraBounds.js">
     <Files>
-      <File FileName="Assets\Scripts\LevelEditor\ItemPropietesD.js" Line="16" Column="7" />
-      <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="22" Column="1" />
-      <File FileName="Assets\Scripts\Etc\LoadMusic.js" Line="41" Column="1" />
+      <File FileName="..\..\SMWFanProject\Assets\Scripts\PlayerAI.js" Line="97" Column="49" />
+      <File FileName="..\..\SMWFanProject\Assets\Scripts\CameraBounds.js" Line="11" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
