@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SMWFanProject\Assets\Scripts\CameraBounds.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\GameOverEvent.js">
     <Files>
-      <File FileName="..\..\SMWFanProject\Assets\Scripts\PlayerAI.js" Line="97" Column="49" />
-      <File FileName="..\..\SMWFanProject\Assets\Scripts\CameraBounds.js" Line="11" Column="1" />
+      <File FileName="Assets\Scripts\Etc\GameOverEvent.js" Line="2" Column="15" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

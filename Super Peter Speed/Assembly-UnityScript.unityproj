@@ -110,6 +110,7 @@
      <Compile Include="Assets\Scripts\Etc\BGMController.js" />
      <Compile Include="Assets\Scripts\Etc\CameraIntruction.js" />
      <Compile Include="Assets\Scripts\Etc\FoldersData.js" />
+     <Compile Include="Assets\Scripts\Etc\GameOverEvent.js" />
      <Compile Include="Assets\Scripts\Etc\InstantingTest.js" />
      <Compile Include="Assets\Scripts\Etc\LoadImage.js" />
      <Compile Include="Assets\Scripts\Etc\LoadMusic.js" />
