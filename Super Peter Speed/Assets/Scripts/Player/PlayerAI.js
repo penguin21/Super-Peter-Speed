@@ -20,6 +20,7 @@ var JumpSound : AudioClip;
 var InfectedTotal = 5;
 var IsInfected = true;
 var IsPrin = false;
+var PlatBurger : AudioClip;
 
 //Key
 var KW : int = 60;
@@ -31,6 +32,7 @@ private var InfectedIntents : int = 0;
 private var startTime : float;
 private var PlayerScript : Platformer2DUserControl;
 private var PlayerScriptAnims : PlatformerCharacter2D;
+ var BurgerPlatNum = 0;
 var Arm : GameObject;
 private var healthBarScript: HealthBar;
 var IsDeath1 : boolean = false;
@@ -132,6 +134,15 @@ function Update () {
 			PlayerObj.GetComponent.<Rigidbody2D>().drag = 0.42;
 		}
 	}
+	
+	if(BurgerPlatNum > 3){
+		BurgerPlatNum = 3;
+	}
+	
+	if(BurgerPlatNum < 0){
+		BurgerPlatNum = 0;
+	}
+	
 }
 
 function OnTriggerEnter2D(other : Collider2D){
@@ -147,6 +158,13 @@ function OnTriggerEnter2D(other : Collider2D){
 		yield WaitForSeconds (0.3);
 		anim.SetBool("Death",false);
 		IsDeath();
+	}
+	if(other.gameObject.tag == "BurgersPlat"){
+		MainCode.Score += 50;
+		GetComponent.<AudioSource>().clip = PlatBurger;
+		GetComponent.<AudioSource>().Play();
+		Destroy(other.gameObject); //Get a Burger Plat
+		BurgerPlatNum += 1;
 	}
 }
 

@@ -4,6 +4,8 @@ var pauseGame : boolean = false;
 var CameraObj : GameObject;
 var Player : GameObject;
 
+private var h = false;
+
 function Start(){
 	CameraObj = GameObject.FindWithTag ("MainCamera");
 	Player = GameObject.FindWithTag ("Player");
@@ -24,10 +26,11 @@ function Update()
 		pauseGame = !pauseGame;
 		
     	if(pauseGame == true)
-    	{
+    	{	
     		Time.timeScale = 0;
     		pauseGame = true;
- 
+			CameraObj.GetComponent(AudioSource).Pause();
+			h = true;
     	}
     }
     
@@ -35,7 +38,9 @@ function Update()
     {
     	Time.timeScale = 1;
     	pauseGame = false;
- 		
+    	if(h == true){
+    		PlayMusic();
+    	}
     }
 }
 
@@ -67,4 +72,9 @@ if(pauseGame == true){
 	        //Quit the Game
 	   	 }
 	 }
+}
+
+function PlayMusic(){
+	CameraObj.GetComponent(AudioSource).Play();
+	h = false;
 }

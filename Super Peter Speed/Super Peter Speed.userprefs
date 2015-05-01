@@ -1,11 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\GameOverEvent.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SimplePause.js">
     <Files>
-      <File FileName="Assets\Scripts\Etc\SoundController.js" Line="1" Column="38" />
+      <File FileName="Assets\Scripts\Etc\SoundController.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\Etc\GameOverEvent.js" Line="20" Column="12" />
       <File FileName="Assets\Scripts\Player\GunIsDeathEnemy.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="35" Column="87" />
+      <File FileName="Assets\Scripts\PlayerSettings.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="143" Column="20" />
+      <File FileName="Assets\Scripts\SimplePause.js" Line="79" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
