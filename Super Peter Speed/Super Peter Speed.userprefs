@@ -1,13 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SimplePause.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Super Peter Land\Assets\Shaders\GameBoyOriginal.shader">
     <Files>
-      <File FileName="Assets\Scripts\Etc\SoundController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Etc\GameOverEvent.js" Line="20" Column="12" />
-      <File FileName="Assets\Scripts\Player\GunIsDeathEnemy.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PlayerSettings.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="143" Column="20" />
-      <File FileName="Assets\Scripts\SimplePause.js" Line="79" Column="11" />
+      <File FileName="..\..\Super Peter Land\Assets\Retro Pixel\Resources\Shaders\RetroPixel2.shader" Line="54" Column="7" />
+      <File FileName="..\..\Super Peter Land\Assets\Shaders\GameBoyOriginal.shader" Line="1" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
