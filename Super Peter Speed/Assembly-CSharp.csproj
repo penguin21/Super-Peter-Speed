@@ -241,6 +241,7 @@
      <Compile Include="Assets\Scripts\AI\EnemyTwo.cs" />
      <Compile Include="Assets\Scripts\AI\Explosion.cs" />
      <Compile Include="Assets\Scripts\ArmRotation.cs" />
+     <Compile Include="Assets\Scripts\AssetBundleManager.cs" />
      <Compile Include="Assets\Scripts\BackgroundParallax.cs" />
      <Compile Include="Assets\Scripts\BackgroundPropSpawner.cs" />
      <Compile Include="Assets\Scripts\Bomb.cs" />
@@ -259,6 +260,8 @@
      <Compile Include="Assets\Scripts\LayBombs.cs" />
      <Compile Include="Assets\Scripts\Level2e\EditorGrid.cs" />
      <Compile Include="Assets\Scripts\LevelEditor\SerializationLevel.cs" />
+     <Compile Include="Assets\Scripts\LoadAssetFromBundle.cs" />
+     <Compile Include="Assets\Scripts\LoadBundlesScene.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
      <Compile Include="Assets\Scripts\MainMenu\FullScreenButton.cs" />
      <Compile Include="Assets\Scripts\MainMenu\GTButton.cs" />
@@ -272,6 +275,7 @@
      <Compile Include="Assets\Scripts\MainMenuScripts\PlayButton.cs" />
      <Compile Include="Assets\Scripts\MainMenuScripts\QuitButton.cs" />
      <Compile Include="Assets\Scripts\MoveWorld.cs" />
+     <Compile Include="Assets\Scripts\MyNewScript.cs" />
      <Compile Include="Assets\Scripts\Parallaxing.cs" />
      <Compile Include="Assets\Scripts\Pauser.cs" />
      <Compile Include="Assets\Scripts\PickupSpawner.cs" />
@@ -286,6 +290,7 @@
      <Compile Include="Assets\Scripts\SetParticleSortingLayer.cs" />
      <Compile Include="Assets\Scripts\Spawner.cs" />
      <Compile Include="Assets\Scripts\Tiling.cs" />
+     <Compile Include="Assets\Scripts\UndoManager\HOEditorUndoManager.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />
      <Compile Include="Assets\Synapse\Demo\SynapseAgent.cs" />
      <Compile Include="Assets\Synapse\Demo\World\CollectibleValue.cs" />

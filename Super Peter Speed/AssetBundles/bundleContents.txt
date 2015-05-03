@@ -1,0 +1,4 @@
+BundleName:standalonewindows_testbundle.unity3d
+NumberOfAssets:2
+refreshment.png
+refreshment.prefab

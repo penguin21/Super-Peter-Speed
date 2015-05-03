@@ -94,6 +94,10 @@
      <Compile Include="Assets\NGUI\Scripts\Editor\UITexturePacker.cs" />
      <Compile Include="Assets\NGUI\Scripts\Editor\UITiledSpriteInspector.cs" />
      <Compile Include="Assets\NGUI\Scripts\Editor\UIWidgetInspector.cs" />
+     <Compile Include="Assets\Scripts\Editor\AssetBundleContent.cs" />
+     <Compile Include="Assets\Scripts\Editor\AssetBundleWindow.cs" />
+     <Compile Include="Assets\Scripts\Editor\ClearCache.cs" />
+     <Compile Include="Assets\Scripts\Editor\CreateAssetBundles.cs" />
      <Compile Include="Assets\StrumpyShaderEditor\Editor\Scripts\NodeEditorWindow.cs" />
      <Compile Include="Assets\StrumpyShaderEditor\Editor\Scripts\StrumpyPreviewWindow.cs" />
      <Compile Include="Assets\Synapse\Editor\SynapseAssetInspector.cs" />

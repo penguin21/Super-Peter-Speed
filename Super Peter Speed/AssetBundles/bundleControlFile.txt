@@ -1,0 +1,3 @@
+BundleName:standalonewindows_testbundle.unity3d
+VersionNumber:1
+
