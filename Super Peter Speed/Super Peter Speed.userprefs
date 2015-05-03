@@ -1,9 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Super Peter Land\Assets\Shaders\GameBoyOriginal.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FallPlatform.js">
     <Files>
-      <File FileName="..\..\Super Peter Land\Assets\Retro Pixel\Resources\Shaders\RetroPixel2.shader" Line="54" Column="7" />
-      <File FileName="..\..\Super Peter Land\Assets\Shaders\GameBoyOriginal.shader" Line="1" Column="34" />
+      <File FileName="Assets\Scripts\AI\FallPlatform.js" Line="10" Column="33" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
