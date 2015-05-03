@@ -1,3 +1,6 @@
 BundleName:standalonewindows_testbundle.unity3d
 VersionNumber:2
 
+BundleName:standalonewindows_mlg.unity3d
+VersionNumber:3
+

@@ -2,3 +2,7 @@ BundleName:standalonewindows_testbundle.unity3d
 NumberOfAssets:2
 refreshment.png
 refreshment.prefab
+BundleName:standalonewindows_mlg.unity3d
+NumberOfAssets:2
+refreshment.png
+refreshment.prefab
