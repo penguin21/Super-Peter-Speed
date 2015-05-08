@@ -31,14 +31,14 @@ if(IsWalking == true){
 if ( whatway == true ) 
 {
 transform.localScale.x = size;
-GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
+GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,GetComponent.<Rigidbody2D>().velocity.y);
 }
 
 //Left
 if ( whatway == false ) 
 {
 transform.localScale.x = -size;
-GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,0);
+GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,GetComponent.<Rigidbody2D>().velocity.y);
 		}
 	}
 

@@ -25,7 +25,7 @@ function Update () {
 	if(IsRod == true){
 		if(L == true){
 			transform.localScale.x = size;
-			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speedShell,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speedShell,GetComponent.<Rigidbody2D>().velocity.y);
 			anim.SetBool("Stand", false);
 			anim.SetBool("Rod", true);
 			H = false;
@@ -33,7 +33,7 @@ function Update () {
 		
 		if(R == true){
 			transform.localScale.x = -size;
-			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speedShell,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speedShell,GetComponent.<Rigidbody2D>().velocity.y);
 			anim.SetBool("Stand", false);
 			anim.SetBool("Rod", true);
 			H = false;

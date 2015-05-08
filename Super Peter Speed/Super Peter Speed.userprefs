@@ -1,9 +1,15 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UndoManager\HOEditorUndoManager.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\PenguinGuard.js">
     <Files>
-      <File FileName="Assets\Scripts\Editor\CreateAssetBundles.cs" Line="256" Column="32" />
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="73" Column="110" />
+      <File FileName="Assets\Scripts\Editor\CreateAssetBundles.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\UndoManager\HOEditorUndoManager.cs" Line="215" Column="9" />
+      <File FileName="Assets\Scripts\AI\Bosses\GiantFlow\GFAI.js" Line="41" Column="100" />
+      <File FileName="Assets\Scripts\AI\FlamingoAI.js" Line="89" Column="12" />
+      <File FileName="Assets\Scripts\AI\AIChase.js" Line="34" Column="57" />
+      <File FileName="Assets\Scripts\AI\PenguinGuard.js" Line="142" Column="29" />
+      <File FileName="Assets\Scripts\AI\ShellAI.js" Line="36" Column="119" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

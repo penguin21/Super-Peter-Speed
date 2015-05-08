@@ -63,14 +63,14 @@ return;
 if ( whatway == true ) 
 {
 transform.localScale.x = -size;
-gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,GetComponent.<Rigidbody2D>().velocity.y);
 }
 
 //Left
 if ( whatway == false ) 
 {
 transform.localScale.x = size;
-gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,0);
+gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,GetComponent.<Rigidbody2D>().velocity.y);
 }
 
 }

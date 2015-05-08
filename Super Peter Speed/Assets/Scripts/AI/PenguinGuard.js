@@ -44,12 +44,12 @@ if(IsDeath == false){
 	if(Walk == true){
 	if(L == true){
 		transform.localScale.x = size;
-		transform.Translate(Vector3(speed,0,0) * Time.deltaTime);
+		GetComponent.<Rigidbody2D>().velocity = new Vector2 (speed,GetComponent.<Rigidbody2D>().velocity.y);
 	}
 	
 	if(R == true){
 		transform.localScale.x = -size;
-		transform.Translate(Vector3(-speed,0,0) * Time.deltaTime);
+		GetComponent.<Rigidbody2D>().velocity = new Vector2 (-speed,GetComponent.<Rigidbody2D>().velocity.y);
 		}
 	}
 		
@@ -139,6 +139,7 @@ function OnCollisionEnter2D (other : Collision2D){
 
 function Death(){
 	IsDeath = true;
+	transform.tag = "Untagged";
 	Arm.SetActive(false);
 	anim.SetBool("Death", true);
 	anim.SetBool("Walk", false);
