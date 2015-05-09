@@ -40,7 +40,7 @@ function Update () {
 		}
 		
 		if(L == false && R == false){
-			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,GetComponent.<Rigidbody2D>().velocity.y);
 			anim.SetBool("Stand", true);
 			anim.SetBool("Rod", false);
 			H = true;
@@ -50,7 +50,7 @@ function Update () {
 		Ber();	
 	}
 		if(IsRod == false){
-			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,0);
+			gameObject.GetComponent.<Rigidbody2D>().velocity = new Vector2 (0,GetComponent.<Rigidbody2D>().velocity.y);
 			anim.SetBool("Stand", true);
 			anim.SetBool("Rod", false);
 		}
