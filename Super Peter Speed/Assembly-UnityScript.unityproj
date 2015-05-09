@@ -118,6 +118,7 @@
      <Compile Include="Assets\Scripts\Etc\NewUILang.js" />
      <Compile Include="Assets\Scripts\Etc\NewsText.js" />
      <Compile Include="Assets\Scripts\Etc\PeterPrison.js" />
+     <Compile Include="Assets\Scripts\Etc\ScreenWrap.js" />
      <Compile Include="Assets\Scripts\Etc\SoundController.js" />
      <Compile Include="Assets\Scripts\Etc\TextureScale.js" />
      <Compile Include="Assets\Scripts\Etc\TimeSystem.js" />
