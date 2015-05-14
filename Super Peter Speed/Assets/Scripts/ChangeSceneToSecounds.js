@@ -19,8 +19,8 @@ function ChangeScene(){
 }
 
 function asyncLevel(){
-	var async : AsyncOperation = Application.LoadLevelAsync(Scene);
-	
-	yield async;
+	//var async : AsyncOperation = Application.LoadLevelAsync(Scene);
+	//Async is a bug
+	Application.LoadLevel(Scene);
 	Debug.Log("Loaded Scene");
 }
