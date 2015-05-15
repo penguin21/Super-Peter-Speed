@@ -138,6 +138,7 @@
      <Compile Include="Assets\Scripts\LevelEditor\LevelEditorManager.js" />
      <Compile Include="Assets\Scripts\MainMenu\InputFieldName.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
+     <Compile Include="Assets\Scripts\MainMenu\LoadingGame.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerChange.js" />
      <Compile Include="Assets\Scripts\MainMenu\NamePlayerViewer.js" />
      <Compile Include="Assets\Scripts\MainMenu\SoundOptions.js" />
