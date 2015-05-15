@@ -16,9 +16,15 @@ function ChangeScene(){
 function asyncLevel(){
 	var async : AsyncOperation = Application.LoadLevelAsync(Scene);
 	//Async is a bug
-	     while (!async.isDone) {
+	while (!async.isDone) {
          LoadingBar.GetComponent(LoadingGame).F = async.progress;
          yield;
-     }
+    }
+    while (async.isDone) {
+    	async.allowSceneActivation = false;
+    	yield WaitForSeconds(0.5);
+    	async.allowSceneActivation = true;
+    }
+    
 	Debug.Log("Loaded Scene");
 }
