@@ -1,34 +1,27 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-3-6596
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-3-6748
 Cmd: getPlatforms
 Cmd: compileSnippet
-  error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 1 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 1 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 1 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 1 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=1 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=0
+  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 4 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 4 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 4 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=4 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=0
 Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 4 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 4 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 4 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
-  api=4 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=0
+  error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
+  error: 1 plat 1 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
+  error: 1 plat 1 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
+  error: 1 plat 1 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
+  error: 1 plat 1 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
+  api=1 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
 Cmd: compileSnippet
-  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 8 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 8 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 8 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 8 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  api=8 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
-Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 4 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 4 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 4 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON
-  api=4 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF VERTEXLIGHT_ON ok=0
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 8 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 8 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 8 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  error: 1 plat 8 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
+  api=8 type=0 insize=9043 outsize=0 kw=DIRECTIONAL SHADOWS_SCREEN SHADOWS_NATIVE LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF ok=0
 Cmd: compileSnippet
   error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with POINT
   error: 1 plat 1 at (112): implicit truncation of vector type\nCompiling Vertex program with POINT
@@ -44,26 +37,12 @@ Cmd: compileSnippet
   error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL
   api=4 type=0 insize=6213 outsize=0 kw=DIRECTIONAL ok=0
 Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with SPOT
-  error: 1 plat 4 at (112): implicit truncation of vector type\nCompiling Vertex program with SPOT
-  error: 1 plat 4 at (113): implicit truncation of vector type\nCompiling Vertex program with SPOT
-  error: 1 plat 4 at (114): implicit truncation of vector type\nCompiling Vertex program with SPOT
-  error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with SPOT
-  api=4 type=0 insize=6213 outsize=0 kw=SPOT ok=0
-Cmd: compileSnippet
   error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with POINT_COOKIE
   error: 1 plat 1 at (112): implicit truncation of vector type\nCompiling Vertex program with POINT_COOKIE
   error: 1 plat 1 at (113): implicit truncation of vector type\nCompiling Vertex program with POINT_COOKIE
   error: 1 plat 1 at (114): implicit truncation of vector type\nCompiling Vertex program with POINT_COOKIE
   error: 1 plat 1 at (115): implicit truncation of vector type\nCompiling Vertex program with POINT_COOKIE
   api=1 type=0 insize=6213 outsize=0 kw=POINT_COOKIE ok=0
-Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL_COOKIE
-  error: 1 plat 4 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
-  error: 1 plat 4 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
-  error: 1 plat 4 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
-  error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
-  api=4 type=0 insize=6213 outsize=0 kw=DIRECTIONAL_COOKIE ok=0
 Cmd: compileSnippet
   error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program
   error: 1 plat 1 at (112): implicit truncation of vector type\nCompiling Vertex program
@@ -79,12 +58,12 @@ Cmd: compileSnippet
   error: 1 plat 1 at (115): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF
   api=1 type=0 insize=8483 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=0
 Cmd: compileSnippet
-  error: 2 plat 4 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
-  error: 1 plat 4 at (112): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
-  error: 1 plat 4 at (113): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
-  error: 1 plat 4 at (114): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
-  error: 1 plat 4 at (115): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
-  api=4 type=0 insize=8483 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=0
+  error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
+  error: 1 plat 1 at (112): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
+  error: 1 plat 1 at (113): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
+  error: 1 plat 1 at (114): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
+  error: 1 plat 1 at (115): implicit truncation of vector type\nCompiling Vertex program with LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON
+  api=1 type=0 insize=8483 outsize=0 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF UNITY_HDR_ON ok=0
 Unhandled exception: Readfile from pipe failed. GLE=Ha terminado la canalización.
 
 

@@ -1,5 +1,5 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-5240
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-4552
 Cmd: getPlatforms
 Cmd: compileSnippet
   error: 2 plat 1 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF
@@ -22,3 +22,10 @@ Cmd: compileSnippet
   error: 1 plat 1 at (114): implicit truncation of vector type\nCompiling Vertex program with SPOT
   error: 1 plat 1 at (115): implicit truncation of vector type\nCompiling Vertex program with SPOT
   api=1 type=0 insize=6213 outsize=0 kw=SPOT ok=0
+Cmd: compileSnippet
+  error: 2 plat 8 at (85): 'vert': output parameter 'o' not completely initialized\nCompiling Vertex program with DIRECTIONAL_COOKIE
+  error: 1 plat 8 at (112): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
+  error: 1 plat 8 at (113): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
+  error: 1 plat 8 at (114): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
+  error: 1 plat 8 at (115): implicit truncation of vector type\nCompiling Vertex program with DIRECTIONAL_COOKIE
+  api=8 type=0 insize=6213 outsize=0 kw=DIRECTIONAL_COOKIE ok=0
