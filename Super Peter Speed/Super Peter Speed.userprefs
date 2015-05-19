@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ChangeSceneToSecounds.js">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\Etc\projectos\videoGSEX\VideoGSEX\Assets\Scripts\AutoMesh.cs">
     <Files>
-      <File FileName="Assets\Scripts\ChangeSceneToSecounds.js" Line="25" Column="32" />
-      <File FileName="Assets\Scripts\MainMenu\LoadingGame.js" Line="1" Column="1" />
+      <File FileName="..\..\..\Desktop\Etc\projectos\videoGSEX\VideoGSEX\Assets\Scripts\AutoMesh.cs" Line="15" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
