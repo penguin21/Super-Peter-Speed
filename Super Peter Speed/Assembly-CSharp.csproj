@@ -252,6 +252,7 @@
      <Compile Include="Assets\Scripts\Etc\Internapole.cs" />
      <Compile Include="Assets\Scripts\Etc\LeanManager.cs" />
      <Compile Include="Assets\Scripts\Etc\LoadMusicExternal.cs" />
+     <Compile Include="Assets\Scripts\Etc\ParallaxCam.cs" />
      <Compile Include="Assets\Scripts\Etc\WaterLine.cs" />
      <Compile Include="Assets\Scripts\Fading.cs" />
      <Compile Include="Assets\Scripts\FollowPlayer.cs" />

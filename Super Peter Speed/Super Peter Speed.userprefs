@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\Desktop\Etc\projectos\videoGSEX\VideoGSEX\Assets\Scripts\AutoMesh.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\ParallaxCam.cs">
     <Files>
-      <File FileName="..\..\..\Desktop\Etc\projectos\videoGSEX\VideoGSEX\Assets\Scripts\AutoMesh.cs" Line="15" Column="27" />
+      <File FileName="Assets\FreeParallax\Scripts\FreeParallaxDemo.cs" Line="17" Column="4" />
+      <File FileName="Assets\Scripts\Etc\ParallaxCam.cs" Line="45" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
