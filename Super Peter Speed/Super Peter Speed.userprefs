@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\ParallaxCam.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\PeterOpenWorld\Assets\TerraUnity - TerraCity Lite\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs">
     <Files>
-      <File FileName="Assets\FreeParallax\Scripts\FreeParallaxDemo.cs" Line="17" Column="4" />
-      <File FileName="Assets\Scripts\Etc\ParallaxCam.cs" Line="45" Column="1" />
+      <File FileName="..\..\PeterOpenWorld\Assets\TerraUnity - TerraCity Lite\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" Line="27" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
