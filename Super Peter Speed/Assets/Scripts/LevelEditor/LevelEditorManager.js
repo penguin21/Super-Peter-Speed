@@ -13,6 +13,7 @@ var LocalFolder : String = "/Super Peter Speed";
 private var appdata : String;
 appdata = System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData)+ LocalFolder;
 
+
 private var menu = false;
 
 function Start () {
@@ -57,21 +58,41 @@ function PanelOld(Panel : GameObject){
 	Panel.SetActive(false);
 }
 
-@XmlRoot("LevelObjects")
+@XmlRoot("LevelObjectsCollection")
 public class LevelObjects{
 	@XmlArray("LevelObjects")
  	@XmlArrayItem("LevelObject")
- 	public var LevelObjects : List.<LevelEditorID>;
+ 	public var LevelObjectsList : List.<LevelEditorID>;
+ 	
+ 	public static var LevelLocalDe : String;
+ 	private var appdata : String;
+ 	private var LevelsFolder : String = "/Levels";
+ 	function Update(){
+ 		LevelLocalDe = appdata + LevelsFolder;
+ 	}
  	
 	public function Save(){
 		//Not implemented
+		var serializer : XmlSerializer = new XmlSerializer(LevelObjects);
+ 		var stream : Stream = new FileStream(LevelLocalDe, FileMode.Create);
+ 		serializer.Serialize(stream, this);
+ 		stream.Close();
+ 		Debug.Log("Level Saved");
 	}
 
 	public static function Loading():LevelObjects{
 		//Not implemented
+		var serializer : XmlSerializer = new XmlSerializer(LevelObjects);
+ 		var stream : Stream = new FileStream(LevelLocalDe, FileMode.Open);
+ 		var result : LevelObjects = serializer.Deserialize(stream) as LevelObjects;
+ 		stream.Close();
+ 		Debug.Log("Level Loaded");
+ 		return result;
 	}
 	
 	public static function LoadFormText(text : String):LevelObjects{
 		//Not implemented
+		var serializer : XmlSerializer = new XmlSerializer(LevelObjects);
+ 		return serializer.Deserialize(new StringReader(text)) as LevelObjects;
 	}
 }
