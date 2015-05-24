@@ -1,8 +1,11 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\PeterOpenWorld\Assets\TerraUnity - TerraCity Lite\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelEditor\LevelEditorManager.js">
     <Files>
-      <File FileName="..\..\PeterOpenWorld\Assets\TerraUnity - TerraCity Lite\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" Line="27" Column="55" />
+      <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\Etc\FoldersData.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\LevelEditor\LevelEditorID.js" Line="19" Column="4" />
+      <File FileName="Assets\Scripts\PlayerSettings.js" Line="35" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
