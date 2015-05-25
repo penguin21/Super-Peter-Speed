@@ -14,6 +14,8 @@ var Door2 : GameObject;
 var Door2End : Vector3;
 var FaceDoorSprite : Sprite;
 var goldBurgerPiece : GameObject;
+var CameraPlayer : GameObject;
+var SpawnerObj : GameObject;
 
 private var healthBarScript: HealthBar;
 
@@ -21,6 +23,7 @@ function Start () {
 	healthBarScript = GetComponent("HealthBar");
 	yield WaitForSeconds(0.01);
 	Player = GameObject.FindWithTag("Player");
+	CameraPlayer = GameObject.FindWithTag("MainCamera");
 }
 
 function Update () {
@@ -57,6 +60,12 @@ function Death(){
 		FaceDoor2.GetComponent(SpriteRenderer).sprite = FaceDoorSprite;
 		goldBurgerPiece.SetActive(true);
 		gameObject.GetComponent(HealthBar).enabled = false;
+		SpawnerObj.SetActive(false);
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().Stop();
 		yield WaitForSeconds(10);
 		gameObject.SetActive(false);
+}
+
+function FixedUpdate(){
+	GetComponent(Animator).SetFloat("Jump", GetComponent(Rigidbody2D).velocity.y);
 }

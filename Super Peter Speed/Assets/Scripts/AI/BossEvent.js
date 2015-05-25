@@ -20,6 +20,7 @@ var BFNew : Sprite;
 var Restu : GameObject;
 var BossScript : String;
 var MusicBoss : AudioClip;
+var SpawnerObj : GameObject;
 
 var CameraPlayer : GameObject;
 var MusicIs = false;
@@ -53,7 +54,7 @@ function Update(){
 	}
 	if(MusicIsIs == true){
 	if(MusicIs == true){
-		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().volume = 0.37;
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().mute = false;
 		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().clip = MusicBoss;
 		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().Play();
 		}
@@ -69,7 +70,7 @@ function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "Player"){
 		IsEventIs = true;
 		prepare = true;
-		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().volume = 0;
+		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().mute = true;
 		Player.GetComponent(PlayerAI).Respawn = RespawnPoint;
 		gameObject.GetComponent(BoxCollider2D).enabled = false;
 	}
@@ -112,6 +113,9 @@ function BossBattle(){
 		MusicIs = true;
 		yield WaitForSeconds(0.05);
 		MusicIsIs = false;
+		if(SpawnerObj != null){
+		SpawnerObj.SetActive(true);
+		}
 		Boss.GetComponent(BossScript).BossStartIs = true;
 		B1F.GetComponent(SpriteRenderer).sprite = BFNew;
 		B2F.GetComponent(SpriteRenderer).sprite = BFNew;
