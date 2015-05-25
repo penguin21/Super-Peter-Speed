@@ -24,8 +24,6 @@ public class GAFAnimationEditor : Editor  {
 			animationPlayer.GAFWrapMode = (eGAFWrapMode) EditorGUILayout.EnumPopup( "Wrap mode:", animationPlayer.GAFWrapMode );
 			animationPlayer.GAFPlayAutomatically = GUILayout.Toggle( animationPlayer.GAFPlayAutomatically, "Play automatically");
 		}
-			
-		
 	}
 	
 }

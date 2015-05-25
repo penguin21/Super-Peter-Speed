@@ -2,6 +2,7 @@
 import System.Xml;
 import System.IO;
 import System.Xml.Serialization;
+import System.Text;
 
 @XmlRoot("LevelObjectsCollection")
 public class LevelObjects extends MonoBehaviour{
@@ -23,7 +24,7 @@ public class LevelObjects extends MonoBehaviour{
  	
  	public function Save(path : String){
 		//Not implemented
-		var serializer : XmlSerializer = new XmlSerializer(typeof(LevelObjects));
+		var serializer : XmlSerializer = new XmlSerializer(LevelObjects);
  		var stream : Stream = new FileStream(path, FileMode.Create);
  		serializer.Serialize(stream, this);
  		stream.Close();
@@ -32,7 +33,7 @@ public class LevelObjects extends MonoBehaviour{
 
 	public static function Loading(path : String):LevelObjects{
 		//Not implemented
-		var serializer : XmlSerializer = new XmlSerializer(typeof(LevelObjects));
+		var serializer : XmlSerializer = new XmlSerializer(LevelObjects);
  		var stream : Stream = new FileStream(path, FileMode.Open);
  		var level : LevelObjects = serializer.Deserialize(stream) as LevelObjects;
  		stream.Close();

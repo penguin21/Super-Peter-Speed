@@ -62,7 +62,10 @@
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
      <None Include="Assets\Synapse\Readme.txt" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFShaderBase.cginc" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFObjectsGroup.shader" />
+     <None Include="Assets\GAF\Docs\What&apos;s new.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
@@ -73,10 +76,13 @@
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\Temp\TempShader.shader" />
      <None Include="Assets\LiquidPhysics\Shaders\Metaballs_Multiple.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Texture-Unlit.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Texture-UnlitAlpha.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutlineHard.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Diffuse.shader" />
      <None Include="Assets\2DVLS\READ-ME.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-Color.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\HOTween_License.txt" />
      <None Include="Assets\FreeParallax\Readme.txt" />
@@ -86,12 +92,17 @@
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-Specular.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFBlur.shader" />
      <None Include="Assets\GAF Animation Player\ReadMe - 1.0.1.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Extras\Visual Studio\Unity.xml" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
      <None Include="Assets\JMO Assets\Toony Gooch\!ToonyGooch Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\README.txt" />
      <None Include="Assets\Shader\TestShader.shader" />
      <None Include="Assets\Shader\GlitchShader.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-Unlit.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout (2-Sided).shader" />
      <None Include="Assets\Audio\BGM\RedameMusic.txt" />
@@ -106,6 +117,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
      <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFFilters.cginc" />
      <None Include="Assets\Shader\Glass.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Light.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Diffuse (2-Sided).shader" />
@@ -114,9 +126,12 @@
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
      <None Include="Assets\Holoville\readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFMaskReset.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFFilteredObject.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Coin\Coin.txt" />
      <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFGlow.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
      <None Include="Assets\Shader\GlitchCameraEffect.shader" />
      <None Include="Assets\Shader\GG.shader" />
@@ -134,15 +149,26 @@
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFMask.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\CHANGELOG.txt" />
      <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-SpecularEmissive.shader" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
+     <None Include="Assets\GAF\Docs\Readme.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Texture-UnlitAlphaTinted.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="HOTween">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="GAF">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/GAF/Plugins/GAF.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/GAF/Plugins/Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Synapse.Runtime">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Synapse.Runtime.dll</HintPath>

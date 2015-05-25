@@ -346,6 +346,7 @@ public class GAFConverter {
 			// Get animation objects
 			string ao = jsonObject.GetValue( "animationObjects" ).ToString();
 			ao = ao.Replace("{",string.Empty);
+UnityEngine.Debug.Log(".:Hail Mary:.");
 			ao = ao.Replace("}",string.Empty);
 			
 			if ( ao.Length > 0 )
@@ -367,6 +368,7 @@ public class GAFConverter {
 			// Get animation masks
 			string am = jsonObject.GetValue( "animationMasks" ).ToString();
 			am = am.Replace("{",string.Empty);
+UnityEngine.Debug.Log(".:Hail Mary:.");
 			am = am.Replace("}",string.Empty);
 			
 			if ( am.Length > 0 )
@@ -389,6 +391,7 @@ public class GAFConverter {
 			// Get named parts
 			string np = jsonObject.GetValue( "namedParts" ).ToString();
 			np = np.Replace("{",string.Empty);
+UnityEngine.Debug.Log(".:Hail Mary:.");
 			np = np.Replace("}",string.Empty);
 			
 			if ( np.Length > 0 )

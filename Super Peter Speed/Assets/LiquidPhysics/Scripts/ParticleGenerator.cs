@@ -19,7 +19,8 @@ public class ParticleGenerator : MonoBehaviour {
 	public DynamicParticle.STATES particlesState=DynamicParticle.STATES.WATER; // The state of the particles spawned
 	public Transform particlesParent; // Where will the spawned particles will be parented (To avoid covering the whole inspector with them)
 
-	void Start() { 	}
+	void Start() { 	
+	}
 
 	void Update() {	
 		if( lastSpawnTime+SPAWN_INTERVAL<Time.time ){ // Is it time already for spawning a new particle?

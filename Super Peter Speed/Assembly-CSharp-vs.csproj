@@ -93,11 +93,67 @@
      <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\Unity\GAFShaderHolder.cs" />
      <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\UnityEditor\GAFAnimation.cs" />
      <Compile Include="Assets\GAF Animation Player\Scripts\GAFConverter\UnityEditor\GAFConverter_UnityEditor.cs" />
+     <Compile Include="Assets\GAF\Examples\Scripts\GAFSceneController.cs" />
+     <Compile Include="Assets\GAF\Scripts\Asset\GAFAnimationAsset.cs" />
+     <Compile Include="Assets\GAF\Scripts\Asset\GAFTexturesResource.cs" />
+     <Compile Include="Assets\GAF\Scripts\Core\GAFBakedMovieClip.cs" />
+     <Compile Include="Assets\GAF\Scripts\Core\GAFMovieClip.cs" />
+     <Compile Include="Assets\GAF\Scripts\Objects\GAFBakedObject.cs" />
+     <Compile Include="Assets\GAF\Scripts\Objects\GAFBakedObjectController.cs" />
+     <Compile Include="Assets\GAF\Scripts\Objects\GAFBakedObjectsManager.cs" />
+     <Compile Include="Assets\GAF\Scripts\Objects\GAFObject.cs" />
+     <Compile Include="Assets\GAF\Scripts\Objects\GAFObjectsManager.cs" />
      <Compile Include="Assets\GUIAspectRatioScale.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Core\ABSHOTweenEditorElement.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\Core\SortMode.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\HOTweenComponent.cs" />
      <Compile Include="Assets\Holoville\HOTween Extensions\HOTweenManager\HOTweenManager.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Core\hAudioStack.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Core\hDebug.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Core\hObjectPool.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Core\hObjectPoolItem.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Core\hWebPool.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Peripherals\hInput.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Components\Hydrogen.Threading.Jobs\hMeshCombiner.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\AudioStack.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\AudioStackItem.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\ObjectPool.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\ObjectPoolCollection.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\ObjectPoolItemBase.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\WebPool.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Core\WebPoolWorker.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\Input.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputAxisControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputControlBase.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputDeltaAxisControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputDoubleDeltaAxisControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputGestureBase.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputKeyboardButtonControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputMouseButtonControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputMouseGestureControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputTouchAxisControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Peripherals\InputTouchGestureControl.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Serialization\INI.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Serialization\JSON.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Serialization\JSONObject.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Threading.Jobs\MeshCombiner.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Threading\Forker.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Threading\JobBase.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Threading\ThreadPoolJob.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen.Threading\ThreadedJob.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Array.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Components.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Layers.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Material.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Math.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Memory.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Mesh.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\NavMesh.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Regex.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Resources.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Texture.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\Validate.cs" />
+     <Compile Include="Assets\Hydrogen Framework\Hydrogen\Plugins\Hydrogen\XML.cs" />
      <Compile Include="Assets\JMO Assets\Toony Gooch\Demo\AutoRotateObject.cs" />
      <Compile Include="Assets\LeanLocalization\Scripts\LeanLanguageNameAttribute.cs" />
      <Compile Include="Assets\LeanLocalization\Scripts\LeanLocalization.cs" />
@@ -310,7 +366,10 @@
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
      <None Include="Assets\Synapse\Readme.txt" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFShaderBase.cginc" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFObjectsGroup.shader" />
+     <None Include="Assets\GAF\Docs\What&apos;s new.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
      <None Include="Assets\Tiled2Unity\Prefabs\_ReadMe.txt" />
@@ -321,10 +380,13 @@
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\Temp\TempShader.shader" />
      <None Include="Assets\LiquidPhysics\Shaders\Metaballs_Multiple.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Texture-Unlit.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Texture-UnlitAlpha.shader" />
      <None Include="Assets\JMO Assets\Toony Gooch\Shaders\Toony_Gooch_RimOutlineHard.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Diffuse.shader" />
      <None Include="Assets\2DVLS\READ-ME.txt" />
      <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-Color.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
      <None Include="Assets\HOTween_License.txt" />
      <None Include="Assets\FreeParallax\Readme.txt" />
@@ -334,12 +396,17 @@
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement.shader" />
      <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
      <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-Specular.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFBlur.shader" />
      <None Include="Assets\GAF Animation Player\ReadMe - 1.0.1.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Extras\Visual Studio\Unity.xml" />
      <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
      <None Include="Assets\JMO Assets\Toony Gooch\!ToonyGooch Readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\README.txt" />
      <None Include="Assets\Shader\TestShader.shader" />
      <None Include="Assets\Shader\GlitchShader.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-Unlit.shader" />
      <None Include="Assets\CNJoystick\OnScreenControls\Initial Pack\Sprites\flatDark\flatDark.xml" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Cutout (2-Sided).shader" />
      <None Include="Assets\Audio\BGM\RedameMusic.txt" />
@@ -354,6 +421,7 @@
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
      <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFFilters.cginc" />
      <None Include="Assets\Shader\Glass.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Light.shader" />
      <None Include="Assets\2DVLS\Core\Shaders\2DVLS_Diffuse (2-Sided).shader" />
@@ -362,9 +430,12 @@
      <None Include="Assets\NGUI\Examples\Other\French.txt" />
      <None Include="Assets\Holoville\readme.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFMaskReset.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFFilteredObject.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Coin\Coin.txt" />
      <None Include="Assets\GAF Animation Player\Resources\Enemy\Enemy.txt" />
      <None Include="Assets\GAF Animation Player\Shaders\GAF\GAFElement_Mask.shader" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFGlow.shader" />
      <None Include="Assets\GAF Animation Player\Resources\Biometal\Biometal.txt" />
      <None Include="Assets\Shader\GlitchCameraEffect.shader" />
      <None Include="Assets\Shader\GG.shader" />
@@ -382,10 +453,15 @@
      <None Include="Assets\Tiled2Unity\Imported\_ReadMe.txt" />
      <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
      <None Include="Assets\Holoville\HOUnityEditor\Editor\HOEditorUtils.xml" />
+     <None Include="Assets\GAF\Resources\Shaders\GAFMask.shader" />
      <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\CHANGELOG.txt" />
      <None Include="Assets\Editor Default Resources\VIZIO Icons Set\PNG\IconsLicence.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Color-SpecularEmissive.shader" />
      <None Include="Assets\Tiled2Unity\Meshes\_ReadMe.txt" />
      <None Include="Assets\StrumpyShaderEditor\Editor\Resources\Internal\TextureCopy.shader" />
+     <None Include="Assets\GAF\Docs\Readme.txt" />
+     <None Include="Assets\Hydrogen Framework\Hydrogen\Shaders\Texture-UnlitAlphaTinted.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
@@ -394,6 +470,12 @@
  </Reference>
  <Reference Include="HOTween">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/HOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="GAF">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/GAF/Plugins/GAF.dll</HintPath>
+ </Reference>
+ <Reference Include="Ionic.Zip.Reduced">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/GAF/Plugins/Ionic.Zip.Reduced.dll</HintPath>
  </Reference>
  <Reference Include="Synapse.Runtime">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Synapse/Synapse.Runtime.dll</HintPath>
