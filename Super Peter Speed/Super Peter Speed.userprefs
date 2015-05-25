@@ -1,14 +1,9 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FreeParallax\Scripts\FreeParallax.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\CheckPoint.js">
     <Files>
-      <File FileName="Assets\FreeParallax\Scripts\FreeParallax.cs" Line="262" Column="49" />
-      <File FileName="Assets\Hydrogen Framework\Hydrogen\Editor\HydrogenStartup.cs" Line="40" Column="4" />
-      <File FileName="Assets\GAF Animation Player\Editor\GAFEditor\GAFAssetPostProcessor.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LevelEditor\LevelObjects.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="1" Column="1" />
-      <File FileName="Assets\LiquidPhysics\Scripts\ParticleGenerator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\CheckPoint.js" Line="22" Column="5" />
+      <File FileName="Assets\Scripts\AI\AiZ.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

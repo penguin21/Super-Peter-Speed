@@ -19,7 +19,7 @@ function OnTriggerEnter2D(other : Collider2D){
 		other.GetComponent(PlayerAI).Respawn = CheckPoint;
 		GetComponent.<AudioSource>().PlayOneShot(CheckPointSound, 0.7);
 		FlagPoint.SetActive(true);
-		Debug.Log("CheckPoint!!");
+		//Debug.Log("CheckPoint!!");
 		checkpointIs = true;
 		}
 	}
