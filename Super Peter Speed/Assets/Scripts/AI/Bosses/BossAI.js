@@ -65,7 +65,3 @@ function Death(){
 		yield WaitForSeconds(10);
 		gameObject.SetActive(false);
 }
-
-function FixedUpdate(){
-	GetComponent(Animator).SetFloat("Jump", GetComponent(Rigidbody2D).velocity.y);
-}
