@@ -89,6 +89,7 @@
      <Compile Include="Assets\Scripts\AI\FlowJump.js" />
      <Compile Include="Assets\Scripts\AI\FlowJumpDeath.js" />
      <Compile Include="Assets\Scripts\AI\FlowShellToS.js" />
+     <Compile Include="Assets\Scripts\AI\FlowStomp.js" />
      <Compile Include="Assets\Scripts\AI\NPCFriendLook.js" />
      <Compile Include="Assets\Scripts\AI\ObjFloatingOnWater.js" />
      <Compile Include="Assets\Scripts\AI\PenguinGuard.js" />
