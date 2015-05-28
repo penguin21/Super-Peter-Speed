@@ -12,8 +12,9 @@ var SpeedUp = 5.0;
 var A = false;
 var IsDef = false;
 
-var SpeedCurrent = 0;
-var distanceToTarget : float = 0.0;
+var speedActual : float;
+private var SpeedCurrent = 0;
+private var distanceToTarget : float = 0.0;
 
 function Awake(){
 }
@@ -25,6 +26,8 @@ function Start () {
 }
 
 function Update () {
+	speedActual = GetComponent(Rigidbody2D).velocity.sqrMagnitude;
+	
 	if(!A){
 	if(IsFollowing == true){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
@@ -82,8 +85,9 @@ function OnCollisionEnter2D(col : Collision2D){
 	}
 	
 	if(IsUp){
-		if(BlockH2 > -0.9){
-			BlockH2 = 0;
+		yield WaitForSeconds(1);
+		if(speedActual == 0){
+			//BlockH2 = 0;
 			StatNormal();
 		}
 	}
@@ -99,8 +103,8 @@ function Up(){
 
 function StatNormal(){
 	SpeedCurrent = 0;
+	IsAwake = true;
 	A = false;
 	GetComponent(Rigidbody2D).isKinematic = true;
-	IsAwake = true;
 	IsUp = false;
 }
