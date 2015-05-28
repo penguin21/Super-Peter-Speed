@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: c3db3aa95ffca654aabddfda88c85406
+timeCreated: 1432829003
+licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: DPC_1
@@ -18,6 +20,7 @@ TextureImporter:
     21300026: DarkPeterCastle_Statue1
     21300028: DarkPeterCastle_Statue2
     21300030: DarkPeterCastle_StatueBase
+    21300032: DarkPeterCastle_H
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -36,6 +39,9 @@ TextureImporter:
   isReadable: 0
   grayScaleToAlpha: 0
   generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 1024
@@ -46,6 +52,7 @@ TextureImporter:
     wrapMode: 1
   nPOTScale: 0
   lightmap: 0
+  rGBM: 0
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
@@ -219,5 +226,17 @@ TextureImporter:
       alignment: 0
       pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
+    - name: DarkPeterCastle_H
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 19
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
+  assetBundleName: 
+  assetBundleVariant: 
