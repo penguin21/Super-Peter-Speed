@@ -11,8 +11,9 @@ var IsUp = false;
 var SpeedUp = 5.0;
 var A = false;
 var IsDef = false;
+var SoundStomp : AudioClip;
 
-var speedActual : float;
+private var speedActual : float;
 private var SpeedCurrent = 0;
 private var distanceToTarget : float = 0.0;
 
@@ -79,13 +80,14 @@ function OnCollisionEnter2D(col : Collision2D){
 	if(IsAttack){
 		if(BlockH > 0){
 			GetComponent(Rigidbody2D).isKinematic = true;
+			//GetComponent(AudioSource).PlayOneShot(SoundStomp , 0.7);
 			yield WaitForSeconds(1.5);
 			Up();
 		}
 	}
 	
 	if(IsUp){
-		yield WaitForSeconds(1);
+		yield WaitForSeconds(0.5);
 		if(speedActual == 0){
 			//BlockH2 = 0;
 			StatNormal();
@@ -103,6 +105,7 @@ function Up(){
 
 function StatNormal(){
 	SpeedCurrent = 0;
+	yield WaitForSeconds(1);
 	IsAwake = true;
 	A = false;
 	GetComponent(Rigidbody2D).isKinematic = true;

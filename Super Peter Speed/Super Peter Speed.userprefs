@@ -1,8 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FlowStomp.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\FlowStomp.js" Line="88" Column="27" />
+      <File FileName="Assets\Scripts\AI\FlowStomp.js" Line="16" Column="9" />
       <File FileName="Assets\Scripts\AI\AiZ.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\AIChase.js" Line="1" Column="1" />
     </Files>
