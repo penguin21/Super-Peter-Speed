@@ -33,6 +33,7 @@ function Update () {
 	if(IsFollowing == true){
 	distanceToTarget = Vector3.Distance(PlayerTarget.transform.position, transform.position);
 		if(distanceToTarget <= searhRange){
+			LookPlayer();
 			if(!IsAttack){
 				IsAwake = true;
 			}
@@ -111,4 +112,14 @@ function StatNormal(){
 	A = false;
 	//GetComponent(Rigidbody2D).isKinematic = true;
 	IsUp = false;
+}
+
+function LookPlayer(){
+	if(transform.position.x <= PlayerTarget.position.x){
+		transform.localScale.x = -size;
+	}
+	
+	if(transform.position.x >= PlayerTarget.position.x){
+		transform.localScale.x = size;
+	}
 }

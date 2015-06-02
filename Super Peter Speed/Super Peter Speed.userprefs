@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\FlowStomp.js">
     <Files>
-      <File FileName="Assets\Scripts\AI\FlowStomp.js" Line="102" Column="34" />
+      <File FileName="Assets\Scripts\AI\FlowStomp.js" Line="123" Column="28" />
+      <File FileName="Assets\Scripts\AI\NPCFriendLook.js" Line="36" Column="55" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
