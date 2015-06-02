@@ -69,7 +69,8 @@ function Update () {
 }
 
 function Attack(){
-	GetComponent(Rigidbody2D).isKinematic = false;
+	SpeedCurrent = SpeedUp;
+	GetComponent(Rigidbody2D).velocity.y = -SpeedCurrent;
 	GetComponent(Animator).Play("Attack");
 }
 
@@ -79,7 +80,7 @@ function OnCollisionEnter2D(col : Collision2D){
 	
 	if(IsAttack){
 		if(BlockH > 0){
-			GetComponent(Rigidbody2D).isKinematic = true;
+			//GetComponent(Rigidbody2D).isKinematic = true;
 			//GetComponent(AudioSource).PlayOneShot(SoundStomp , 0.7);
 			yield WaitForSeconds(1.5);
 			Up();
@@ -108,6 +109,6 @@ function StatNormal(){
 	yield WaitForSeconds(1);
 	IsAwake = true;
 	A = false;
-	GetComponent(Rigidbody2D).isKinematic = true;
+	//GetComponent(Rigidbody2D).isKinematic = true;
 	IsUp = false;
 }
