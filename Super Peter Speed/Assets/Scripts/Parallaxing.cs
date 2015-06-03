@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Parallaxing : MonoBehaviour {
 
+	public bool IsSearchBackground = false;
 	public Transform[] backgrounds;			// Array (list) of all the back- and foregrounds to be parallaxed
 	private float[] parallaxScales;			// The proportion of the camera's movement to move the backgrounds by
 	public float smoothing = 1f;			// How smooth the parallax is going to be. Make sure to set this above 0
@@ -30,7 +31,9 @@ public class Parallaxing : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+		if(IsSearchBackground){
 
+		}
 		// for each background
 		for (int i = 0; i < backgrounds.Length; i++) {
 			// the parallax is the opposite of the camera movement because the previous frame multiplied by the scale
