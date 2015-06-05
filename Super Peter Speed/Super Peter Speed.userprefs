@@ -1,11 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScreenShot.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\Enemy.js">
     <Files>
+      <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\ScreenShot.cs" Line="39" Column="179" />
       <File FileName="Assets\Scripts\AI\FlowStomp.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\AI\NPCFriendLook.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\Parallaxing.cs" Line="49" Column="118" />
+      <File FileName="Assets\Scripts\Parallaxing.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LevelEditor\LevelEditorID.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LevelEditor\LevelEditorManager.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\LevelEditor\LevelObjects.js" Line="1" Column="1" />
