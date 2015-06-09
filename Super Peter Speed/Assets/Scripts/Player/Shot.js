@@ -90,12 +90,24 @@ function Update () {
         Fire();
     	}
     }
-    if(Pause.GetComponent(SimplePause).pauseGame == true){
-    	IsPause = true;
+    if(Pause.GetComponent(SimplePause)){
+    	if(Pause.GetComponent(SimplePause).pauseGame == true){
+    		IsPause = true;
+    	}
+    	else
+    	{
+   		IsPause = false;
+    	}
     }
-    else
-    {
-    IsPause = false;
+    
+    if(!Pause.GetComponent(SimplePause)){
+    	if(Pause.GetComponent(SimplePauseMP).pauseGame == true){
+  		IsPause = true;
+    	}
+    	else
+    	{
+   		IsPause = false;
+    	}
     }
 }   
 function Fire() {

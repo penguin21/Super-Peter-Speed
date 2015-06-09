@@ -141,6 +141,7 @@
      <Compile Include="Assets\Scripts\LevelEditor\LevelEditorLe.js" />
      <Compile Include="Assets\Scripts\LevelEditor\LevelEditorManager.js" />
      <Compile Include="Assets\Scripts\LevelEditor\LevelObjects.js" />
+     <Compile Include="Assets\Scripts\MP\ManMP.js" />
      <Compile Include="Assets\Scripts\MainMenu\InputFieldName.js" />
      <Compile Include="Assets\Scripts\MainMenu\LevelEnter.js" />
      <Compile Include="Assets\Scripts\MainMenu\LoadingGame.js" />
@@ -165,6 +166,7 @@
      <Compile Include="Assets\Scripts\Player\GunIsDeathEnemy.js" />
      <Compile Include="Assets\Scripts\Player\HealthBar.js" />
      <Compile Include="Assets\Scripts\Player\Hearts.js" />
+     <Compile Include="Assets\Scripts\Player\MPPlayerS.js" />
      <Compile Include="Assets\Scripts\Player\MainCode.js" />
      <Compile Include="Assets\Scripts\Player\PlayerAI.js" />
      <Compile Include="Assets\Scripts\Player\PlayerSoundCollision.js" />
@@ -175,6 +177,7 @@
      <Compile Include="Assets\Scripts\PlayerSettings.js" />
      <Compile Include="Assets\Scripts\PlayerSing.js" />
      <Compile Include="Assets\Scripts\SimplePause.js" />
+     <Compile Include="Assets\Scripts\SimplePauseMP.js" />
      <Compile Include="Assets\Scripts\TilingBG.js" />
      <Compile Include="Assets\Scripts\Timer.js" />
      <Compile Include="Assets\Scripts\ToEnd.js" />

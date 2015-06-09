@@ -8,6 +8,7 @@ var IsPlayerIsWarp : boolean = false;
 var PlayerOnWarpObj : GameObject;
 var SpawnWarp : Transform;
 var LevelArmIs = true;
+var IsMP = false;
 
 private var SpawnW : boolean = false;
 
@@ -22,6 +23,7 @@ function Awake()
 
 function Start () {
 	CameraObj = GameObject.FindWithTag ("MainCamera");
+	
 	if(IsPlayerIsWarp == true){
 		PlayerOnWarpObj = GameObject.FindWithTag ("Player");
 		Warping();
@@ -31,8 +33,14 @@ function Start () {
 function Update () {
 	if(IsPlayerIsWarp == false){
 	if(PlayersNumber == 0 && CanRespawn == true){
+		if(IsMP){
+		CameraObj.GetComponent(SmoothCamera2D).enabled = false;
+		}
 		CanRespawn = false;
-		Instantiate (Player0, spawnPoint.transform.position, spawnPoint.transform.rotation);
+		clone = Instantiate (Player0, spawnPoint.transform.position, spawnPoint.transform.rotation);
+		if(IsMP){
+			clone.transform.parent = gameObject.transform;
+		}
 		WaitForSeconds(1);
 		CameraObj.GetComponent(SmoothCamera2D).enabled = true;
 	}

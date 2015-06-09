@@ -10,8 +10,6 @@ public class SmoothCamera2D : MonoBehaviour {
 
 	// Update is called once per frame
 	void Start(){
-		target = GameObject.FindWithTag ("Player").transform;
-
 
 	}
 
@@ -26,6 +24,11 @@ public class SmoothCamera2D : MonoBehaviour {
 			Vector3 destination = transform.position + delta;
 			transform.position = Vector3.SmoothDamp(transform.position, destination, ref velocity, dampTime);
 			}	
+		}
+		if(target == null){
+			target = GameObject.FindWithTag ("Player").transform;
+		}else{
+			return;
 		}
 		
 	}
