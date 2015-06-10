@@ -1,0 +1,287 @@
+fileFormatVersion: 2
+guid: 39a72a309edfd1341b28ffef812a421d
+timeCreated: 1430319088
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: peterbig
+    21300002: peter_stand_0
+    21300004: peter_walk_0
+    21300006: peter_walk_1
+    21300008: peter_stand_1
+    21300010: peter_jump
+    21300012: peter_slide
+    21300014: peter_slide_1
+    21300016: peter_crouch_w_0
+    21300018: peter_crouch_w_1
+    21300020: peter_run_0
+    21300022: peter_run_1
+    21300024: peter_fall
+    21300026: ArmPeter
+    21300028: peter_eyes_bind_0
+    21300030: peter_eyes_bind_1
+    21300032: peter_death
+    21300034: peter_hit
+    21300036: PeterDeath1
+    21300038: peter_Turn1
+    21300040: peter_Turn2
+    21300042: peterFall1
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: 0
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: peter_stand_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 119
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_walk_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 119
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_walk_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 119
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_stand_1
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 119
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_jump
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 87
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_slide
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 98
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_slide_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_crouch_w_0
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 99
+        width: 27
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_crouch_w_1
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 99
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_run_0
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 120
+        width: 17
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_run_1
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 120
+        width: 16
+        height: 30
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_fall
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 87
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ArmPeter
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 55
+        width: 28
+        height: 11
+      alignment: 9
+      pivot: {x: .175543651, y: .489410758}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_eyes_bind_0
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 119
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_eyes_bind_1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 119
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_death
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_hit
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 119
+        width: 14
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: PeterDeath1
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 88
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_Turn1
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 50
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peter_Turn2
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 50
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: peterFall1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 56
+        width: 16
+        height: 31
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
