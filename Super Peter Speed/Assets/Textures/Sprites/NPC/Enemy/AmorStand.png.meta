@@ -1,0 +1,264 @@
+fileFormatVersion: 2
+guid: b8c58fec288fb414db2130d1c1312cf7
+timeCreated: 1434126192
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: AmorStand_St
+    21300002: AmorStand_playerObseving0
+    21300004: AmorStand_playerObseving1
+    21300006: AmorStand_Walk1
+    21300008: AmorStand_Walk2
+    21300010: AmorStand_Walk3
+    21300012: AmorStand_NoHead_walk_2
+    21300014: AmorStand_NoHead_walk_1
+    21300016: AmorStand_NoHead_St
+    21300018: AmorStand_NoHead_playerObseving0
+    21300020: AmorStand_NoHead_walk_3
+    21300022: AmorStand_HeadS
+    21300024: AmorStand_pole
+    21300026: AmorStand_PartBody1
+    21300028: AmorStand_PartBody2
+    21300030: AmorStand_PartBody3
+    21300032: AmorStand_PartBody4
+    21300034: AmorStand_PartBody5
+    21300036: AmorStand_PartBody6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: AmorStand_St
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 55
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_playerObseving0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 55
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_playerObseving1
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 55
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_Walk1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 55
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_Walk2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 55
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_Walk3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 55
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_NoHead_walk_2
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 32
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_NoHead_walk_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_NoHead_St
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 33
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_NoHead_playerObseving0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 33
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_NoHead_walk_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 33
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_HeadS
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 24
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_pole
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 11
+        width: 3
+        height: 21
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_PartBody1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 24
+        width: 5
+        height: 3
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_PartBody2
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 18
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_PartBody3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 11
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_PartBody4
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 11
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_PartBody5
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 11
+        width: 3
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: AmorStand_PartBody6
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 16
+        width: 2
+        height: 6
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
