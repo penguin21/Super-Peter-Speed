@@ -1,8 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\SPS3DRemake\Assets\Scripts\Player\Player.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\PeterPrison.js">
     <Files>
-      <File FileName="..\..\SPS3DRemake\Assets\Scripts\Player\Player.js" Line="27" Column="28" />
+      <File FileName="Assets\Scripts\Etc\PeterPrison.js" Line="27" Column="24" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
