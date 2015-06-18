@@ -259,6 +259,21 @@
  <Reference Include="HOTween">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/HOTween.dll</HintPath>
  </Reference>
+ <Reference Include="DOTween">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenEditor">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
+ </Reference>
  <Reference Include="HOTweenV1_Editor">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Editor/HOTweenV1_Editor.dll</HintPath>
  </Reference>
@@ -336,21 +351,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="DOTweenEditor">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
- </Reference>
- <Reference Include="DOTween">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween.dll</HintPath>
- </Reference>
- <Reference Include="DOTween50">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween50.dll</HintPath>
- </Reference>
- <Reference Include="DOTween43">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween43.dll</HintPath>
- </Reference>
- <Reference Include="DOTween46">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Demigiant/DOTween/DOTween46.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
