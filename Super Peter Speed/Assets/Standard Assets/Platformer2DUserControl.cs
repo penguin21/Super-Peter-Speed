@@ -22,6 +22,7 @@ public class Platformer2DUserControl : MonoBehaviour
 		if (Input.GetButtonDown("Jump")){
 			jump = true;
 		}
+
 #endif
 
     }
