@@ -48,6 +48,7 @@ function OnCollisionEnter2D(other : Collision2D){
 }
 
 function Death(){
+		Destroy(SpawnerObj);
 		gameObject.GetComponent(BossScript).enabled = false;
 		gameObject.GetComponent(Animator).SetBool("Stand", false);
 		gameObject.GetComponent(Animator).SetBool("Walk", false);
@@ -60,7 +61,6 @@ function Death(){
 		FaceDoor2.GetComponent(SpriteRenderer).sprite = FaceDoorSprite;
 		goldBurgerPiece.SetActive(true);
 		gameObject.GetComponent(HealthBar).enabled = false;
-		SpawnerObj.SetActive(false);
 		CameraPlayer.GetComponent(AudioSource).GetComponent.<AudioSource>().Stop();
 		yield WaitForSeconds(10);
 		gameObject.SetActive(false);
