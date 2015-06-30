@@ -1,4 +1,6 @@
 ﻿var MSG : GameObject;
+var LevelName : String;
+var IsLevel = false;
 
 function Start () {
 
@@ -8,9 +10,14 @@ function Update () {
 
 }
 
-function OnTriggerEnter2D(other : Collider2D){
+function OnTriggerStay2D(other : Collider2D){
 	if(other.gameObject.tag == "CharMap"){
 		MSG.SetActive(true);
+		if(IsLevel){
+			if(Input.GetButtonDown("Interact")){
+				Application.LoadLevel(LevelName);
+			}
+		}
 	}
 }
 
