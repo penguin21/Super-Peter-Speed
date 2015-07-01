@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelEditor\LevelObjects.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DoorTransformLevel.js">
     <Files>
-      <File FileName="Assets\Scripts\LevelEditor\LevelObjects.js" Line="5" Column="20" />
-      <File FileName="Assets\2DVLS\Samples\Scripts\StressTest_VLS.cs" Line="1" Column="1" />
-      <File FileName="Assets\LevelMSG.js" Line="1" Column="1" />
-      <File FileName="Assets\PlayerMapMovement.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LevelEditor\LevelEditorID.js" Line="4" Column="49" />
+      <File FileName="Assets\Scripts\DoorTransformLevel.js" Line="21" Column="25" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
