@@ -21,10 +21,13 @@ var ButtleSize : float = 1.818816;
 var ButtleIsSize : boolean = true;
 var RootSpeed : float = 1.5;
 var IsPause : boolean = false;
+var R = false;
+var L = false;
 
 private var Pause : GameObject;
  
 function Start () {
+    R = true;
     facingR  = true;
     CanFire = true;
  	facingUp = false;
@@ -42,6 +45,8 @@ function Update () {
         facingL = true;
         facingU = false;
         facingD = false;
+        L = true;
+        R = false;
     }   
     
     
@@ -52,6 +57,8 @@ function Update () {
         facingR = true;
         facingU = false;
         facingD = false;
+        L = false;
+        R = true;
 }
     
     
@@ -68,6 +75,12 @@ function Update () {
        	 ArmObj.transform.rotation = Quaternion.Euler(Vector3(0,0,LeftRotation));
         ArmObj.transform.rotation = Quaternion.Slerp(ArmObj.transform.rotation, flat, Time.time * RootSpeed);
         facingU = false;
+        if(R){
+        	facingR = true;
+        }
+        if(L){
+        	facingL = true;
+        }
        }
     	
     	if(FacingDIs == true){

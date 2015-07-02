@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DoorTransformLevel.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\Shot.js">
     <Files>
+      <File FileName="Assets\Standard Assets\SmoothCamera2D.cs" Line="7" Column="9" />
       <File FileName="Assets\Scripts\DoorTransformLevel.js" Line="21" Column="25" />
+      <File FileName="Assets\Scripts\Player\Shot.js" Line="82" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

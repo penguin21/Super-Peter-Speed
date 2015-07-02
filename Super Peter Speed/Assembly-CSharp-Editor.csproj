@@ -304,6 +304,9 @@
  <Reference Include="JMOAssets">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/JMO Assets/Editor/JMOAssets.dll</HintPath>
  </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
  <Reference Include="StrumpyShaderEditor">
  <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/StrumpyShaderEditor/Editor/StrumpyShaderEditor.dll</HintPath>
  </Reference>
@@ -351,9 +354,6 @@
  </Reference>
  <Reference Include="UnityEditor.OSXStandalone.Extensions">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/macstandalonesupport/UnityEditor.OSXStandalone.Extensions.dll</HintPath>
- </Reference>
- <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>C:/Users/USUARIO/Documents/Super-Peter-Speed/Super Peter Speed/Assets/Plugins/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
