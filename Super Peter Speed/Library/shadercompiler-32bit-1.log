@@ -1,3 +1,73 @@
 Base path: C:/Program Files (x86)/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-7048
+Pipe name: \\.\pipe\UnityShaderCompiler-32bit-1-848
 Cmd: getPlatforms
+Cmd: preprocess
+  insize=792 outsize=501 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=589 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=589 outsize=106 kw= ok=1
+Cmd: preprocess
+  insize=1728 outsize=555 ok=1
+Cmd: compileSnippet
+  error: 2 plat 1 at (53): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=1 type=0 insize=1472 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=972 outsize=271 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1001 outsize=136 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1001 outsize=310 kw= ok=1
+Cmd: preprocess
+  insize=641 outsize=402 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=538 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=538 outsize=81 kw= ok=1
+Cmd: preprocess
+  insize=2067 outsize=568 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1798 outsize=389 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1798 outsize=184 kw= ok=1
+Cmd: preprocess
+  insize=1019 outsize=491 ok=1
+Cmd: compileSnippet
+  error: 2 plat 1 at (36): incorrect number of arguments to numeric-type constructor\nCompiling Vertex program
+  api=1 type=0 insize=827 outsize=0 kw= ok=0
+Cmd: preprocess
+  insize=1276 outsize=350 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1225 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1225 outsize=900 kw= ok=1
+Cmd: preprocess
+  insize=1285 outsize=572 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=1011 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=1011 outsize=795 kw= ok=1
+Cmd: preprocess
+  insize=941 outsize=525 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=715 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=715 outsize=236 kw= ok=1
+Cmd: preprocess
+  insize=1167 outsize=570 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=896 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=896 outsize=755 kw= ok=1
+Cmd: preprocess
+  insize=1175 outsize=526 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=948 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=948 outsize=715 kw= ok=1
+Cmd: preprocess
+  insize=1190 outsize=532 ok=1
+Cmd: compileSnippet
+  api=1 type=0 insize=957 outsize=131 kw= ok=1
+Cmd: compileSnippet
+  api=1 type=1 insize=957 outsize=736 kw= ok=1
