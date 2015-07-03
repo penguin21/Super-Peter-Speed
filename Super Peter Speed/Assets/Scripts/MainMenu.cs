@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
 using System.Collections;
+using Prime31.TransitionKit;
 
 public class MainMenu : MonoBehaviour {
 
 	public GameObject Cam;
+	public bool isEffectNew = false;
 	private GameObject GameObjectUsed;
 	private string SceneA;
 
@@ -15,7 +17,7 @@ public class MainMenu : MonoBehaviour {
 	public void EnterToScene(string sceneChangeTo){
 		Debug.Log("Enter to scene");
 		Cam.GetComponent<FadeIn>().enabled = true;
-		SceneA = sceneChangeTo;
+		SceneA = sceneChangeTo;	
 		StartCoroutine(ChangeSceneFade());
 	}
 

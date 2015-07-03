@@ -42,6 +42,6 @@ public class ScreenShot : MonoBehaviour
 		// Added by Karl. - Tell unity to delete the texture, by default it seems to keep hold of it and memory crashes will occur after too many screenshots.
 		DestroyObject( texture );
 		
-		//Debug.Log( Application.dataPath + "/../testscreen-" + count + ".png" );
+		Debug.Log( "ScreenShot save to " + System.Environment.GetFolderPath(System.Environment.SpecialFolder.ApplicationData)+ SC + "/screenshot-" + System.DateTime.Now.ToString("yyyy-MM-dd_HH-mm-ss") + ".png");
 	}
 }
