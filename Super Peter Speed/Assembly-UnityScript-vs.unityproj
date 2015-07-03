@@ -81,6 +81,7 @@
      <Compile Include="Assets\Scripts\AI\BrickWithObj.js" />
      <Compile Include="Assets\Scripts\AI\ButtleAIMov.js" />
      <Compile Include="Assets\Scripts\AI\Enemy.js" />
+     <Compile Include="Assets\Scripts\AI\EnemyFly.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStomp.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStompAIChase.js" />
      <Compile Include="Assets\Scripts\AI\EnemyStompAIChaseZombie.js" />
