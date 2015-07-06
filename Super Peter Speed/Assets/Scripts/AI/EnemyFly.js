@@ -10,9 +10,10 @@ var DownRay : Transform;
 var LeftRay : Transform;
 var RigthRay : Transform;
 var isTimer = false;
-var howLong : int = 150;
+var howLong : float = 5;
 var timer : int;
 
+private var h2 = true;
 private var h = false;
 private var PlayerTarget : Transform;
 private var IsActive = false;
@@ -33,11 +34,8 @@ function Update () {
 		
 		if(IsActive){
 			if(isTimer){
-			timer += 1;
-			if ( timer >= howLong ) {
-			timer = 0;
-				}		
-			
+			if(h2){
+			Wait(howLong);
 			if(way){
 				way = false;
 				return;
@@ -46,6 +44,8 @@ function Update () {
 			if(!way){
 				way = true;
 				return;
+					}
+					}
 				}
 			}
 		if(LeftToRigth){
@@ -69,7 +69,6 @@ function Update () {
 		}
 		RayCasting();
 		Ber();
-	}
 }
 
 
@@ -99,4 +98,10 @@ function RayCasting(){
 
 function Ber (){
 	
+}
+
+function Wait(time : float){
+   h2 = false;
+   yield new WaitForSeconds(time);
+   h2 = true;
 }
