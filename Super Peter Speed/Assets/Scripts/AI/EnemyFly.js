@@ -47,7 +47,6 @@ function Update () {
 					}
 					}
 				}
-			}
 		if(LeftToRigth){
 				if(way){//Rigth
 					transform.localScale.x = -size;
@@ -69,6 +68,7 @@ function Update () {
 		}
 		RayCasting();
 		Ber();
+	}
 }
 
 
@@ -80,7 +80,6 @@ function RayCasting(){
 		if(Physics2D.Linecast(LeftRay.position, RigthRay.position)){
 			way = !way;
 			timer = 0;
-			Debug.Log("Touching");
 			return;
 		}
 	}
