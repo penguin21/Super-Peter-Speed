@@ -1,0 +1,187 @@
+fileFormatVersion: 2
+guid: 0ae378ca4c738b54187b8c288bfc7807
+timeCreated: 1436277587
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Tower1
+    21300002: TowerClear
+    21300004: Castle
+    21300006: CastleClear
+    21300008: KingPenguinCastle
+    21300010: KingPenguinCastleClear
+    21300012: KingLigth0
+    21300014: KingLigth1
+    21300016: KingLigth2
+    21300018: KingLigth3
+    21300020: KingLigth4
+    21300022: KingLigth6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Tower1
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 39
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: TowerClear
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 25
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: Castle
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 38
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: CastleClear
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 18
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingPenguinCastle
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 36
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingPenguinCastleClear
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 12
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingLigth0
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 36
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingLigth1
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 30
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingLigth2
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 24
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingLigth3
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 18
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingLigth4
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 12
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: KingLigth6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 6
+        width: 22
+        height: 5
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
