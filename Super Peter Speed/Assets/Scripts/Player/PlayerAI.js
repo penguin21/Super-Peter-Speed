@@ -62,11 +62,13 @@ function Start () {
 
 function Update () {
 	if(JumpSoundIs == true){
-	if(Input.GetButtonDown("Jump")){
-		 if(!GetComponent.<AudioSource>().isPlaying){
-     
-             GetComponent.<AudioSource>().PlayOneShot(JumpSound, 0.7);
-             }
+	if(anim.GetBool("Ground")){
+		if(Input.GetButtonDown("Jump")){
+			if (!GetComponent.<AudioSource>().isPlaying){
+					GetComponent.<AudioSource>().clip = JumpSound;
+					GetComponent.<AudioSource>().Play();
+				}
+			}
 		}
 	}	
 	

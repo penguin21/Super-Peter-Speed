@@ -1,7 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\AI\EnemyFly.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="69" Column="42" />
       <File FileName="Assets\Scripts\AI\EnemyFly.js" Line="71" Column="2" />
       <File FileName="Assets\Scripts\AI\Enemy.js" Line="1" Column="1" />
     </Files>
