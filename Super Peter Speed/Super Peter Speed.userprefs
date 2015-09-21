@@ -1,9 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Etc\ToBoxSpawn.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Player\PlayerAI.js">
     <Files>
-      <File FileName="Assets\Scripts\Etc\ToBoxSpawn.js" Line="7" Column="13" />
-      <File FileName="Assets\Scripts\Player\Shot.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player\PlayerAI.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
